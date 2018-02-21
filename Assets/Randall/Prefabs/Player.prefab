@@ -278,7 +278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db8594c5b55a8e4197d8c7e645c4b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 3
+  maxHealth: 3
+  heartUI: {fileID: 0}
   rb2D: {fileID: 50794636079607576}
   canMove: 1
   speed: 5
@@ -290,6 +292,7 @@ MonoBehaviour:
   shield: {fileID: 1935238738669314}
   anim: {fileID: 95438699399751146}
   sprite: {fileID: 212909283983901864}
+  keys: 0
 --- !u!114 &114606553921303116
 MonoBehaviour:
   m_ObjectHideFlags: 1
