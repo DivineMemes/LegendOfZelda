@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	[Header ("Health")]
 	//1 = one heart
 	public float health;
+	public float maxHealth;
+	public UIHearts heartUI;
 
 	[Header ("Movement")]
 	public Rigidbody2D rb2D;
@@ -24,9 +26,13 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public Animator anim;
 	public SpriteRenderer sprite;
 
+	[Header("Inventory")]
+	public int keys;
+
 	// Use this for initialization
 	void Start () {
-
+		health = maxHealth;
+		heartUI.UpdateHealth (health);
 	}
 
 	// Update is called once per frame
@@ -36,6 +42,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		if (Randall.PlayerInput.LeftClickDown ()) {
 			Melee ();
 		}
+		heartUI.UpdateHealth (health);
 		//Shield ();
 
 	}
@@ -58,9 +65,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			anim.SetFloat ("Vertical", input.y);
 			if (input.x < 0) { sprite.flipX = true; } else { sprite.flipX = false; }
 			anim.speed = 1;
-		}
-		else
-		{
+		} else {
 			anim.speed = 0;
 		}
 	}
@@ -69,10 +74,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		sword.transform.localPosition = orientation;
 
 		//TODO: Set sword orientation
-		float angle = Vector3.Angle(Vector2.up, orientation);
-		sword.transform.eulerAngles = new Vector3(0,0,orientation.x > 0 ? -1 * angle : 1 * angle);
-		
-		Debug.Log(angle);
+		float angle = Vector3.Angle (Vector2.up, orientation);
+		sword.transform.eulerAngles = new Vector3 (0, 0, orientation.x > 0 ? -1 * angle : 1 * angle);
+
+		//Debug.Log (angle);
 
 		sword.SetActive (true);
 		Invoke ("EndMelee", meleeTime);
@@ -107,6 +112,20 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	public void Damage (float damage) {
+
+		if (heartUI != null) {
+			heartUI.UpdateHealth (health);
+		} else {
+			Debug.LogError ("WARNING - " + gameObject.name + " DOES NOT HAVE A HEARTUI COMPONENT REFRENCE");
+		}
+
+		health -= damage;
+		if (health <= 0) {
+			Death ();
+		}
+	}
+
+	void Death () {
 
 	}
 }
