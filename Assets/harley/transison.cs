@@ -13,9 +13,9 @@ public class transison : MonoBehaviour
     public bool test;
     public GameObject cameramain;
     public Direction cameraMoveDir;
-    public Vector3 startMarker;
-    public Vector3 endMarker;
     public camramove cameramain2;
+    public float up;
+    public float right;
     // Use this for initialization
     void Start()
     {
@@ -50,22 +50,22 @@ public class transison : MonoBehaviour
     //}
 void OnCollisionEnter2D(Collision2D coll)
     {
-        if(coll.gameObject.tag == "door")
+        if(coll.gameObject.tag == "Player")
         {
-            startMarker = cameramain.transform.position;
+            cameramain2.startMarker = cameramain.transform.position;
             switch (cameraMoveDir)
             {
                 case Direction.north:
-                    endMarker = cameramain.transform.position + cameramain.transform.up * 7;
+                    cameramain2.endMarker = cameramain.transform.position + cameramain.transform.up * up;
                     break;
                 case Direction.south:
-                    endMarker = cameramain.transform.position + cameramain.transform.up * -7;
+                    cameramain2.endMarker = cameramain.transform.position + cameramain.transform.up * -up;
                     break;
                 case Direction.east:
-                    endMarker = cameramain.transform.position + cameramain.transform.right * 12;
+                    cameramain2.endMarker = cameramain.transform.position + cameramain.transform.right * right;
                     break;
                 case Direction.west:
-                    endMarker = cameramain.transform.position + cameramain.transform.right * -12;
+                    cameramain2.endMarker = cameramain.transform.position + cameramain.transform.right * -right;
                     break;
             }
         }
