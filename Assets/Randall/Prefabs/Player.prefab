@@ -54,6 +54,7 @@ GameObject:
   - component: {fileID: 4394832157870008}
   - component: {fileID: 61815082996671074}
   - component: {fileID: 212990375076522756}
+  - component: {fileID: 114606553921303116}
   m_Layer: 31
   m_Name: Sword
   m_TagString: Untagged
@@ -289,6 +290,18 @@ MonoBehaviour:
   shield: {fileID: 1935238738669314}
   anim: {fileID: 95438699399751146}
   sprite: {fileID: 212909283983901864}
+--- !u!114 &114606553921303116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317514854357356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffaefcd977333994eb1c14f915f311c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
 --- !u!212 &212466584652013792
 SpriteRenderer:
   m_ObjectHideFlags: 1
