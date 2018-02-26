@@ -1,0 +1,6143 @@
+fileFormatVersion: 2
+guid: bc4a6dc4a58a72743b249c73464cf45e
+timeCreated: 1519239682
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NES - The Legend of Zelda - Dungeon Tiles Sets_0
+    21300002: NES - The Legend of Zelda - Dungeon Tiles Sets_1
+    21300004: NES - The Legend of Zelda - Dungeon Tiles Sets_2
+    21300006: NES - The Legend of Zelda - Dungeon Tiles Sets_3
+    21300008: NES - The Legend of Zelda - Dungeon Tiles Sets_4
+    21300010: NES - The Legend of Zelda - Dungeon Tiles Sets_5
+    21300012: NES - The Legend of Zelda - Dungeon Tiles Sets_6
+    21300014: NES - The Legend of Zelda - Dungeon Tiles Sets_7
+    21300016: NES - The Legend of Zelda - Dungeon Tiles Sets_8
+    21300018: NES - The Legend of Zelda - Dungeon Tiles Sets_9
+    21300020: NES - The Legend of Zelda - Dungeon Tiles Sets_10
+    21300022: NES - The Legend of Zelda - Dungeon Tiles Sets_11
+    21300024: NES - The Legend of Zelda - Dungeon Tiles Sets_12
+    21300026: NES - The Legend of Zelda - Dungeon Tiles Sets_13
+    21300028: NES - The Legend of Zelda - Dungeon Tiles Sets_14
+    21300030: NES - The Legend of Zelda - Dungeon Tiles Sets_15
+    21300032: NES - The Legend of Zelda - Dungeon Tiles Sets_16
+    21300034: NES - The Legend of Zelda - Dungeon Tiles Sets_17
+    21300036: NES - The Legend of Zelda - Dungeon Tiles Sets_18
+    21300038: NES - The Legend of Zelda - Dungeon Tiles Sets_19
+    21300040: NES - The Legend of Zelda - Dungeon Tiles Sets_20
+    21300042: NES - The Legend of Zelda - Dungeon Tiles Sets_21
+    21300044: NES - The Legend of Zelda - Dungeon Tiles Sets_22
+    21300046: NES - The Legend of Zelda - Dungeon Tiles Sets_23
+    21300048: NES - The Legend of Zelda - Dungeon Tiles Sets_24
+    21300050: NES - The Legend of Zelda - Dungeon Tiles Sets_25
+    21300052: NES - The Legend of Zelda - Dungeon Tiles Sets_26
+    21300054: NES - The Legend of Zelda - Dungeon Tiles Sets_27
+    21300056: NES - The Legend of Zelda - Dungeon Tiles Sets_28
+    21300058: NES - The Legend of Zelda - Dungeon Tiles Sets_29
+    21300060: NES - The Legend of Zelda - Dungeon Tiles Sets_30
+    21300062: NES - The Legend of Zelda - Dungeon Tiles Sets_31
+    21300064: NES - The Legend of Zelda - Dungeon Tiles Sets_32
+    21300066: NES - The Legend of Zelda - Dungeon Tiles Sets_33
+    21300068: NES - The Legend of Zelda - Dungeon Tiles Sets_34
+    21300070: NES - The Legend of Zelda - Dungeon Tiles Sets_35
+    21300072: NES - The Legend of Zelda - Dungeon Tiles Sets_36
+    21300074: NES - The Legend of Zelda - Dungeon Tiles Sets_37
+    21300076: NES - The Legend of Zelda - Dungeon Tiles Sets_38
+    21300078: NES - The Legend of Zelda - Dungeon Tiles Sets_39
+    21300080: NES - The Legend of Zelda - Dungeon Tiles Sets_40
+    21300082: NES - The Legend of Zelda - Dungeon Tiles Sets_41
+    21300084: NES - The Legend of Zelda - Dungeon Tiles Sets_42
+    21300086: NES - The Legend of Zelda - Dungeon Tiles Sets_43
+    21300088: NES - The Legend of Zelda - Dungeon Tiles Sets_44
+    21300090: NES - The Legend of Zelda - Dungeon Tiles Sets_45
+    21300092: NES - The Legend of Zelda - Dungeon Tiles Sets_46
+    21300094: NES - The Legend of Zelda - Dungeon Tiles Sets_47
+    21300096: NES - The Legend of Zelda - Dungeon Tiles Sets_48
+    21300098: NES - The Legend of Zelda - Dungeon Tiles Sets_49
+    21300100: NES - The Legend of Zelda - Dungeon Tiles Sets_50
+    21300102: NES - The Legend of Zelda - Dungeon Tiles Sets_51
+    21300104: NES - The Legend of Zelda - Dungeon Tiles Sets_52
+    21300106: NES - The Legend of Zelda - Dungeon Tiles Sets_53
+    21300108: NES - The Legend of Zelda - Dungeon Tiles Sets_54
+    21300110: NES - The Legend of Zelda - Dungeon Tiles Sets_55
+    21300112: NES - The Legend of Zelda - Dungeon Tiles Sets_56
+    21300114: NES - The Legend of Zelda - Dungeon Tiles Sets_57
+    21300116: NES - The Legend of Zelda - Dungeon Tiles Sets_58
+    21300118: NES - The Legend of Zelda - Dungeon Tiles Sets_59
+    21300120: NES - The Legend of Zelda - Dungeon Tiles Sets_60
+    21300122: NES - The Legend of Zelda - Dungeon Tiles Sets_61
+    21300124: NES - The Legend of Zelda - Dungeon Tiles Sets_62
+    21300126: NES - The Legend of Zelda - Dungeon Tiles Sets_63
+    21300128: NES - The Legend of Zelda - Dungeon Tiles Sets_64
+    21300130: NES - The Legend of Zelda - Dungeon Tiles Sets_65
+    21300132: NES - The Legend of Zelda - Dungeon Tiles Sets_66
+    21300134: NES - The Legend of Zelda - Dungeon Tiles Sets_67
+    21300136: NES - The Legend of Zelda - Dungeon Tiles Sets_68
+    21300138: NES - The Legend of Zelda - Dungeon Tiles Sets_69
+    21300140: NES - The Legend of Zelda - Dungeon Tiles Sets_70
+    21300142: NES - The Legend of Zelda - Dungeon Tiles Sets_71
+    21300144: NES - The Legend of Zelda - Dungeon Tiles Sets_72
+    21300146: NES - The Legend of Zelda - Dungeon Tiles Sets_73
+    21300148: NES - The Legend of Zelda - Dungeon Tiles Sets_74
+    21300150: NES - The Legend of Zelda - Dungeon Tiles Sets_75
+    21300152: NES - The Legend of Zelda - Dungeon Tiles Sets_76
+    21300154: NES - The Legend of Zelda - Dungeon Tiles Sets_77
+    21300156: NES - The Legend of Zelda - Dungeon Tiles Sets_78
+    21300158: NES - The Legend of Zelda - Dungeon Tiles Sets_79
+    21300160: NES - The Legend of Zelda - Dungeon Tiles Sets_80
+    21300162: NES - The Legend of Zelda - Dungeon Tiles Sets_81
+    21300164: NES - The Legend of Zelda - Dungeon Tiles Sets_82
+    21300166: NES - The Legend of Zelda - Dungeon Tiles Sets_83
+    21300168: NES - The Legend of Zelda - Dungeon Tiles Sets_84
+    21300170: NES - The Legend of Zelda - Dungeon Tiles Sets_85
+    21300172: NES - The Legend of Zelda - Dungeon Tiles Sets_86
+    21300174: NES - The Legend of Zelda - Dungeon Tiles Sets_87
+    21300176: NES - The Legend of Zelda - Dungeon Tiles Sets_88
+    21300178: NES - The Legend of Zelda - Dungeon Tiles Sets_89
+    21300180: NES - The Legend of Zelda - Dungeon Tiles Sets_90
+    21300182: NES - The Legend of Zelda - Dungeon Tiles Sets_91
+    21300184: NES - The Legend of Zelda - Dungeon Tiles Sets_92
+    21300186: NES - The Legend of Zelda - Dungeon Tiles Sets_93
+    21300188: NES - The Legend of Zelda - Dungeon Tiles Sets_94
+    21300190: NES - The Legend of Zelda - Dungeon Tiles Sets_95
+    21300192: NES - The Legend of Zelda - Dungeon Tiles Sets_96
+    21300194: NES - The Legend of Zelda - Dungeon Tiles Sets_97
+    21300196: NES - The Legend of Zelda - Dungeon Tiles Sets_98
+    21300198: NES - The Legend of Zelda - Dungeon Tiles Sets_99
+    21300200: NES - The Legend of Zelda - Dungeon Tiles Sets_100
+    21300202: NES - The Legend of Zelda - Dungeon Tiles Sets_101
+    21300204: NES - The Legend of Zelda - Dungeon Tiles Sets_102
+    21300206: NES - The Legend of Zelda - Dungeon Tiles Sets_103
+    21300208: NES - The Legend of Zelda - Dungeon Tiles Sets_104
+    21300210: NES - The Legend of Zelda - Dungeon Tiles Sets_105
+    21300212: NES - The Legend of Zelda - Dungeon Tiles Sets_106
+    21300214: NES - The Legend of Zelda - Dungeon Tiles Sets_107
+    21300216: NES - The Legend of Zelda - Dungeon Tiles Sets_108
+    21300218: NES - The Legend of Zelda - Dungeon Tiles Sets_109
+    21300220: NES - The Legend of Zelda - Dungeon Tiles Sets_110
+    21300222: NES - The Legend of Zelda - Dungeon Tiles Sets_111
+    21300224: NES - The Legend of Zelda - Dungeon Tiles Sets_112
+    21300226: NES - The Legend of Zelda - Dungeon Tiles Sets_113
+    21300228: NES - The Legend of Zelda - Dungeon Tiles Sets_114
+    21300230: NES - The Legend of Zelda - Dungeon Tiles Sets_115
+    21300232: NES - The Legend of Zelda - Dungeon Tiles Sets_116
+    21300234: NES - The Legend of Zelda - Dungeon Tiles Sets_117
+    21300236: NES - The Legend of Zelda - Dungeon Tiles Sets_118
+    21300238: NES - The Legend of Zelda - Dungeon Tiles Sets_119
+    21300240: NES - The Legend of Zelda - Dungeon Tiles Sets_120
+    21300242: NES - The Legend of Zelda - Dungeon Tiles Sets_121
+    21300244: NES - The Legend of Zelda - Dungeon Tiles Sets_122
+    21300246: NES - The Legend of Zelda - Dungeon Tiles Sets_123
+    21300248: NES - The Legend of Zelda - Dungeon Tiles Sets_124
+    21300250: NES - The Legend of Zelda - Dungeon Tiles Sets_125
+    21300252: NES - The Legend of Zelda - Dungeon Tiles Sets_126
+    21300254: NES - The Legend of Zelda - Dungeon Tiles Sets_127
+    21300256: NES - The Legend of Zelda - Dungeon Tiles Sets_128
+    21300258: NES - The Legend of Zelda - Dungeon Tiles Sets_129
+    21300260: NES - The Legend of Zelda - Dungeon Tiles Sets_130
+    21300262: NES - The Legend of Zelda - Dungeon Tiles Sets_131
+    21300264: NES - The Legend of Zelda - Dungeon Tiles Sets_132
+    21300266: NES - The Legend of Zelda - Dungeon Tiles Sets_133
+    21300268: NES - The Legend of Zelda - Dungeon Tiles Sets_134
+    21300270: NES - The Legend of Zelda - Dungeon Tiles Sets_135
+    21300272: NES - The Legend of Zelda - Dungeon Tiles Sets_136
+    21300274: NES - The Legend of Zelda - Dungeon Tiles Sets_137
+    21300276: NES - The Legend of Zelda - Dungeon Tiles Sets_138
+    21300278: NES - The Legend of Zelda - Dungeon Tiles Sets_139
+    21300280: NES - The Legend of Zelda - Dungeon Tiles Sets_140
+    21300282: NES - The Legend of Zelda - Dungeon Tiles Sets_141
+    21300284: NES - The Legend of Zelda - Dungeon Tiles Sets_142
+    21300286: NES - The Legend of Zelda - Dungeon Tiles Sets_143
+    21300288: NES - The Legend of Zelda - Dungeon Tiles Sets_144
+    21300290: NES - The Legend of Zelda - Dungeon Tiles Sets_145
+    21300292: NES - The Legend of Zelda - Dungeon Tiles Sets_146
+    21300294: NES - The Legend of Zelda - Dungeon Tiles Sets_147
+    21300296: NES - The Legend of Zelda - Dungeon Tiles Sets_148
+    21300298: NES - The Legend of Zelda - Dungeon Tiles Sets_149
+    21300300: NES - The Legend of Zelda - Dungeon Tiles Sets_150
+    21300302: NES - The Legend of Zelda - Dungeon Tiles Sets_151
+    21300304: NES - The Legend of Zelda - Dungeon Tiles Sets_152
+    21300306: NES - The Legend of Zelda - Dungeon Tiles Sets_153
+    21300308: NES - The Legend of Zelda - Dungeon Tiles Sets_154
+    21300310: NES - The Legend of Zelda - Dungeon Tiles Sets_155
+    21300312: NES - The Legend of Zelda - Dungeon Tiles Sets_156
+    21300314: NES - The Legend of Zelda - Dungeon Tiles Sets_157
+    21300316: NES - The Legend of Zelda - Dungeon Tiles Sets_158
+    21300318: NES - The Legend of Zelda - Dungeon Tiles Sets_159
+    21300320: NES - The Legend of Zelda - Dungeon Tiles Sets_160
+    21300322: NES - The Legend of Zelda - Dungeon Tiles Sets_161
+    21300324: NES - The Legend of Zelda - Dungeon Tiles Sets_162
+    21300326: NES - The Legend of Zelda - Dungeon Tiles Sets_163
+    21300328: NES - The Legend of Zelda - Dungeon Tiles Sets_164
+    21300330: NES - The Legend of Zelda - Dungeon Tiles Sets_165
+    21300332: NES - The Legend of Zelda - Dungeon Tiles Sets_166
+    21300334: NES - The Legend of Zelda - Dungeon Tiles Sets_167
+    21300336: NES - The Legend of Zelda - Dungeon Tiles Sets_168
+    21300338: NES - The Legend of Zelda - Dungeon Tiles Sets_169
+    21300340: NES - The Legend of Zelda - Dungeon Tiles Sets_170
+    21300342: NES - The Legend of Zelda - Dungeon Tiles Sets_171
+    21300344: NES - The Legend of Zelda - Dungeon Tiles Sets_172
+    21300346: NES - The Legend of Zelda - Dungeon Tiles Sets_173
+    21300348: NES - The Legend of Zelda - Dungeon Tiles Sets_174
+    21300350: NES - The Legend of Zelda - Dungeon Tiles Sets_175
+    21300352: NES - The Legend of Zelda - Dungeon Tiles Sets_176
+    21300354: NES - The Legend of Zelda - Dungeon Tiles Sets_177
+    21300356: NES - The Legend of Zelda - Dungeon Tiles Sets_178
+    21300358: NES - The Legend of Zelda - Dungeon Tiles Sets_179
+    21300360: NES - The Legend of Zelda - Dungeon Tiles Sets_180
+    21300362: NES - The Legend of Zelda - Dungeon Tiles Sets_181
+    21300364: NES - The Legend of Zelda - Dungeon Tiles Sets_182
+    21300366: NES - The Legend of Zelda - Dungeon Tiles Sets_183
+    21300368: NES - The Legend of Zelda - Dungeon Tiles Sets_184
+    21300370: NES - The Legend of Zelda - Dungeon Tiles Sets_185
+    21300372: NES - The Legend of Zelda - Dungeon Tiles Sets_186
+    21300374: NES - The Legend of Zelda - Dungeon Tiles Sets_187
+    21300376: NES - The Legend of Zelda - Dungeon Tiles Sets_188
+    21300378: NES - The Legend of Zelda - Dungeon Tiles Sets_189
+    21300380: NES - The Legend of Zelda - Dungeon Tiles Sets_190
+    21300382: NES - The Legend of Zelda - Dungeon Tiles Sets_191
+    21300384: NES - The Legend of Zelda - Dungeon Tiles Sets_192
+    21300386: NES - The Legend of Zelda - Dungeon Tiles Sets_193
+    21300388: NES - The Legend of Zelda - Dungeon Tiles Sets_194
+    21300390: NES - The Legend of Zelda - Dungeon Tiles Sets_195
+    21300392: NES - The Legend of Zelda - Dungeon Tiles Sets_196
+    21300394: NES - The Legend of Zelda - Dungeon Tiles Sets_197
+    21300396: NES - The Legend of Zelda - Dungeon Tiles Sets_198
+    21300398: NES - The Legend of Zelda - Dungeon Tiles Sets_199
+    21300400: NES - The Legend of Zelda - Dungeon Tiles Sets_200
+    21300402: NES - The Legend of Zelda - Dungeon Tiles Sets_201
+    21300404: NES - The Legend of Zelda - Dungeon Tiles Sets_202
+    21300406: NES - The Legend of Zelda - Dungeon Tiles Sets_203
+    21300408: NES - The Legend of Zelda - Dungeon Tiles Sets_204
+    21300410: NES - The Legend of Zelda - Dungeon Tiles Sets_205
+    21300412: NES - The Legend of Zelda - Dungeon Tiles Sets_206
+    21300414: NES - The Legend of Zelda - Dungeon Tiles Sets_207
+    21300416: NES - The Legend of Zelda - Dungeon Tiles Sets_208
+    21300418: NES - The Legend of Zelda - Dungeon Tiles Sets_209
+    21300420: NES - The Legend of Zelda - Dungeon Tiles Sets_210
+    21300422: NES - The Legend of Zelda - Dungeon Tiles Sets_211
+    21300424: NES - The Legend of Zelda - Dungeon Tiles Sets_212
+    21300426: NES - The Legend of Zelda - Dungeon Tiles Sets_213
+    21300428: NES - The Legend of Zelda - Dungeon Tiles Sets_214
+    21300430: NES - The Legend of Zelda - Dungeon Tiles Sets_215
+    21300432: NES - The Legend of Zelda - Dungeon Tiles Sets_216
+    21300434: NES - The Legend of Zelda - Dungeon Tiles Sets_217
+    21300436: NES - The Legend of Zelda - Dungeon Tiles Sets_218
+    21300438: NES - The Legend of Zelda - Dungeon Tiles Sets_219
+    21300440: NES - The Legend of Zelda - Dungeon Tiles Sets_220
+    21300442: NES - The Legend of Zelda - Dungeon Tiles Sets_221
+    21300444: NES - The Legend of Zelda - Dungeon Tiles Sets_222
+    21300446: NES - The Legend of Zelda - Dungeon Tiles Sets_223
+    21300448: NES - The Legend of Zelda - Dungeon Tiles Sets_224
+    21300450: NES - The Legend of Zelda - Dungeon Tiles Sets_225
+    21300452: NES - The Legend of Zelda - Dungeon Tiles Sets_226
+    21300454: NES - The Legend of Zelda - Dungeon Tiles Sets_227
+    21300456: NES - The Legend of Zelda - Dungeon Tiles Sets_228
+    21300458: NES - The Legend of Zelda - Dungeon Tiles Sets_229
+    21300460: NES - The Legend of Zelda - Dungeon Tiles Sets_230
+    21300462: NES - The Legend of Zelda - Dungeon Tiles Sets_231
+    21300464: NES - The Legend of Zelda - Dungeon Tiles Sets_232
+    21300466: NES - The Legend of Zelda - Dungeon Tiles Sets_233
+    21300468: NES - The Legend of Zelda - Dungeon Tiles Sets_234
+    21300470: NES - The Legend of Zelda - Dungeon Tiles Sets_235
+    21300472: NES - The Legend of Zelda - Dungeon Tiles Sets_236
+    21300474: NES - The Legend of Zelda - Dungeon Tiles Sets_237
+    21300476: NES - The Legend of Zelda - Dungeon Tiles Sets_238
+    21300478: NES - The Legend of Zelda - Dungeon Tiles Sets_239
+    21300480: NES - The Legend of Zelda - Dungeon Tiles Sets_240
+    21300482: NES - The Legend of Zelda - Dungeon Tiles Sets_241
+    21300484: NES - The Legend of Zelda - Dungeon Tiles Sets_242
+    21300486: NES - The Legend of Zelda - Dungeon Tiles Sets_243
+    21300488: NES - The Legend of Zelda - Dungeon Tiles Sets_244
+    21300490: NES - The Legend of Zelda - Dungeon Tiles Sets_245
+    21300492: NES - The Legend of Zelda - Dungeon Tiles Sets_246
+    21300494: NES - The Legend of Zelda - Dungeon Tiles Sets_247
+    21300496: NES - The Legend of Zelda - Dungeon Tiles Sets_248
+    21300498: NES - The Legend of Zelda - Dungeon Tiles Sets_249
+    21300500: NES - The Legend of Zelda - Dungeon Tiles Sets_250
+    21300502: NES - The Legend of Zelda - Dungeon Tiles Sets_251
+    21300504: NES - The Legend of Zelda - Dungeon Tiles Sets_252
+    21300506: NES - The Legend of Zelda - Dungeon Tiles Sets_253
+    21300508: NES - The Legend of Zelda - Dungeon Tiles Sets_254
+    21300510: NES - The Legend of Zelda - Dungeon Tiles Sets_255
+    21300512: NES - The Legend of Zelda - Dungeon Tiles Sets_256
+    21300514: NES - The Legend of Zelda - Dungeon Tiles Sets_257
+    21300516: NES - The Legend of Zelda - Dungeon Tiles Sets_258
+    21300518: NES - The Legend of Zelda - Dungeon Tiles Sets_259
+    21300520: NES - The Legend of Zelda - Dungeon Tiles Sets_260
+    21300522: NES - The Legend of Zelda - Dungeon Tiles Sets_261
+    21300524: NES - The Legend of Zelda - Dungeon Tiles Sets_262
+    21300526: NES - The Legend of Zelda - Dungeon Tiles Sets_263
+    21300528: NES - The Legend of Zelda - Dungeon Tiles Sets_264
+    21300530: NES - The Legend of Zelda - Dungeon Tiles Sets_265
+    21300532: NES - The Legend of Zelda - Dungeon Tiles Sets_266
+    21300534: NES - The Legend of Zelda - Dungeon Tiles Sets_267
+    21300536: NES - The Legend of Zelda - Dungeon Tiles Sets_268
+    21300538: NES - The Legend of Zelda - Dungeon Tiles Sets_269
+    21300540: NES - The Legend of Zelda - Dungeon Tiles Sets_270
+    21300542: NES - The Legend of Zelda - Dungeon Tiles Sets_271
+    21300544: NES - The Legend of Zelda - Dungeon Tiles Sets_272
+    21300546: NES - The Legend of Zelda - Dungeon Tiles Sets_273
+    21300548: NES - The Legend of Zelda - Dungeon Tiles Sets_274
+    21300550: NES - The Legend of Zelda - Dungeon Tiles Sets_275
+    21300552: NES - The Legend of Zelda - Dungeon Tiles Sets_276
+    21300554: NES - The Legend of Zelda - Dungeon Tiles Sets_277
+    21300556: NES - The Legend of Zelda - Dungeon Tiles Sets_278
+    21300558: NES - The Legend of Zelda - Dungeon Tiles Sets_279
+    21300560: NES - The Legend of Zelda - Dungeon Tiles Sets_280
+    21300562: NES - The Legend of Zelda - Dungeon Tiles Sets_281
+    21300564: NES - The Legend of Zelda - Dungeon Tiles Sets_282
+    21300566: NES - The Legend of Zelda - Dungeon Tiles Sets_283
+    21300568: NES - The Legend of Zelda - Dungeon Tiles Sets_284
+    21300570: NES - The Legend of Zelda - Dungeon Tiles Sets_285
+    21300572: NES - The Legend of Zelda - Dungeon Tiles Sets_286
+    21300574: NES - The Legend of Zelda - Dungeon Tiles Sets_287
+    21300576: NES - The Legend of Zelda - Dungeon Tiles Sets_288
+    21300578: NES - The Legend of Zelda - Dungeon Tiles Sets_289
+    21300580: NES - The Legend of Zelda - Dungeon Tiles Sets_290
+    21300582: NES - The Legend of Zelda - Dungeon Tiles Sets_291
+    21300584: NES - The Legend of Zelda - Dungeon Tiles Sets_292
+    21300586: NES - The Legend of Zelda - Dungeon Tiles Sets_293
+    21300588: NES - The Legend of Zelda - Dungeon Tiles Sets_294
+    21300590: NES - The Legend of Zelda - Dungeon Tiles Sets_295
+    21300592: NES - The Legend of Zelda - Dungeon Tiles Sets_296
+    21300594: NES - The Legend of Zelda - Dungeon Tiles Sets_297
+    21300596: NES - The Legend of Zelda - Dungeon Tiles Sets_298
+    21300598: NES - The Legend of Zelda - Dungeon Tiles Sets_299
+    21300600: NES - The Legend of Zelda - Dungeon Tiles Sets_300
+    21300602: NES - The Legend of Zelda - Dungeon Tiles Sets_301
+    21300604: NES - The Legend of Zelda - Dungeon Tiles Sets_302
+    21300606: NES - The Legend of Zelda - Dungeon Tiles Sets_303
+    21300608: NES - The Legend of Zelda - Dungeon Tiles Sets_304
+    21300610: NES - The Legend of Zelda - Dungeon Tiles Sets_305
+    21300612: NES - The Legend of Zelda - Dungeon Tiles Sets_306
+    21300614: NES - The Legend of Zelda - Dungeon Tiles Sets_307
+    21300616: NES - The Legend of Zelda - Dungeon Tiles Sets_308
+    21300618: NES - The Legend of Zelda - Dungeon Tiles Sets_309
+    21300620: NES - The Legend of Zelda - Dungeon Tiles Sets_310
+    21300622: NES - The Legend of Zelda - Dungeon Tiles Sets_311
+    21300624: NES - The Legend of Zelda - Dungeon Tiles Sets_312
+    21300626: NES - The Legend of Zelda - Dungeon Tiles Sets_313
+    21300628: NES - The Legend of Zelda - Dungeon Tiles Sets_314
+    21300630: NES - The Legend of Zelda - Dungeon Tiles Sets_315
+    21300632: NES - The Legend of Zelda - Dungeon Tiles Sets_316
+    21300634: NES - The Legend of Zelda - Dungeon Tiles Sets_317
+    21300636: NES - The Legend of Zelda - Dungeon Tiles Sets_318
+    21300638: NES - The Legend of Zelda - Dungeon Tiles Sets_319
+    21300640: NES - The Legend of Zelda - Dungeon Tiles Sets_320
+    21300642: NES - The Legend of Zelda - Dungeon Tiles Sets_321
+    21300644: NES - The Legend of Zelda - Dungeon Tiles Sets_322
+    21300646: NES - The Legend of Zelda - Dungeon Tiles Sets_323
+    21300648: NES - The Legend of Zelda - Dungeon Tiles Sets_324
+    21300650: NES - The Legend of Zelda - Dungeon Tiles Sets_325
+    21300652: NES - The Legend of Zelda - Dungeon Tiles Sets_326
+    21300654: NES - The Legend of Zelda - Dungeon Tiles Sets_327
+    21300656: NES - The Legend of Zelda - Dungeon Tiles Sets_328
+    21300658: NES - The Legend of Zelda - Dungeon Tiles Sets_329
+    21300660: NES - The Legend of Zelda - Dungeon Tiles Sets_330
+    21300662: NES - The Legend of Zelda - Dungeon Tiles Sets_331
+    21300664: NES - The Legend of Zelda - Dungeon Tiles Sets_332
+    21300666: NES - The Legend of Zelda - Dungeon Tiles Sets_333
+    21300668: NES - The Legend of Zelda - Dungeon Tiles Sets_334
+    21300670: NES - The Legend of Zelda - Dungeon Tiles Sets_335
+    21300672: NES - The Legend of Zelda - Dungeon Tiles Sets_336
+    21300674: NES - The Legend of Zelda - Dungeon Tiles Sets_337
+    21300676: NES - The Legend of Zelda - Dungeon Tiles Sets_338
+    21300678: NES - The Legend of Zelda - Dungeon Tiles Sets_339
+    21300680: NES - The Legend of Zelda - Dungeon Tiles Sets_340
+    21300682: NES - The Legend of Zelda - Dungeon Tiles Sets_341
+    21300684: NES - The Legend of Zelda - Dungeon Tiles Sets_342
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 879
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 879
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 879
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_4
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 879
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_5
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 739
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_6
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 879
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_7
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 879
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 879
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_9
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 879
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 842
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_11
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 842
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 842
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 842
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_14
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 842
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_15
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 842
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_16
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 842
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_17
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 842
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_18
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 805
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 805
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 805
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_21
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 805
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_22
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 805
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_23
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 805
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_24
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 805
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_25
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 805
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_26
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 786
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_29
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_31
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_32
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 789
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_33
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_34
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_35
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_36
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 789
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_37
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 789
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_39
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_40
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 786
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_41
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_42
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_43
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_44
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 789
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_45
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_46
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_47
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_48
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 789
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_49
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 789
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_50
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_51
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_52
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_53
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_54
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_55
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_57
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_58
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_59
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_60
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_61
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_62
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_63
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_64
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_65
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_66
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_67
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_68
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_69
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_70
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_71
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_72
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_73
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_74
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_75
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_77
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 704
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_78
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 704
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_79
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 704
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_80
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 704
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_81
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 564
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_82
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 704
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_83
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 704
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_84
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 704
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_85
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 704
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_86
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 667
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_87
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 667
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_88
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 667
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_89
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 667
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_90
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 667
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_91
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 667
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_92
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 667
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_93
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 667
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_94
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 630
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_95
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 630
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_96
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 630
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_97
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 630
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_98
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 630
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_99
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 630
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_100
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 630
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_101
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 630
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_102
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 610
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_103
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 610
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_104
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 611
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_105
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 610
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_106
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 614
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_107
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 614
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_108
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 614
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_109
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 614
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_110
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 614
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_111
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 614
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_112
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 614
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_113
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 614
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_114
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 610
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_115
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 610
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_116
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 611
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_117
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 610
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_118
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 613
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_119
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 613
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_120
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 613
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_121
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 613
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_122
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 613
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_123
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 613
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_124
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 613
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_125
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 613
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_126
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_127
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_128
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_129
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_130
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_131
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_132
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_133
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_134
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_135
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_136
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_137
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 591
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_138
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_139
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_140
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_141
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_142
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_143
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_144
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_146
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_147
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_148
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_149
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_150
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_151
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_153
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 527
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_154
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 527
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_155
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 527
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_156
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 527
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_157
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 387
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_158
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 527
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_159
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 527
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_160
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 527
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_161
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 527
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_162
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 490
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_163
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 490
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_164
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 490
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_165
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 490
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_166
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 490
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_167
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 490
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_168
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 490
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_169
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 490
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_170
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 453
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_171
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 453
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_172
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 453
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_173
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 453
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_174
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 453
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_175
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 453
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_176
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 453
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_177
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 453
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_178
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 433
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_179
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 433
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_180
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 434
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_181
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 433
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_182
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 437
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_183
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 437
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_184
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 437
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_185
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 437
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_186
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 437
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_187
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 437
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_188
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 437
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_189
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 437
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_190
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 433
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_191
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 433
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_192
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 434
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_193
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 433
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_194
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 436
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_195
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 436
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_196
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 436
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_197
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 436
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_198
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 436
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_199
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 436
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_200
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 436
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_201
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 436
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_202
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_203
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_204
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_205
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_206
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_207
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_208
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_209
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_210
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_211
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_212
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_213
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 414
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_214
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_215
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_216
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_217
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_218
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_219
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_220
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_221
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_222
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_223
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_224
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_225
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_226
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_227
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 395
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_228
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_229
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 330
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_230
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 330
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_231
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 330
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_232
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 330
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_233
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 190
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_234
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 330
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_235
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 330
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_236
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 330
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_237
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 330
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_238
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 293
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_239
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 293
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_240
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 293
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_241
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 293
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_242
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 293
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_243
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 293
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_244
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 293
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_245
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 293
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_246
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 256
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_247
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 256
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_248
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 256
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_249
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 256
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_250
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 256
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_251
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 256
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_252
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 256
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_253
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 256
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_254
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 236
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_255
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 236
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_256
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 237
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_257
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 236
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_258
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_259
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_260
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_261
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_262
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_263
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_264
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_265
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_266
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 236
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_267
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 236
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_268
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 237
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_269
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 236
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_270
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_271
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_272
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_273
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_274
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_275
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_276
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_277
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_278
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_279
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_280
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_281
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_282
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_283
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_284
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_285
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_286
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_287
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_288
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_289
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_290
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_291
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_292
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_293
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_294
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_295
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_296
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_297
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_298
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_299
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_300
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_301
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_302
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_303
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 198
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_304
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 157
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_305
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_306
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 140
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_307
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 140
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_308
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 140
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_309
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 140
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_310
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 103
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_311
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 103
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_312
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 103
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_313
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 103
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_314
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 66
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_315
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 66
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_316
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 66
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_317
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 66
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_318
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_319
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_320
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_321
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_322
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 50
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_323
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 50
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_324
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_325
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 50
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_326
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 50
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_327
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 50
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_328
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_329
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 50
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_330
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_331
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_332
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_333
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_334
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_335
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_336
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_337
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_338
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_339
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_340
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_341
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Dungeon Tiles Sets_342
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: 282, y: -293.5}
+      - {x: 3, y: -293.5}
+      - {x: 2, y: -295.5}
+      - {x: 2, y: -455.5}
+      - {x: 278, y: -455.5}
+      - {x: 378, y: -449.5}
+      - {x: 378, y: -413.5}
+      - {x: 328, y: -378.5}
+    - - {x: 322, y: -394.5}
+      - {x: 322, y: -407.5}
+      - {x: 381, y: -407.5}
+      - {x: 381, y: -394.5}
+    - - {x: 387, y: -394.5}
+      - {x: 386, y: -395.5}
+      - {x: 386, y: -402.5}
+      - {x: 387, y: -407.5}
+      - {x: 393, y: -407.5}
+      - {x: 394, y: -405.5}
+      - {x: 394, y: -394.5}
+    - - {x: 312, y: -355.5}
+      - {x: 281, y: -367.5}
+      - {x: 281, y: -391.5}
+      - {x: 363, y: -391.5}
+      - {x: 363, y: -355.5}
+    - - {x: 317, y: -318.5}
+      - {x: 316, y: -320.5}
+      - {x: 283, y: -330.5}
+      - {x: 281, y: -332.5}
+      - {x: 281, y: -354.5}
+      - {x: 363, y: -354.5}
+      - {x: 363, y: -318.5}
+    - - {x: -255, y: -279.5}
+      - {x: -381, y: -279.5}
+      - {x: -394, y: -286.5}
+      - {x: -394, y: -337.5}
+      - {x: -391, y: -339.5}
+      - {x: -242, y: -339.5}
+      - {x: -235, y: -332.5}
+      - {x: -235, y: -322.5}
+      - {x: -241, y: -316.5}
+    - - {x: 317, y: -281.5}
+      - {x: 316, y: -283.5}
+      - {x: 281, y: -293.5}
+      - {x: 281, y: -317.5}
+      - {x: 363, y: -317.5}
+      - {x: 363, y: -281.5}
+    - - {x: -95, y: -194.5}
+      - {x: -114, y: -103.5}
+      - {x: -394, y: -103.5}
+      - {x: -394, y: -267.5}
+      - {x: -20, y: -267.5}
+      - {x: -20, y: -237.5}
+      - {x: -39, y: -215.5}
+    - - {x: 285, y: -164.5}
+      - {x: 281, y: -103.5}
+      - {x: 2, y: -103.5}
+      - {x: 2, y: -267.5}
+      - {x: 275, y: -267.5}
+      - {x: 378, y: -259.5}
+      - {x: 378, y: -223.5}
+      - {x: 328, y: -188.5}
+    - - {x: -77, y: -204.5}
+      - {x: -77, y: -217.5}
+      - {x: -18, y: -217.5}
+      - {x: -18, y: -205.5}
+      - {x: -20, y: -204.5}
+    - - {x: -6, y: -204.5}
+      - {x: -10, y: -204.5}
+      - {x: -13, y: -205.5}
+      - {x: -13, y: -214.5}
+      - {x: -9, y: -217.5}
+      - {x: -4, y: -217.5}
+      - {x: -2, y: -214.5}
+      - {x: -2, y: -209.5}
+      - {x: -3, y: -207.5}
+    - - {x: 381, y: -206.5}
+      - {x: 379, y: -204.5}
+      - {x: 322, y: -204.5}
+      - {x: 322, y: -216.5}
+      - {x: 324, y: -217.5}
+      - {x: 379, y: -217.5}
+      - {x: 381, y: -215.5}
+    - - {x: 389, y: -204.5}
+      - {x: 386, y: -207.5}
+      - {x: 386, y: -214.5}
+      - {x: 389, y: -217.5}
+      - {x: 393, y: -217.5}
+      - {x: 394, y: -216.5}
+      - {x: 394, y: -205.5}
+      - {x: 393, y: -204.5}
+    - - {x: -81, y: -165.5}
+      - {x: -82, y: -167.5}
+      - {x: -115, y: -177.5}
+      - {x: -117, y: -179.5}
+      - {x: -117, y: -201.5}
+      - {x: -35, y: -201.5}
+      - {x: -35, y: -165.5}
+    - - {x: 283, y: -177.5}
+      - {x: 281, y: -178.5}
+      - {x: 281, y: -201.5}
+      - {x: 363, y: -201.5}
+      - {x: 363, y: -165.5}
+      - {x: 317, y: -165.5}
+      - {x: 316, y: -167.5}
+    - - {x: -81, y: -128.5}
+      - {x: -82, y: -130.5}
+      - {x: -115, y: -140.5}
+      - {x: -117, y: -142.5}
+      - {x: -117, y: -162.5}
+      - {x: -115, y: -164.5}
+      - {x: -35, y: -164.5}
+      - {x: -35, y: -128.5}
+    - - {x: 362, y: -128.5}
+      - {x: 317, y: -128.5}
+      - {x: 316, y: -130.5}
+      - {x: 283, y: -140.5}
+      - {x: 281, y: -142.5}
+      - {x: 281, y: -164.5}
+      - {x: 363, y: -164.5}
+      - {x: 363, y: -130.5}
+    - - {x: -81, y: -91.5}
+      - {x: -82, y: -93.5}
+      - {x: -115, y: -103.5}
+      - {x: -117, y: -105.5}
+      - {x: -117, y: -125.5}
+      - {x: -115, y: -127.5}
+      - {x: -35, y: -127.5}
+      - {x: -35, y: -91.5}
+    - - {x: 362, y: -91.5}
+      - {x: 317, y: -91.5}
+      - {x: 316, y: -93.5}
+      - {x: 283, y: -103.5}
+      - {x: 281, y: -105.5}
+      - {x: 281, y: -127.5}
+      - {x: 363, y: -127.5}
+      - {x: 363, y: -93.5}
+    - - {x: -117, y: 91.5}
+      - {x: -118, y: 93.5}
+      - {x: -394, y: 93.5}
+      - {x: -394, y: -70.5}
+      - {x: -20, y: -70.5}
+      - {x: -20, y: -30.5}
+      - {x: -89, y: 12.5}
+    - - {x: 282, y: 93.5}
+      - {x: 2, y: 93.5}
+      - {x: 2, y: -70.5}
+      - {x: 282, y: -70.5}
+      - {x: 378, y: -62.5}
+      - {x: 378, y: -24.5}
+      - {x: 287, y: 34.5}
+    - - {x: 322, y: -8.5}
+      - {x: 322, y: -21.5}
+      - {x: 381, y: -21.5}
+      - {x: 381, y: -8.5}
+    - - {x: 386, y: -10.5}
+      - {x: 386, y: -15.5}
+      - {x: 387, y: -21.5}
+      - {x: 394, y: -21.5}
+      - {x: 394, y: -8.5}
+      - {x: 388, y: -8.5}
+    - - {x: -77, y: -7.5}
+      - {x: -77, y: -20.5}
+      - {x: -18, y: -20.5}
+      - {x: -18, y: -7.5}
+    - - {x: -10, y: -7.5}
+      - {x: -13, y: -10.5}
+      - {x: -13, y: -17.5}
+      - {x: -10, y: -20.5}
+      - {x: -6, y: -20.5}
+      - {x: -3, y: -17.5}
+      - {x: -3, y: -10.5}
+      - {x: -6, y: -7.5}
+    - - {x: -81, y: 31.5}
+      - {x: -82, y: 29.5}
+      - {x: -115, y: 19.5}
+      - {x: -117, y: 17.5}
+      - {x: -117, y: -2.5}
+      - {x: -115, y: -4.5}
+      - {x: -35, y: -4.5}
+      - {x: -35, y: 31.5}
+    - - {x: 362, y: 31.5}
+      - {x: 317, y: 31.5}
+      - {x: 316, y: 29.5}
+      - {x: 283, y: 19.5}
+      - {x: 281, y: 17.5}
+      - {x: 281, y: -4.5}
+      - {x: 363, y: -4.5}
+      - {x: 363, y: 29.5}
+    - - {x: -81, y: 68.5}
+      - {x: -82, y: 66.5}
+      - {x: -115, y: 56.5}
+      - {x: -117, y: 54.5}
+      - {x: -117, y: 34.5}
+      - {x: -115, y: 32.5}
+      - {x: -35, y: 32.5}
+      - {x: -35, y: 68.5}
+    - - {x: 317, y: 68.5}
+      - {x: 316, y: 66.5}
+      - {x: 283, y: 56.5}
+      - {x: 281, y: 54.5}
+      - {x: 281, y: 32.5}
+      - {x: 363, y: 32.5}
+      - {x: 363, y: 68.5}
+    - - {x: -116, y: 105.5}
+      - {x: -117, y: 102.5}
+      - {x: -117, y: 69.5}
+      - {x: -35, y: 69.5}
+      - {x: -35, y: 105.5}
+    - - {x: 281, y: 69.5}
+      - {x: 363, y: 69.5}
+      - {x: 363, y: 105.5}
+      - {x: 293, y: 105.5}
+      - {x: 281, y: 103.5}
+    - - {x: -115, y: 269.5}
+      - {x: -117, y: 270.5}
+      - {x: -394, y: 270.5}
+      - {x: -394, y: 106.5}
+      - {x: -154, y: 106.5}
+      - {x: -20, y: 114.5}
+      - {x: -20, y: 144.5}
+      - {x: -100, y: 204.5}
+    - - {x: 359, y: 158.5}
+      - {x: 289, y: 198.5}
+      - {x: 282, y: 270.5}
+      - {x: 2, y: 270.5}
+      - {x: 2, y: 106.5}
+      - {x: 275, y: 106.5}
+      - {x: 378, y: 114.5}
+      - {x: 378, y: 135.5}
+    - - {x: 322, y: 168.5}
+      - {x: 322, y: 156.5}
+      - {x: 324, y: 155.5}
+      - {x: 381, y: 155.5}
+      - {x: 381, y: 168.5}
+    - - {x: 389, y: 168.5}
+      - {x: 386, y: 165.5}
+      - {x: 386, y: 158.5}
+      - {x: 387, y: 155.5}
+      - {x: 394, y: 155.5}
+      - {x: 394, y: 168.5}
+    - - {x: -77, y: 169.5}
+      - {x: -77, y: 156.5}
+      - {x: -18, y: 156.5}
+      - {x: -18, y: 169.5}
+    - - {x: -10, y: 169.5}
+      - {x: -13, y: 168.5}
+      - {x: -13, y: 158.5}
+      - {x: -12, y: 156.5}
+      - {x: -3, y: 156.5}
+      - {x: -3, y: 168.5}
+      - {x: -4, y: 169.5}
+    - - {x: -116, y: 208.5}
+      - {x: -117, y: 205.5}
+      - {x: -117, y: 172.5}
+      - {x: -35, y: 172.5}
+      - {x: -35, y: 208.5}
+    - - {x: 281, y: 172.5}
+      - {x: 363, y: 172.5}
+      - {x: 363, y: 208.5}
+      - {x: 293, y: 208.5}
+      - {x: 281, y: 206.5}
+    - - {x: -116, y: 245.5}
+      - {x: -117, y: 242.5}
+      - {x: -117, y: 209.5}
+      - {x: -35, y: 209.5}
+      - {x: -35, y: 245.5}
+    - - {x: 281, y: 209.5}
+      - {x: 363, y: 209.5}
+      - {x: 363, y: 245.5}
+      - {x: 293, y: 245.5}
+      - {x: 281, y: 243.5}
+    - - {x: -116, y: 282.5}
+      - {x: -117, y: 279.5}
+      - {x: -117, y: 246.5}
+      - {x: -35, y: 246.5}
+      - {x: -35, y: 282.5}
+    - - {x: 281, y: 246.5}
+      - {x: 363, y: 246.5}
+      - {x: 363, y: 282.5}
+      - {x: 293, y: 282.5}
+      - {x: 281, y: 280.5}
+    - - {x: -115, y: 444.5}
+      - {x: -117, y: 445.5}
+      - {x: -394, y: 445.5}
+      - {x: -394, y: 281.5}
+      - {x: -154, y: 281.5}
+      - {x: -20, y: 289.5}
+      - {x: -20, y: 319.5}
+      - {x: -100, y: 379.5}
+    - - {x: 359, y: 333.5}
+      - {x: 289, y: 373.5}
+      - {x: 282, y: 445.5}
+      - {x: 2, y: 445.5}
+      - {x: 2, y: 281.5}
+      - {x: 275, y: 281.5}
+      - {x: 378, y: 289.5}
+      - {x: 378, y: 310.5}
+    - - {x: -77, y: 344.5}
+      - {x: -77, y: 331.5}
+      - {x: -18, y: 331.5}
+      - {x: -18, y: 344.5}
+    - - {x: -8, y: 344.5}
+      - {x: -13, y: 342.5}
+      - {x: -13, y: 338.5}
+      - {x: -10, y: 333.5}
+      - {x: -8, y: 331.5}
+      - {x: -6, y: 331.5}
+      - {x: -4, y: 333.5}
+      - {x: -4, y: 342.5}
+      - {x: -5, y: 344.5}
+    - - {x: 322, y: 344.5}
+      - {x: 322, y: 332.5}
+      - {x: 324, y: 331.5}
+      - {x: 381, y: 331.5}
+      - {x: 381, y: 344.5}
+    - - {x: 386, y: 343.5}
+      - {x: 386, y: 333.5}
+      - {x: 387, y: 331.5}
+      - {x: 392, y: 331.5}
+      - {x: 394, y: 333.5}
+      - {x: 394, y: 344.5}
+      - {x: 388, y: 344.5}
+    - - {x: -116, y: 383.5}
+      - {x: -117, y: 380.5}
+      - {x: -117, y: 347.5}
+      - {x: -35, y: 347.5}
+      - {x: -35, y: 383.5}
+    - - {x: 281, y: 347.5}
+      - {x: 363, y: 347.5}
+      - {x: 363, y: 383.5}
+      - {x: 293, y: 383.5}
+      - {x: 281, y: 381.5}
+    - - {x: -116, y: 420.5}
+      - {x: -117, y: 417.5}
+      - {x: -117, y: 384.5}
+      - {x: -35, y: 384.5}
+      - {x: -35, y: 420.5}
+    - - {x: 281, y: 384.5}
+      - {x: 363, y: 384.5}
+      - {x: 363, y: 420.5}
+      - {x: 293, y: 420.5}
+      - {x: 281, y: 418.5}
+    - - {x: -101, y: 455.5}
+      - {x: -117, y: 453.5}
+      - {x: -117, y: 421.5}
+      - {x: -37, y: 421.5}
+      - {x: -35, y: 423.5}
+      - {x: -35, y: 455.5}
+    - - {x: 297, y: 455.5}
+      - {x: 281, y: 453.5}
+      - {x: 281, y: 421.5}
+      - {x: 361, y: 421.5}
+      - {x: 363, y: 423.5}
+      - {x: 363, y: 455.5}
+    physicsShape:
+    - - {x: 378, y: -428.5}
+      - {x: 358, y: -409.5}
+      - {x: 322, y: -409.5}
+      - {x: 324, y: -391.5}
+      - {x: 283, y: -387.5}
+      - {x: 281, y: -369.5}
+      - {x: 280, y: -366.5}
+      - {x: 279, y: -354.5}
+      - {x: 282, y: -353.5}
+      - {x: 281, y: -328.5}
+      - {x: 283, y: -315.5}
+      - {x: 281, y: -293.5}
+      - {x: 3, y: -293.5}
+      - {x: 2, y: -295.5}
+      - {x: 2, y: -455.5}
+      - {x: 251, y: -455.5}
+      - {x: 300, y: -449.5}
+      - {x: 376, y: -449.5}
+      - {x: 378, y: -448.5}
+    - - {x: 301, y: -411.5}
+      - {x: 301, y: -410.5}
+      - {x: 300, y: -409.5}
+      - {x: 284, y: -409.5}
+      - {x: 283, y: -410.5}
+      - {x: 283, y: -411.5}
+    - - {x: 379, y: -394.5}
+      - {x: 324, y: -394.5}
+      - {x: 322, y: -396.5}
+      - {x: 322, y: -405.5}
+      - {x: 324, y: -407.5}
+      - {x: 379, y: -407.5}
+      - {x: 381, y: -405.5}
+      - {x: 381, y: -396.5}
+    - - {x: 387, y: -394.5}
+      - {x: 386, y: -395.5}
+      - {x: 386, y: -402.5}
+      - {x: 387, y: -407.5}
+      - {x: 393, y: -407.5}
+      - {x: 394, y: -405.5}
+      - {x: 394, y: -394.5}
+    - - {x: 312, y: -355.5}
+      - {x: 281, y: -367.5}
+      - {x: 281, y: -391.5}
+      - {x: 363, y: -391.5}
+      - {x: 363, y: -355.5}
+    - - {x: 317, y: -318.5}
+      - {x: 316, y: -320.5}
+      - {x: 283, y: -330.5}
+      - {x: 281, y: -332.5}
+      - {x: 281, y: -354.5}
+      - {x: 363, y: -354.5}
+      - {x: 363, y: -318.5}
+    - - {x: -255, y: -279.5}
+      - {x: -381, y: -279.5}
+      - {x: -394, y: -286.5}
+      - {x: -394, y: -337.5}
+      - {x: -391, y: -339.5}
+      - {x: -242, y: -339.5}
+      - {x: -235, y: -332.5}
+      - {x: -235, y: -322.5}
+      - {x: -241, y: -316.5}
+    - - {x: 317, y: -281.5}
+      - {x: 316, y: -283.5}
+      - {x: 281, y: -293.5}
+      - {x: 281, y: -317.5}
+      - {x: 363, y: -317.5}
+      - {x: 363, y: -281.5}
+    - - {x: -20, y: -238.5}
+      - {x: -40, y: -219.5}
+      - {x: -76, y: -219.5}
+      - {x: -75, y: -202.5}
+      - {x: -95, y: -198.5}
+      - {x: -117, y: -179.5}
+      - {x: -118, y: -176.5}
+      - {x: -147, y: -165.5}
+      - {x: -114, y: -164.5}
+      - {x: -114, y: -141.5}
+      - {x: -145, y: -129.5}
+      - {x: -114, y: -127.5}
+      - {x: -117, y: -105.5}
+      - {x: -118, y: -103.5}
+      - {x: -394, y: -103.5}
+      - {x: -394, y: -267.5}
+      - {x: -154, y: -267.5}
+      - {x: -152, y: -265.5}
+      - {x: -21, y: -261.5}
+      - {x: -20, y: -258.5}
+    - - {x: 378, y: -258.5}
+      - {x: 378, y: -238.5}
+      - {x: 358, y: -219.5}
+      - {x: 322, y: -219.5}
+      - {x: 324, y: -201.5}
+      - {x: 284, y: -197.5}
+      - {x: 280, y: -175.5}
+      - {x: 249, y: -165.5}
+      - {x: 284, y: -164.5}
+      - {x: 281, y: -138.5}
+      - {x: 283, y: -125.5}
+      - {x: 281, y: -103.5}
+      - {x: 3, y: -103.5}
+      - {x: 2, y: -105.5}
+      - {x: 2, y: -265.5}
+      - {x: 4, y: -267.5}
+      - {x: 244, y: -267.5}
+      - {x: 246, y: -265.5}
+      - {x: 300, y: -259.5}
+      - {x: 376, y: -259.5}
+    - - {x: -114, y: -221.5}
+      - {x: -98, y: -221.5}
+      - {x: -97, y: -220.5}
+      - {x: -98, y: -219.5}
+      - {x: -114, y: -219.5}
+      - {x: -115, y: -220.5}
+    - - {x: 284, y: -221.5}
+      - {x: 300, y: -221.5}
+      - {x: 301, y: -220.5}
+      - {x: 300, y: -219.5}
+      - {x: 284, y: -219.5}
+      - {x: 283, y: -220.5}
+    - - {x: -18, y: -215.5}
+      - {x: -18, y: -206.5}
+      - {x: -20, y: -204.5}
+      - {x: -75, y: -204.5}
+      - {x: -77, y: -206.5}
+      - {x: -77, y: -215.5}
+      - {x: -75, y: -217.5}
+      - {x: -19, y: -217.5}
+    - - {x: -6, y: -204.5}
+      - {x: -10, y: -204.5}
+      - {x: -13, y: -205.5}
+      - {x: -13, y: -214.5}
+      - {x: -9, y: -217.5}
+      - {x: -4, y: -217.5}
+      - {x: -2, y: -214.5}
+      - {x: -2, y: -209.5}
+      - {x: -3, y: -207.5}
+    - - {x: 381, y: -206.5}
+      - {x: 379, y: -204.5}
+      - {x: 323, y: -204.5}
+      - {x: 322, y: -206.5}
+      - {x: 322, y: -215.5}
+      - {x: 324, y: -217.5}
+      - {x: 379, y: -217.5}
+      - {x: 381, y: -215.5}
+    - - {x: 389, y: -204.5}
+      - {x: 386, y: -207.5}
+      - {x: 386, y: -214.5}
+      - {x: 389, y: -217.5}
+      - {x: 393, y: -217.5}
+      - {x: 394, y: -216.5}
+      - {x: 394, y: -205.5}
+      - {x: 393, y: -204.5}
+    - - {x: -81, y: -165.5}
+      - {x: -82, y: -167.5}
+      - {x: -115, y: -177.5}
+      - {x: -117, y: -179.5}
+      - {x: -117, y: -201.5}
+      - {x: -35, y: -201.5}
+      - {x: -35, y: -165.5}
+    - - {x: 283, y: -177.5}
+      - {x: 281, y: -178.5}
+      - {x: 281, y: -201.5}
+      - {x: 363, y: -201.5}
+      - {x: 363, y: -165.5}
+      - {x: 317, y: -165.5}
+      - {x: 316, y: -167.5}
+    - - {x: -81, y: -128.5}
+      - {x: -82, y: -130.5}
+      - {x: -115, y: -140.5}
+      - {x: -117, y: -142.5}
+      - {x: -117, y: -162.5}
+      - {x: -115, y: -164.5}
+      - {x: -35, y: -164.5}
+      - {x: -35, y: -128.5}
+    - - {x: 362, y: -128.5}
+      - {x: 317, y: -128.5}
+      - {x: 316, y: -130.5}
+      - {x: 283, y: -140.5}
+      - {x: 281, y: -142.5}
+      - {x: 281, y: -164.5}
+      - {x: 363, y: -164.5}
+      - {x: 363, y: -130.5}
+    - - {x: -81, y: -91.5}
+      - {x: -82, y: -93.5}
+      - {x: -115, y: -103.5}
+      - {x: -117, y: -105.5}
+      - {x: -117, y: -125.5}
+      - {x: -115, y: -127.5}
+      - {x: -35, y: -127.5}
+      - {x: -35, y: -91.5}
+    - - {x: 362, y: -91.5}
+      - {x: 317, y: -91.5}
+      - {x: 316, y: -93.5}
+      - {x: 283, y: -103.5}
+      - {x: 281, y: -105.5}
+      - {x: 281, y: -127.5}
+      - {x: 363, y: -127.5}
+      - {x: 363, y: -93.5}
+    - - {x: -20, y: -41.5}
+      - {x: -40, y: -22.5}
+      - {x: -76, y: -22.5}
+      - {x: -75, y: -5.5}
+      - {x: -95, y: -1.5}
+      - {x: -118, y: 20.5}
+      - {x: -147, y: 31.5}
+      - {x: -114, y: 32.5}
+      - {x: -114, y: 55.5}
+      - {x: -144, y: 67.5}
+      - {x: -114, y: 69.5}
+      - {x: -117, y: 91.5}
+      - {x: -118, y: 93.5}
+      - {x: -394, y: 93.5}
+      - {x: -394, y: -70.5}
+      - {x: -153, y: -70.5}
+      - {x: -150, y: -63.5}
+      - {x: -22, y: -62.5}
+      - {x: -20, y: -61.5}
+    - - {x: 378, y: -61.5}
+      - {x: 378, y: -41.5}
+      - {x: 358, y: -22.5}
+      - {x: 322, y: -22.5}
+      - {x: 324, y: -4.5}
+      - {x: 284, y: -0.5}
+      - {x: 280, y: 21.5}
+      - {x: 249, y: 31.5}
+      - {x: 284, y: 32.5}
+      - {x: 281, y: 58.5}
+      - {x: 283, y: 71.5}
+      - {x: 281, y: 93.5}
+      - {x: 3, y: 93.5}
+      - {x: 2, y: 91.5}
+      - {x: 2, y: -68.5}
+      - {x: 4, y: -70.5}
+      - {x: 244, y: -70.5}
+      - {x: 246, y: -68.5}
+      - {x: 247, y: -62.5}
+      - {x: 376, y: -62.5}
+    - - {x: -114, y: -24.5}
+      - {x: -98, y: -24.5}
+      - {x: -97, y: -23.5}
+      - {x: -98, y: -22.5}
+      - {x: -114, y: -22.5}
+      - {x: -115, y: -23.5}
+    - - {x: 284, y: -24.5}
+      - {x: 300, y: -24.5}
+      - {x: 301, y: -23.5}
+      - {x: 300, y: -22.5}
+      - {x: 284, y: -22.5}
+      - {x: 283, y: -23.5}
+    - - {x: 381, y: -10.5}
+      - {x: 379, y: -8.5}
+      - {x: 324, y: -8.5}
+      - {x: 322, y: -10.5}
+      - {x: 322, y: -19.5}
+      - {x: 323, y: -21.5}
+      - {x: 379, y: -21.5}
+      - {x: 381, y: -19.5}
+    - - {x: 386, y: -10.5}
+      - {x: 386, y: -15.5}
+      - {x: 387, y: -21.5}
+      - {x: 394, y: -21.5}
+      - {x: 394, y: -8.5}
+      - {x: 388, y: -8.5}
+    - - {x: -18, y: -18.5}
+      - {x: -18, y: -9.5}
+      - {x: -20, y: -7.5}
+      - {x: -75, y: -7.5}
+      - {x: -77, y: -9.5}
+      - {x: -77, y: -18.5}
+      - {x: -75, y: -20.5}
+      - {x: -19, y: -20.5}
+    - - {x: -10, y: -7.5}
+      - {x: -13, y: -10.5}
+      - {x: -13, y: -17.5}
+      - {x: -10, y: -20.5}
+      - {x: -6, y: -20.5}
+      - {x: -3, y: -17.5}
+      - {x: -3, y: -10.5}
+      - {x: -6, y: -7.5}
+    - - {x: -81, y: 31.5}
+      - {x: -82, y: 29.5}
+      - {x: -115, y: 19.5}
+      - {x: -117, y: 17.5}
+      - {x: -117, y: -2.5}
+      - {x: -115, y: -4.5}
+      - {x: -35, y: -4.5}
+      - {x: -35, y: 31.5}
+    - - {x: 362, y: 31.5}
+      - {x: 317, y: 31.5}
+      - {x: 316, y: 29.5}
+      - {x: 283, y: 19.5}
+      - {x: 281, y: 17.5}
+      - {x: 281, y: -4.5}
+      - {x: 363, y: -4.5}
+      - {x: 363, y: 29.5}
+    - - {x: -81, y: 68.5}
+      - {x: -82, y: 66.5}
+      - {x: -115, y: 56.5}
+      - {x: -117, y: 54.5}
+      - {x: -117, y: 34.5}
+      - {x: -115, y: 32.5}
+      - {x: -35, y: 32.5}
+      - {x: -35, y: 68.5}
+    - - {x: 317, y: 68.5}
+      - {x: 316, y: 66.5}
+      - {x: 283, y: 56.5}
+      - {x: 281, y: 54.5}
+      - {x: 281, y: 32.5}
+      - {x: 363, y: 32.5}
+      - {x: 363, y: 68.5}
+    - - {x: -116, y: 105.5}
+      - {x: -117, y: 102.5}
+      - {x: -117, y: 69.5}
+      - {x: -35, y: 69.5}
+      - {x: -35, y: 105.5}
+    - - {x: 281, y: 69.5}
+      - {x: 363, y: 69.5}
+      - {x: 363, y: 105.5}
+      - {x: 293, y: 105.5}
+      - {x: 281, y: 103.5}
+    - - {x: -20, y: 115.5}
+      - {x: -20, y: 135.5}
+      - {x: -40, y: 154.5}
+      - {x: -75, y: 171.5}
+      - {x: -95, y: 175.5}
+      - {x: -114, y: 195.5}
+      - {x: -144, y: 207.5}
+      - {x: -114, y: 209.5}
+      - {x: -117, y: 231.5}
+      - {x: -118, y: 234.5}
+      - {x: -114, y: 246.5}
+      - {x: -117, y: 268.5}
+      - {x: -118, y: 270.5}
+      - {x: -394, y: 270.5}
+      - {x: -394, y: 106.5}
+      - {x: -154, y: 106.5}
+      - {x: -152, y: 108.5}
+      - {x: -98, y: 114.5}
+      - {x: -22, y: 114.5}
+    - - {x: 378, y: 115.5}
+      - {x: 378, y: 135.5}
+      - {x: 358, y: 154.5}
+      - {x: 322, y: 154.5}
+      - {x: 323, y: 171.5}
+      - {x: 303, y: 175.5}
+      - {x: 284, y: 195.5}
+      - {x: 252, y: 208.5}
+      - {x: 284, y: 209.5}
+      - {x: 281, y: 235.5}
+      - {x: 283, y: 248.5}
+      - {x: 281, y: 270.5}
+      - {x: 3, y: 270.5}
+      - {x: 2, y: 268.5}
+      - {x: 2, y: 108.5}
+      - {x: 4, y: 106.5}
+      - {x: 244, y: 106.5}
+      - {x: 246, y: 108.5}
+      - {x: 300, y: 114.5}
+      - {x: 376, y: 114.5}
+    - - {x: -114, y: 152.5}
+      - {x: -98, y: 152.5}
+      - {x: -97, y: 153.5}
+      - {x: -98, y: 154.5}
+      - {x: -114, y: 154.5}
+      - {x: -115, y: 153.5}
+    - - {x: 284, y: 152.5}
+      - {x: 300, y: 152.5}
+      - {x: 301, y: 153.5}
+      - {x: 300, y: 154.5}
+      - {x: 284, y: 154.5}
+      - {x: 283, y: 153.5}
+    - - {x: 381, y: 168.5}
+      - {x: 324, y: 168.5}
+      - {x: 322, y: 166.5}
+      - {x: 322, y: 157.5}
+      - {x: 324, y: 155.5}
+      - {x: 381, y: 155.5}
+    - - {x: 389, y: 168.5}
+      - {x: 386, y: 165.5}
+      - {x: 386, y: 158.5}
+      - {x: 387, y: 155.5}
+      - {x: 394, y: 155.5}
+      - {x: 394, y: 168.5}
+    - - {x: -18, y: 169.5}
+      - {x: -75, y: 169.5}
+      - {x: -77, y: 167.5}
+      - {x: -77, y: 158.5}
+      - {x: -75, y: 156.5}
+      - {x: -18, y: 156.5}
+    - - {x: -10, y: 169.5}
+      - {x: -13, y: 168.5}
+      - {x: -13, y: 158.5}
+      - {x: -12, y: 156.5}
+      - {x: -3, y: 156.5}
+      - {x: -3, y: 168.5}
+      - {x: -4, y: 169.5}
+    - - {x: -116, y: 208.5}
+      - {x: -117, y: 205.5}
+      - {x: -117, y: 172.5}
+      - {x: -35, y: 172.5}
+      - {x: -35, y: 208.5}
+    - - {x: 281, y: 172.5}
+      - {x: 363, y: 172.5}
+      - {x: 363, y: 208.5}
+      - {x: 293, y: 208.5}
+      - {x: 281, y: 206.5}
+    - - {x: -116, y: 245.5}
+      - {x: -117, y: 242.5}
+      - {x: -117, y: 209.5}
+      - {x: -35, y: 209.5}
+      - {x: -35, y: 245.5}
+    - - {x: 281, y: 209.5}
+      - {x: 363, y: 209.5}
+      - {x: 363, y: 245.5}
+      - {x: 293, y: 245.5}
+      - {x: 281, y: 243.5}
+    - - {x: -116, y: 282.5}
+      - {x: -117, y: 279.5}
+      - {x: -117, y: 246.5}
+      - {x: -35, y: 246.5}
+      - {x: -35, y: 282.5}
+    - - {x: 281, y: 246.5}
+      - {x: 363, y: 246.5}
+      - {x: 363, y: 282.5}
+      - {x: 293, y: 282.5}
+      - {x: 281, y: 280.5}
+    - - {x: -20, y: 290.5}
+      - {x: -20, y: 310.5}
+      - {x: -40, y: 329.5}
+      - {x: -75, y: 346.5}
+      - {x: -95, y: 350.5}
+      - {x: -114, y: 370.5}
+      - {x: -144, y: 382.5}
+      - {x: -114, y: 384.5}
+      - {x: -117, y: 406.5}
+      - {x: -118, y: 409.5}
+      - {x: -114, y: 421.5}
+      - {x: -117, y: 443.5}
+      - {x: -118, y: 445.5}
+      - {x: -394, y: 445.5}
+      - {x: -394, y: 281.5}
+      - {x: -154, y: 281.5}
+      - {x: -152, y: 283.5}
+      - {x: -98, y: 289.5}
+      - {x: -22, y: 289.5}
+    - - {x: 378, y: 290.5}
+      - {x: 378, y: 310.5}
+      - {x: 358, y: 329.5}
+      - {x: 322, y: 329.5}
+      - {x: 323, y: 346.5}
+      - {x: 303, y: 350.5}
+      - {x: 284, y: 370.5}
+      - {x: 252, y: 383.5}
+      - {x: 284, y: 384.5}
+      - {x: 281, y: 410.5}
+      - {x: 283, y: 423.5}
+      - {x: 281, y: 445.5}
+      - {x: 3, y: 445.5}
+      - {x: 2, y: 443.5}
+      - {x: 2, y: 283.5}
+      - {x: 4, y: 281.5}
+      - {x: 244, y: 281.5}
+      - {x: 246, y: 283.5}
+      - {x: 300, y: 289.5}
+      - {x: 376, y: 289.5}
+    - - {x: -114, y: 327.5}
+      - {x: -98, y: 327.5}
+      - {x: -97, y: 328.5}
+      - {x: -98, y: 329.5}
+      - {x: -114, y: 329.5}
+      - {x: -115, y: 328.5}
+    - - {x: 284, y: 327.5}
+      - {x: 300, y: 327.5}
+      - {x: 301, y: 328.5}
+      - {x: 300, y: 329.5}
+      - {x: 284, y: 329.5}
+      - {x: 283, y: 328.5}
+    - - {x: -18, y: 344.5}
+      - {x: -75, y: 344.5}
+      - {x: -77, y: 342.5}
+      - {x: -77, y: 333.5}
+      - {x: -75, y: 331.5}
+      - {x: -18, y: 331.5}
+    - - {x: -8, y: 344.5}
+      - {x: -13, y: 342.5}
+      - {x: -13, y: 338.5}
+      - {x: -10, y: 333.5}
+      - {x: -8, y: 331.5}
+      - {x: -6, y: 331.5}
+      - {x: -4, y: 333.5}
+      - {x: -4, y: 342.5}
+      - {x: -5, y: 344.5}
+    - - {x: 381, y: 344.5}
+      - {x: 324, y: 344.5}
+      - {x: 322, y: 342.5}
+      - {x: 322, y: 333.5}
+      - {x: 324, y: 331.5}
+      - {x: 381, y: 331.5}
+    - - {x: 386, y: 343.5}
+      - {x: 386, y: 333.5}
+      - {x: 387, y: 331.5}
+      - {x: 392, y: 331.5}
+      - {x: 394, y: 333.5}
+      - {x: 394, y: 344.5}
+      - {x: 388, y: 344.5}
+    - - {x: -116, y: 383.5}
+      - {x: -117, y: 380.5}
+      - {x: -117, y: 347.5}
+      - {x: -35, y: 347.5}
+      - {x: -35, y: 383.5}
+    - - {x: 281, y: 347.5}
+      - {x: 363, y: 347.5}
+      - {x: 363, y: 383.5}
+      - {x: 293, y: 383.5}
+      - {x: 281, y: 381.5}
+    - - {x: -116, y: 420.5}
+      - {x: -117, y: 417.5}
+      - {x: -117, y: 384.5}
+      - {x: -35, y: 384.5}
+      - {x: -35, y: 420.5}
+    - - {x: 281, y: 384.5}
+      - {x: 363, y: 384.5}
+      - {x: 363, y: 420.5}
+      - {x: 293, y: 420.5}
+      - {x: 281, y: 418.5}
+    - - {x: -101, y: 455.5}
+      - {x: -117, y: 453.5}
+      - {x: -117, y: 421.5}
+      - {x: -37, y: 421.5}
+      - {x: -35, y: 423.5}
+      - {x: -35, y: 455.5}
+    - - {x: 297, y: 455.5}
+      - {x: 281, y: 453.5}
+      - {x: 281, y: 421.5}
+      - {x: 361, y: 421.5}
+      - {x: 363, y: 423.5}
+      - {x: 363, y: 455.5}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
