@@ -20,9 +20,7 @@ public class Wander2D : MonoBehaviour
 	}
 	void FixedUpdate()
     {
-        //Vector3 desiredVelocity = returnWanderPoints() * speed ;
-        //rb.AddForce((Vector2)desiredVelocity);
-        //Debug.DrawLine(transform.position, transform.position + desiredVelocity);
+        DoAction();
         Vector2 dir = offsetPosition - (Vector2)transform.position;
         rb.AddForce(dir.normalized * speed);
     }
@@ -46,19 +44,29 @@ public class Wander2D : MonoBehaviour
     {
         offsetPosition = (Vector2)transform.position + Random.insideUnitCircle*radius;
     }
-
-
-	public Vector3 returnWanderPoints()
+    public void DoAction()
     {
-        Vector3 target;
-        target = Vector3.zero;
-        target = Random.insideUnitCircle.normalized * radius;
-        target = (Vector2)target + Random.insideUnitCircle * jitter;
-        //target += transform.position;
-        //target += transform.up * distance;
-        Vector3 dir = (target - transform.position).normalized;
-
-        //Vector3 desiredVel = dir * speed;
-        return target;
+        Vector3 targetOffset = offsetPosition - (Vector2)transform.position;
+        float dist = Vector2.Distance((Vector2)transform.position, offsetPosition);
+        float rampedSpeed = speed * (targetOffset.magnitude / dist);
+        float clippedSpeed = Mathf.Min(rampedSpeed, speed);
+        Vector2 desiredVelocity = (clippedSpeed / targetOffset.magnitude) * targetOffset;
+        rb.velocity = desiredVelocity;
+        //Debug.Log(desiredVelocity);
     }
+
+
+    //public Vector3 returnWanderPoints()
+    //{
+    //    Vector3 target;
+    //    target = Vector3.zero;
+    //    target = Random.insideUnitCircle.normalized * radius;
+    //    target = (Vector2)target + Random.insideUnitCircle * jitter;
+    //    //target += transform.position;
+    //    //target += transform.up * distance;
+    //    Vector3 dir = (target - transform.position).normalized;
+
+    //    //Vector3 desiredVel = dir * speed;
+    //    return target;
+    //}
 }
