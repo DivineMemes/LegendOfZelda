@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	void Start () {
 		health = maxHealth;
 		heartUI.UpdateHealth (health);
+		orientation = Vector2.zero;
 	}
 
 	// Update is called once per frame

@@ -20,7 +20,7 @@ public class RoomTransition : MonoBehaviour {
 	private void Start() {
 		//Easy but not optimal, instead have a gameManager that has the refrences to the camer and player
 		mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+		player = GameObject.Find("Player").GetComponent<PlayerController>();
 	}
 
 	private void OnTriggerEnter2D(Collider2D other) {
