@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public bool canMove;
 	public float speed;
 	public Vector2 orientation;
+	private Vector2 lastInput;
 
 	[Header ("Combat")]
 	public GameObject sword;
@@ -26,8 +27,9 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public Animator anim;
 	public SpriteRenderer sprite;
 
-	[Header("Inventory")]
+	[Header ("Inventory")]
 	public int keys;
+	public UIKey uiKey;
 
 	// Use this for initialization
 	void Start () {
@@ -48,22 +50,63 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	void Movement () {
-		if (!canMove) { return; }
+		if (!canMove) { rb2D.velocity = Vector2.zero; anim.speed = 0; return; }
 
 		//TODO: Constrict movement to 4 directions?
-		Vector2 input = Randall.PlayerInput.GetMovement () * speed;
+		Vector2 input = DirectionalInput (Randall.PlayerInput.GetMovement ());
+		Vector2 movement = input * speed;
 
 		//Debug.Log (input);
 
-		rb2D.velocity = input;
-		if (input != Vector2.zero) {
+		rb2D.velocity = movement;
+		if (movement != Vector2.zero) {
 
-			orientation = input.normalized;
+			orientation = movement.normalized;
 
 			//Visual Effects
-			anim.SetFloat ("Horizontal", input.x);
-			anim.SetFloat ("Vertical", input.y);
-			if (input.x < 0) { sprite.flipX = true; } else { sprite.flipX = false; }
+			anim.SetFloat ("Horizontal", movement.x);
+			anim.SetFloat ("Vertical", movement.y);
+			if (movement.x < 0) { sprite.flipX = true; } else { sprite.flipX = false; }
+			anim.speed = 1;
+		} else {
+			anim.speed = 0;
+		}
+	}
+
+	Vector2 DirectionalInput (Vector2 dir) {
+		bool isGoingUp = true;
+		if (isGoingUp) {
+			//Going up/down and then press left or right
+			if (dir.x != 0) {
+				dir.y = 0;
+			}
+			if (dir.y != 0) {
+				dir.x = 0;
+			}
+		} else {
+			//Going left/right and then press right or left
+			if (dir.y != 0) {
+				dir.x = 0;
+			}
+			if (dir.x != 0) {
+				dir.y = 0;
+			}
+		}
+
+		return dir;
+	}
+
+	public void Move (Vector2 input) {
+		Vector2 movement = input * speed;
+		rb2D.velocity = movement;
+		if (movement != Vector2.zero) {
+
+			orientation = movement.normalized;
+
+			//Visual Effects
+			anim.SetFloat ("Horizontal", movement.x);
+			anim.SetFloat ("Vertical", movement.y);
+			if (movement.x < 0) { sprite.flipX = true; } else { sprite.flipX = false; }
 			anim.speed = 1;
 		} else {
 			anim.speed = 0;
