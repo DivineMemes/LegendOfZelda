@@ -27,8 +27,16 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public Animator anim;
 	public SpriteRenderer sprite;
 
+	public int keys {
+		get { return _keys; }
+		set {
+			_keys = value;
+			uiKey.UpdateUI (_keys);
+		}
+	}
+
 	[Header ("Inventory")]
-	public int keys;
+	private int _keys;
 	public UIKey uiKey;
 
 	// Use this for initialization

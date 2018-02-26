@@ -8,7 +8,6 @@ public class Key : MonoBehaviour {
 			PlayerController player = other.transform.parent.GetComponent<PlayerController> ();
 			if (player != null) {
 				player.keys++;
-				player.uiKey.UpdateUI(player.keys);
 				gameObject.SetActive (false);
 			}
 		}
