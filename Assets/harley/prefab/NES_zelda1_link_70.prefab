@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4267673940009694}
   - component: {fileID: 212486656101621404}
   m_Layer: 0
-  m_Name: fire
+  m_Name: NES_zelda1_link_70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
