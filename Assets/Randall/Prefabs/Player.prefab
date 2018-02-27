@@ -290,9 +290,10 @@ MonoBehaviour:
   meleeTime: 0.1
   swordAttack: 0
   shield: {fileID: 1935238738669314}
+  boomarangPrefab: {fileID: 1679392438667040, guid: 05c789efb1416084784cd98c4c9f0905,
+    type: 2}
   anim: {fileID: 95438699399751146}
   sprite: {fileID: 212909283983901864}
-  keys: 0
   uiKey: {fileID: 0}
 --- !u!114 &114606553921303116
 MonoBehaviour:
@@ -305,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffaefcd977333994eb1c14f915f311c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 1
 --- !u!212 &212466584652013792
 SpriteRenderer:
   m_ObjectHideFlags: 1
