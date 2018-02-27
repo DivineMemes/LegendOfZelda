@@ -31,19 +31,17 @@ public class KeeseBehaviour : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if(!Sleep)
+        if (!Sleep)
         {
             Vector2 dir = offsetPosition - (Vector2)transform.position;
             rb.AddForce(dir.normalized * speed);
             DoAction();
         }
-       
+
     }
-
-
     void Update()
     {
-        if(Sleep)
+        if(Sleep)//allow the enemy to sleep 
         {
            
             SleepTime += Time.deltaTime;
@@ -55,7 +53,7 @@ public class KeeseBehaviour : MonoBehaviour
             }
         }
 
-        if(Sleep == false)
+        if(Sleep == false)//the enemy is no longer asleep run
         {
             time += Time.deltaTime;
             if (time >= EndTime)
@@ -73,7 +71,7 @@ public class KeeseBehaviour : MonoBehaviour
 
             }
 
-            Debug.DrawLine(transform.position, offsetPosition);
+//            Debug.DrawLine(transform.position, offsetPosition);
         }
     }
 
@@ -83,7 +81,16 @@ public class KeeseBehaviour : MonoBehaviour
         offsetPosition = (Vector2)transform.position + Random.insideUnitCircle * radius;
     }
 
-    public void DoAction()
+
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.collider.tag == "Keese")
+        {
+            Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
+        }
+    }
+    public void DoAction()//arrive function
     {
         Vector3 targetOffset = offsetPosition - (Vector2)transform.position;
         float dist = Vector2.Distance((Vector2)transform.position, offsetPosition);
@@ -91,6 +98,11 @@ public class KeeseBehaviour : MonoBehaviour
         float clippedSpeed = Mathf.Min(rampedSpeed, speed);
         Vector2 desiredVelocity = (clippedSpeed / targetOffset.magnitude) * targetOffset;
         rb.velocity = desiredVelocity;
+        if(dist <= .5f)
+        {
+            rb.velocity = Vector2.zero;
+            time = EndTime;
+        }
         //Debug.Log(desiredVelocity);
     }
 

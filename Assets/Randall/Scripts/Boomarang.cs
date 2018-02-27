@@ -10,9 +10,13 @@ public class Boomarang : MonoBehaviour {
 
 	public float speed;
 	public float returnTime;
-	public PlayerController player;
+	public float snappingDistance = 0.5f;
+
 	public bool isReturning;
-	public float damage;
+
+	private Transform _thrower;
+	private bool _isEnemy;
+	private float _damage;
 
 	private void Start () {
 		timer = new Randall.Timer ();
@@ -21,8 +25,8 @@ public class Boomarang : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (isReturning) {
-			FlyToPoint (player.transform.position);
-			if (Randall.Utilities.CheckIfDoneMoving (transform.position, player.transform.position, 0.1f)) {
+			FlyToPoint (_thrower.transform.position);
+			if (Randall.Utilities.CheckIfDoneMoving (transform.position, _thrower.transform.position, snappingDistance)) {
 				gameObject.SetActive (false);
 			}
 		}
@@ -36,6 +40,15 @@ public class Boomarang : MonoBehaviour {
 		}
 	}
 
+	//This has to be run
+	public void Setup (Transform thrower, float damage, bool isEnemy) {
+		this._thrower = thrower;
+		this._isEnemy = isEnemy;
+		this._damage = damage;
+	}
+
+	//Start - Starting position
+	//Dir - Direction to throw the boomarang 
 	public void Throw (Vector2 start, Vector2 dir) {
 		gameObject.SetActive (true);
 		transform.position = start + dir.normalized;
@@ -55,16 +68,29 @@ public class Boomarang : MonoBehaviour {
 	}
 
 	private void OnTriggerEnter2D (Collider2D other) {
-		
 
-		if (other.tag != "Player" && other.name != "Sword") {
-			//Debug.Log ("Collided with " + other.name);
-			isReturning = true;
+		if (_isEnemy) {
+			if (other.tag != "Enemy" && other.name != "Sword") {
+				//Debug.Log ("Collided with " + other.name);
+				//isReturning = true;
 
-			if (other.tag == "Enemy") {
-				IDamageable damageable = other.GetComponent<IDamageable> ();
-				if (damageable != null) {
-					damageable.Damage (damage);
+				if (other.tag == "Player") {
+					IDamageable damageable = other.GetComponent<IDamageable> ();
+					if (damageable != null) {
+						damageable.Damage (_damage);
+					}
+				}
+			}
+		} else {
+			if (other.tag != "Player" && other.name != "Sword") {
+				//Debug.Log ("Collided with " + other.name);
+				isReturning = true;
+
+				if (other.tag == "Enemy") {
+					IDamageable damageable = other.GetComponent<IDamageable> ();
+					if (damageable != null) {
+						damageable.Damage (_damage);
+					}
 				}
 			}
 		}
