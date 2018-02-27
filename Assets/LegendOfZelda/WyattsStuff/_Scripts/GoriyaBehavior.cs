@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wander2D : MonoBehaviour
-{ 
+public class GoriyaBehavior : MonoBehaviour
+{
     public float speed;
     public float radius;
     public float jitter;
@@ -11,15 +11,21 @@ public class Wander2D : MonoBehaviour
     public float StartTime;
     public float time;
     public float EndTime;
-    //public Vector3 target;
+
+    public float distanceMax;
+    public bool attacc;
+
+
+    public GameObject Player;
     public Rigidbody2D rb;
-    
-    void Start ()
+
+    void Start()
     {
-		
-	}
-	void FixedUpdate()
+        attacc = false;
+    }
+    void FixedUpdate()
     {
+        if(!attacc)
         DoAction();
         Vector2 dir = offsetPosition - (Vector2)transform.position;
         rb.AddForce(dir.normalized * speed);
@@ -28,22 +34,38 @@ public class Wander2D : MonoBehaviour
 
     void Update()
     {
-        time += Time.deltaTime;
-        if (time >= EndTime)
-        {
-            randomOffset();
-            time = StartTime;
-            EndTime = Random.Range(1, 5);
-        }
+        float dist = Vector2.Distance(gameObject.transform.position, Player.transform.position);
 
-        Debug.DrawLine(transform.position, offsetPosition);
+        if (dist <= distanceMax)
+        {
+            attacc = true;
+        }
+        else { attacc = false; }
+
+        if (attacc)
+        {
+            gameObject.transform.
+        }
+        if (!attacc)
+        {
+
+            time += Time.deltaTime;
+            if (time >= EndTime)
+            {
+                randomOffset();
+                time = StartTime;
+                EndTime = Random.Range(1, 5);
+            }
+
+            Debug.DrawLine(transform.position, offsetPosition);
+        }
     }
 
     Vector2 offsetPosition;
     void randomOffset()
     {
-        offsetPosition = (Vector2)transform.position + Random.insideUnitCircle*radius;
-        
+        offsetPosition = (Vector2)transform.position + Random.insideUnitCircle * radius;
+
     }
     public void DoAction()
     {
@@ -61,23 +83,9 @@ public class Wander2D : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.collider.tag == "Stalfos")
+        if (other.collider.tag == "Goriya")
         {
             Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
         }
     }
-
-    //public Vector3 returnWanderPoints()
-    //{
-    //    Vector3 target;
-    //    target = Vector3.zero;
-    //    target = Random.insideUnitCircle.normalized * radius;
-    //    target = (Vector2)target + Random.insideUnitCircle * jitter;
-    //    //target += transform.position;
-    //    //target += transform.up * distance;
-    //    Vector3 dir = (target - transform.position).normalized;
-
-    //    //Vector3 desiredVel = dir * speed;
-    //    return target;
-    //}
 }
