@@ -8,6 +8,7 @@ public class UIHearts : MonoBehaviour {
 	public List<Image> Hearts;
 
 	public Sprite fullHeart;
+	public Sprite halfHeart;
 	public Sprite emptyHeart;
 
 	// // Use this for initialization
@@ -18,14 +19,28 @@ public class UIHearts : MonoBehaviour {
 	// void Update () {
 	// }
 
-	public void UpdateHealth (float hearts) {
+	public void UpdateHealth (float hp, float maxHealth) {
 
+		//TODO if health larger then number of hearts make more
 		for (int i = 0; i < Hearts.Count; i++) {
-			if (i < hearts) {
+			if (i < Mathf.FloorToInt(hp)) {
+				Hearts[i].gameObject.SetActive(true);
 				Hearts[i].sprite = fullHeart;
-			} else {
+			}
+			else if (hp > i) {
+				Hearts[i].gameObject.SetActive(true);
+				Hearts[i].sprite = halfHeart;
+			}
+			else if (i < maxHealth)
+			{
+				Hearts[i].gameObject.SetActive(true);
 				Hearts[i].sprite = emptyHeart;
 			}
+			else
+			{
+				Hearts[i].gameObject.SetActive(false);
+			}
 		}
+
 	}
 }

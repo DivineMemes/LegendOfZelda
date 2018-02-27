@@ -17,69 +17,54 @@ public class RoomTransition : MonoBehaviour {
 
 	Vector3 newPlayerPosition;
 
-	private void Start() {
+	private void Start () {
 		//Easy but not optimal, instead have a gameManager that has the refrences to the camer and player
-		mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+		mainCamera = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+		player = GameObject.Find ("Player").GetComponent<PlayerController> ();
 	}
 
-	private void OnTriggerEnter2D(Collider2D other) {
-		if(player.orientation.x != 0)
-		{
-			newCameraPosition = mainCamera.transform.position + (Vector3)(player.orientation * moveX);
-			newPlayerPosition = player.transform.position + (Vector3)(player.orientation * playerMoveX);
-			//mainCamera.transform.Translate(player.orientation * moveX);
-			StartCoroutine("CameraMove");
-		}
-		else if(player.orientation.y != 0)
-		{
-			newCameraPosition = mainCamera.transform.position + (Vector3)(player.orientation * moveY);
-			newPlayerPosition = player.transform.position + (Vector3)(player.orientation * playerMoveY);
-			//mainCamera.transform.Translate(player.orientation * moveY);
-			StartCoroutine("CameraMove");
+	private void OnTriggerEnter2D (Collider2D other) {
+
+		if (other.tag == "Player") {
+			if (player.orientation.x != 0) {
+				newCameraPosition = mainCamera.transform.position + (Vector3) (player.orientation * moveX);
+				newPlayerPosition = player.transform.position + (Vector3) (player.orientation * playerMoveX);
+				//mainCamera.transform.Translate(player.orientation * moveX);
+				StartCoroutine ("CameraMove");
+			} else if (player.orientation.y != 0) {
+				newCameraPosition = mainCamera.transform.position + (Vector3) (player.orientation * moveY);
+				newPlayerPosition = player.transform.position + (Vector3) (player.orientation * playerMoveY);
+				//mainCamera.transform.Translate(player.orientation * moveY);
+				StartCoroutine ("CameraMove");
+			}
 		}
 	}
 
-	IEnumerator CameraMove()
-	{
+	IEnumerator CameraMove () {
 		player.canMove = false;
-		Debug.Log("Player cant move");
-		while(!CheckIfDoneMoving(mainCamera.transform.position, newCameraPosition))
-		{
+		Debug.Log ("Transitioning");
+		while (!Randall.Utilities.CheckIfDoneMoving (mainCamera.transform.position, newCameraPosition, snapDistance)) {
 			mainCamera.transform.position += (newCameraPosition - mainCamera.transform.position).normalized * cameraMoveSpeed * Time.deltaTime;
 			yield return null;
 		}
-		if(CheckIfDoneMoving(mainCamera.transform.position, newCameraPosition))
-		{
+		if (Randall.Utilities.CheckIfDoneMoving (mainCamera.transform.position, newCameraPosition, snapDistance)) {
 			mainCamera.transform.position = newCameraPosition;
 		}
-		StartCoroutine("PlayerMove");
+		StartCoroutine ("PlayerMove");
 	}
 
-	IEnumerator PlayerMove()
-	{
-		while(!CheckIfDoneMoving(player.transform.position, newPlayerPosition))
-		{
-			player.Move(player.orientation);
+	IEnumerator PlayerMove () {
+		player.c2D.isTrigger = true;
+		while (!Randall.Utilities.CheckIfDoneMoving (player.transform.position, newPlayerPosition, snapDistance)) {
+			player.Move (player.orientation);
+			//Make player not collide
 			yield return null;
 		}
-		if(CheckIfDoneMoving(player.transform.position, newPlayerPosition))
-		{
+		if (Randall.Utilities.CheckIfDoneMoving (player.transform.position, newPlayerPosition, snapDistance)) {
 			player.transform.position = newPlayerPosition;
+			player.c2D.isTrigger = false;
 		}
 
 		player.canMove = true;
-	}
-
-	bool CheckIfDoneMoving(Vector3 pos1, Vector3 pos2)
-	{
-		if (Vector3.Distance(pos1, pos2) < snapDistance)
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
 	}
 }
