@@ -43,6 +43,7 @@ public class Wander2D : MonoBehaviour
     void randomOffset()
     {
         offsetPosition = (Vector2)transform.position + Random.insideUnitCircle*radius;
+        
     }
     public void DoAction()
     {
@@ -52,9 +53,19 @@ public class Wander2D : MonoBehaviour
         float clippedSpeed = Mathf.Min(rampedSpeed, speed);
         Vector2 desiredVelocity = (clippedSpeed / targetOffset.magnitude) * targetOffset;
         rb.velocity = desiredVelocity;
-        //Debug.Log(desiredVelocity);
+        if (dist <= .5f)
+        {
+            rb.velocity = Vector2.zero;
+            time = EndTime;
+        }
     }
-
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.tag == "Stalfos")
+        {
+            Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
+        }
+    }
 
     //public Vector3 returnWanderPoints()
     //{
