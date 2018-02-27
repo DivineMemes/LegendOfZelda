@@ -21,19 +21,27 @@ public class GoriyaBehavior : MonoBehaviour, IDamageable
     public GameObject Boomerang;
     public GameObject Player;
     public Rigidbody2D rb;
+
+    Boomarang boomarang;
+
     public void Damage(float damage)
     {
-
+        
     }
     void Start()
     {
         attacc = false;
+        if (boomarang == null)
+        {
+            boomarang = Instantiate(Boomerang, new Vector2(transform.position.x, transform.position.y), Quaternion.identity).GetComponent<Boomarang>();
+            boomarang.Setup(transform, 1, true);
+        }
     }
     void FixedUpdate()
     {
         if(!attacc)
         {
-            if (GameObject.FindGameObjectWithTag("Boomerang") == null)
+            if (!boomarang.gameObject.activeInHierarchy)
             {
                 DoAction();
                 Vector2 dir = offsetPosition - (Vector2)transform.position;
@@ -62,49 +70,29 @@ public class GoriyaBehavior : MonoBehaviour, IDamageable
         {
             rb.velocity = Vector2.zero;
             transform.position = transform.position;
-            if (GameObject.FindGameObjectWithTag("Boomerang") == null)
+
+            if (!boomarang.gameObject.activeInHierarchy)
             {
-               GameObject spawnedBoomerang = Instantiate(Boomerang, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
-                Rigidbody2D thing = spawnedBoomerang.GetComponent<Rigidbody2D>();
-                if(thing != null)
-                {
                     Vector2 dir = PlayerPos - myPos;
                     //determines the direction in which the player approaches the enemy in
-                    
+
                     Vector2 absDir = dir;
                     absDir.x = Mathf.Abs(dir.x);
                     absDir.y = Mathf.Abs(dir.y);
 
                     if (absDir.x > absDir.y)
-                        //checks that the direction in the x axis is of a higher priority than the y axis
+                    //checks that the direction in the x axis is of a higher priority than the y axis
                     {
+
                         Vector2 throwDir = new Vector2(dir.x, 0);
-                        thing.AddForce(throwDir.normalized * boomerangspeed, ForceMode2D.Impulse);
+                        boomarang.Throw(myPos, throwDir);
                     }
                     else
                     //x loses
                     {
                         Vector2 throwDir = new Vector2(0, dir.y);
-                        thing.AddForce(throwDir.normalized * boomerangspeed, ForceMode2D.Impulse);
+                        boomarang.Throw(myPos, throwDir);
                     }
-
-                    /*if (PlayerPos.x < PlayerPos.y && PlayerPos.x < myPos.x)
-                    {
-                        thing.AddForce(Vector2.left * boomerangspeed, ForceMode2D.Impulse);
-                    }
-                    else if (PlayerPos.x > PlayerPos.y && PlayerPos.x < myPos.x)
-                    {
-                        thing.AddForce(Vector2.down * boomerangspeed, ForceMode2D.Impulse);
-                    }
-                    else if (PlayerPos.x < PlayerPos.y && PlayerPos.y > myPos.y)
-                    {
-                        thing.AddForce(Vector2.up * boomerangspeed, ForceMode2D.Impulse);
-                    }
-                    else if (PlayerPos.x > PlayerPos.y && PlayerPos.y > myPos.y || PlayerPos.y < myPos.y)
-                    {
-                        thing.AddForce(Vector2.right * boomerangspeed, ForceMode2D.Impulse);
-                    }*/
-                }
             }
 
 
@@ -112,25 +100,23 @@ public class GoriyaBehavior : MonoBehaviour, IDamageable
         }
         if (!attacc)
         {
-            if (GameObject.FindGameObjectWithTag("Boomerang") != null)
-            {
-                if (GameObject.FindGameObjectWithTag("Boomerang").activeInHierarchy)
+                if (boomarang.gameObject.activeInHierarchy)
                 {
                     rb.velocity = Vector2.zero;
                     transform.position = transform.position;
                 }
-            }
 
-            else if (GameObject.FindGameObjectWithTag("Boomerang") == null)
+            else if (!boomarang.gameObject.activeInHierarchy)
 
             {
-                time += Time.deltaTime;
-                if (time >= EndTime)
-                {
-                    randomOffset();
-                    time = StartTime;
-                    EndTime = Random.Range(1, 5);
-                }
+                    time += Time.deltaTime;
+
+                    if (time >= EndTime)
+                    {
+                        randomOffset();
+                        time = StartTime;
+                        EndTime = Random.Range(1, 5);
+                    }
             }
         }
     }
