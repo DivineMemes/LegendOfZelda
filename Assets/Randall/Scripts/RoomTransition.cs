@@ -54,12 +54,15 @@ public class RoomTransition : MonoBehaviour {
 	}
 
 	IEnumerator PlayerMove () {
+		player.c2D.isTrigger = true;
 		while (!Randall.Utilities.CheckIfDoneMoving (player.transform.position, newPlayerPosition, snapDistance)) {
 			player.Move (player.orientation);
+			//Make player not collide
 			yield return null;
 		}
 		if (Randall.Utilities.CheckIfDoneMoving (player.transform.position, newPlayerPosition, snapDistance)) {
 			player.transform.position = newPlayerPosition;
+			player.c2D.isTrigger = false;
 		}
 
 		player.canMove = true;
