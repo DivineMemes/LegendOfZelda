@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class PlayerController : MonoBehaviour, IDamageable {
 
 	[Header ("Components")]
@@ -8,8 +10,27 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	[Header ("Health")]
 	//1 = one heart
-	public float health;
-	public float maxHealth;
+	private float _health;
+	public float health {
+		get { return _health; }
+		set {
+			_health = value;
+			if (_health > maxHealth) {
+				_health = maxHealth;
+			}
+			heartUI.UpdateHealth (health, maxHealth);
+		}
+	}
+
+	private float _maxHealth;
+	public float maxHealth {
+		get { return _maxHealth; }
+		set {
+			_maxHealth = value;
+			heartUI.UpdateHealth (health, maxHealth);
+		}
+	}
+
 	public UIHearts heartUI;
 
 	[Header ("Movement")]
@@ -48,6 +69,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Use this for initialization
 	void Start () {
+		maxHealth = 3;
 		health = maxHealth;
 		heartUI.UpdateHealth (health, maxHealth);
 		orientation = Vector2.zero;
@@ -70,7 +92,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 				boomarang.Throw (transform.position, orientation);
 			}
 		}
-		heartUI.UpdateHealth (health, maxHealth);
+		//heartUI.UpdateHealth (health, maxHealth);
 		//Shield ();
 
 	}
@@ -183,6 +205,6 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	void Death () {
-
+		SceneManager.LoadScene(0);
 	}
 }
