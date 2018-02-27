@@ -14,7 +14,6 @@ public class Sword : MonoBehaviour {
 			{
 				damageable.Damage(damage);
 			}
-
 		}
 	}
 }

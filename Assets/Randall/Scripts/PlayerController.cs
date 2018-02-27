@@ -23,18 +23,31 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public float swordAttack;
 	public GameObject shield;
 
+	[Header ("Boomarang")]
+	public GameObject boomarangPrefab;
+	Boomarang boomarang;
+
 	[Header ("Animation")]
 	public Animator anim;
 	public SpriteRenderer sprite;
 
+	public int keys {
+		get { return _keys; }
+		set {
+			_keys = value;
+			uiKey.UpdateUI (_keys);
+		}
+	}
+
 	[Header ("Inventory")]
-	public int keys;
+	private int _keys;
 	public UIKey uiKey;
 
 	// Use this for initialization
 	void Start () {
 		health = maxHealth;
 		heartUI.UpdateHealth (health);
+		orientation = Vector2.zero;
 	}
 
 	// Update is called once per frame
@@ -44,33 +57,27 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		if (Randall.PlayerInput.LeftClickDown ()) {
 			Melee ();
 		}
+		if (Randall.PlayerInput.RightClickDown ()) {
+
+			if (boomarang == null) {
+				boomarang = Instantiate (boomarangPrefab, transform.position, Quaternion.identity).GetComponent<Boomarang> ();
+				boomarang.player = this;
+			}
+			if (!boomarang.gameObject.activeInHierarchy) {
+				boomarang.Throw (transform.position, orientation);
+			}
+		}
 		heartUI.UpdateHealth (health);
 		//Shield ();
 
 	}
 
 	void Movement () {
-		if (!canMove) { rb2D.velocity = Vector2.zero; anim.speed = 0; return; }
+		if (!canMove) { rb2D.velocity = Vector2.zero; anim.speed = 0; UpdateVisual (); return; }
 
 		//TODO: Constrict movement to 4 directions?
 		Vector2 input = DirectionalInput (Randall.PlayerInput.GetMovement ());
-		Vector2 movement = input * speed;
-
-		//Debug.Log (input);
-
-		rb2D.velocity = movement;
-		if (movement != Vector2.zero) {
-
-			orientation = movement.normalized;
-
-			//Visual Effects
-			anim.SetFloat ("Horizontal", movement.x);
-			anim.SetFloat ("Vertical", movement.y);
-			if (movement.x < 0) { sprite.flipX = true; } else { sprite.flipX = false; }
-			anim.speed = 1;
-		} else {
-			anim.speed = 0;
-		}
+		Move (input);
 	}
 
 	Vector2 DirectionalInput (Vector2 dir) {
@@ -102,15 +109,19 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		if (movement != Vector2.zero) {
 
 			orientation = movement.normalized;
-
-			//Visual Effects
-			anim.SetFloat ("Horizontal", movement.x);
-			anim.SetFloat ("Vertical", movement.y);
-			if (movement.x < 0) { sprite.flipX = true; } else { sprite.flipX = false; }
 			anim.speed = 1;
 		} else {
 			anim.speed = 0;
 		}
+
+		UpdateVisual ();
+	}
+
+	void UpdateVisual () {
+		//Visual Effects
+		anim.SetFloat ("Horizontal", orientation.x);
+		anim.SetFloat ("Vertical", orientation.y);
+		if (orientation.x < 0) { sprite.flipX = true; } else { sprite.flipX = false; }
 	}
 
 	void Melee () {

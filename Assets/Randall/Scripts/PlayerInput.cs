@@ -23,4 +23,34 @@ namespace Randall {
 			return Input.GetButtonUp ("Fire2");
 		}
 	}
+
+	public class Utilities {
+		public static bool CheckIfDoneMoving (Vector3 pos1, Vector3 pos2, float snapDistance) {
+			if (Vector3.Distance (pos1, pos2) < snapDistance) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+	}
+
+	public class Timer{
+		float _clock;
+		public float maxTime;
+
+		public void Update(float iteration)
+		{
+			_clock += iteration;
+		}
+
+		public bool IsGoingOff()
+		{
+			return _clock >= maxTime;
+		}
+
+		public void Reset()
+		{
+			_clock = 0;
+		}
+	}
 }
