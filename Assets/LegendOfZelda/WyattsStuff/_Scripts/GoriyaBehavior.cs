@@ -34,8 +34,7 @@ public class GoriyaBehavior : MonoBehaviour, IDamageable
         if (boomarang == null)
         {
             boomarang = Instantiate(Boomerang, new Vector2(transform.position.x, transform.position.y), Quaternion.identity).GetComponent<Boomarang>();
-            boomarang.Setup(transform);
-            boomarang.isEnemy = true;
+            boomarang.Setup(transform, 1, true);
         }
     }
     void FixedUpdate()
