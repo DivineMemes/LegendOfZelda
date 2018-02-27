@@ -28,7 +28,7 @@ public class Boomarang : MonoBehaviour {
 		}
 
 		if (timer.IsGoingOff ()) {
-			Debug.Log("Returning");
+			//Debug.Log("Returning");
 			isReturning = true;
 			timer.Reset ();
 		} else {
@@ -58,7 +58,7 @@ public class Boomarang : MonoBehaviour {
 		
 
 		if (other.tag != "Player" && other.name != "Sword") {
-			Debug.Log ("Collided with " + other.name);
+			//Debug.Log ("Collided with " + other.name);
 			isReturning = true;
 
 			if (other.tag == "Enemy") {
