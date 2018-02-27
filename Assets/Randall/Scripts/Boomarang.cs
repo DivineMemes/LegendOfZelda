@@ -10,10 +10,13 @@ public class Boomarang : MonoBehaviour {
 
 	public float speed;
 	public float returnTime;
-	public Transform thrower;
+	public float snappingDistance = 0.5f;
+
 	public bool isReturning;
-	public float damage;
-	public bool isEnemy;
+
+	private Transform _thrower;
+	private bool _isEnemy;
+	private float _damage;
 
 	private void Start () {
 		timer = new Randall.Timer ();
@@ -22,8 +25,8 @@ public class Boomarang : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (isReturning) {
-			FlyToPoint (thrower.transform.position);
-			if (Randall.Utilities.CheckIfDoneMoving (transform.position, thrower.transform.position, 0.1f)) {
+			FlyToPoint (_thrower.transform.position);
+			if (Randall.Utilities.CheckIfDoneMoving (transform.position, _thrower.transform.position, snappingDistance)) {
 				gameObject.SetActive (false);
 			}
 		}
@@ -38,9 +41,10 @@ public class Boomarang : MonoBehaviour {
 	}
 
 	//This has to be run
-	public void Setup(Transform t)
-	{
-		thrower = t;
+	public void Setup (Transform thrower, float damage, bool isEnemy) {
+		this._thrower = thrower;
+		this._isEnemy = isEnemy;
+		this._damage = damage;
 	}
 
 	//Start - Starting position
@@ -65,15 +69,15 @@ public class Boomarang : MonoBehaviour {
 
 	private void OnTriggerEnter2D (Collider2D other) {
 
-		if (isEnemy) {
+		if (_isEnemy) {
 			if (other.tag != "Enemy" && other.name != "Sword") {
 				//Debug.Log ("Collided with " + other.name);
-				isReturning = true;
+				//isReturning = true;
 
 				if (other.tag == "Player") {
 					IDamageable damageable = other.GetComponent<IDamageable> ();
 					if (damageable != null) {
-						damageable.Damage (damage);
+						damageable.Damage (_damage);
 					}
 				}
 			}
@@ -85,7 +89,7 @@ public class Boomarang : MonoBehaviour {
 				if (other.tag == "Enemy") {
 					IDamageable damageable = other.GetComponent<IDamageable> ();
 					if (damageable != null) {
-						damageable.Damage (damage);
+						damageable.Damage (_damage);
 					}
 				}
 			}

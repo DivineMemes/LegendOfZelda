@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour, IDamageable {
 
-	[Header("Components")]
+	[Header ("Components")]
 	public Collider2D c2D;
 
 	[Header ("Health")]
@@ -51,6 +51,11 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		health = maxHealth;
 		heartUI.UpdateHealth (health, maxHealth);
 		orientation = Vector2.zero;
+
+		if (boomarang == null) {
+			boomarang = Instantiate (boomarangPrefab, transform.position, Quaternion.identity).GetComponent<Boomarang> ();
+			boomarang.Setup (transform, 1, false);
+		}
 	}
 
 	// Update is called once per frame
@@ -61,11 +66,6 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			Melee ();
 		}
 		if (Randall.PlayerInput.RightClickDown ()) {
-
-			if (boomarang == null) {
-				boomarang = Instantiate (boomarangPrefab, transform.position, Quaternion.identity).GetComponent<Boomarang> ();
-				boomarang.thrower = transform;
-			}
 			if (!boomarang.gameObject.activeInHierarchy) {
 				boomarang.Throw (transform.position, orientation);
 			}
