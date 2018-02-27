@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour, IDamageable {
 
+	[Header("Components")]
+	public Collider2D c2D;
+
 	[Header ("Health")]
 	//1 = one heart
 	public float health;
@@ -46,7 +49,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	// Use this for initialization
 	void Start () {
 		health = maxHealth;
-		heartUI.UpdateHealth (health);
+		heartUI.UpdateHealth (health, maxHealth);
 		orientation = Vector2.zero;
 	}
 
@@ -61,13 +64,13 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 			if (boomarang == null) {
 				boomarang = Instantiate (boomarangPrefab, transform.position, Quaternion.identity).GetComponent<Boomarang> ();
-				boomarang.player = this;
+				boomarang.thrower = transform;
 			}
 			if (!boomarang.gameObject.activeInHierarchy) {
 				boomarang.Throw (transform.position, orientation);
 			}
 		}
-		heartUI.UpdateHealth (health);
+		heartUI.UpdateHealth (health, maxHealth);
 		//Shield ();
 
 	}
@@ -168,7 +171,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public void Damage (float damage) {
 
 		if (heartUI != null) {
-			heartUI.UpdateHealth (health);
+			heartUI.UpdateHealth (health, maxHealth);
 		} else {
 			Debug.LogError ("WARNING - " + gameObject.name + " DOES NOT HAVE A HEARTUI COMPONENT REFRENCE");
 		}
