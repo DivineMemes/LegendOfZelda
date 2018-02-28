@@ -75,7 +75,7 @@ public class Boomarang : MonoBehaviour {
 				//isReturning = true;
 
 				if (other.tag == "Player") {
-					IDamageable damageable = other.GetComponent<IDamageable> ();
+					IDamageable damageable = other.transform.parent.GetComponent<IDamageable> ();
 					if (damageable != null) {
 						damageable.Damage (_damage);
 					}
