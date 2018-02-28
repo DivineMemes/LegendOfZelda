@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			heartUI.UpdateHealth (health, maxHealth);
 		}
 	}
+	public bool canTakeDamage = true;
 
 	public UIHearts heartUI;
 
@@ -153,10 +154,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	void Melee () {
-		if(sword.gameObject.activeInHierarchy){return;}
+		if (sword.gameObject.activeInHierarchy) { return; }
 
 		source.clip = attack;
-		source.Play();
+		source.Play ();
 
 		sword.transform.localPosition = orientation;
 		//TODO: Set sword orientation
@@ -197,21 +198,27 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	public void Damage (float damage) {
 
-		if (heartUI != null) {
-			heartUI.UpdateHealth (health, maxHealth);
-		} else {
-			Debug.LogError ("WARNING - " + gameObject.name + " DOES NOT HAVE A HEARTUI COMPONENT REFRENCE");
-		}
+		if (canTakeDamage) {
+			if (heartUI != null) {
+				heartUI.UpdateHealth (health, maxHealth);
+			} else {
+				Debug.LogError ("WARNING - " + gameObject.name + " DOES NOT HAVE A HEARTUI COMPONENT REFRENCE");
+			}
 
-		health -= damage;
-		source.clip = hurt;
-		source.Play();
-		if (health <= 0) {
-			Death ();
+			health -= damage;
+			source.clip = hurt;
+			source.Play ();
+			if (health <= 0) {
+				Death ();
+			}
+		}
+		else
+		{
+			Debug.Log("Not taking damage");
 		}
 	}
 
 	void Death () {
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene (0);
 	}
 }

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114414598299167194}
   - component: {fileID: 50708098839052324}
   - component: {fileID: 58989563407948254}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Boomarang
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,9 +111,8 @@ MonoBehaviour:
   anim: {fileID: 95094114452671844}
   speed: 7
   returnTime: 2
-  player: {fileID: 0}
+  snappingDistance: 0.5
   isReturning: 0
-  damage: 1
 --- !u!212 &212825005862516030
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -146,7 +145,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -977007205
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300090, guid: 59b9b2a4451767d49baff88c9aaa970d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
