@@ -12,6 +12,7 @@ public class heart_contaner : MonoBehaviour {
             if (player != null)
             {
                 player.maxHealth += 1;
+                player.health = player.maxHealth;
                 Destroy(gameObject);
             }
         }
