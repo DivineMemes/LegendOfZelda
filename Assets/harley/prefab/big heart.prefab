@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4118651416061752}
   - component: {fileID: 212956243115625674}
   - component: {fileID: 61909604216107014}
+  - component: {fileID: 114789180153430486}
   m_Layer: 0
   m_Name: big heart
   m_TagString: Untagged
@@ -66,6 +67,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8125, y: 0.8125}
   m_EdgeRadius: 0
+--- !u!114 &114789180153430486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524651309136952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb074872faf8814d88a005a2c5a3847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212956243115625674
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -97,8 +109,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1699255373
-  m_SortingLayer: 1
+  m_SortingLayerID: 1303583787
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300016, guid: 16600bd3d2652b44aaa37e748077d076, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
