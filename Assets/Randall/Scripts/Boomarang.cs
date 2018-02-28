@@ -86,11 +86,9 @@ public class Boomarang : MonoBehaviour {
 				//Debug.Log ("Collided with " + other.name);
 				isReturning = true;
 
-				if (other.tag == "Enemy") {
-					IDamageable damageable = other.GetComponent<IDamageable> ();
-					if (damageable != null) {
-						damageable.Damage (_damage);
-					}
+				IDamageable damageable = other.GetComponent<IDamageable> ();
+				if (damageable != null) {
+					damageable.Damage (_damage);
 				}
 			}
 		}
