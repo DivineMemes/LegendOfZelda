@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	[Header ("Components")]
 	public Collider2D c2D;
+	public AudioSource source;
 
 	[Header ("Health")]
 	//1 = one heart
@@ -46,6 +47,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public float meleeTime;
 	public float swordAttack;
 	public GameObject shield;
+	public AudioClip attack;
+	public AudioClip hurt;
 
 	[Header ("Boomarang")]
 	public GameObject boomarangPrefab;
@@ -150,14 +153,16 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	void Melee () {
-		sword.transform.localPosition = orientation;
+		if(sword.gameObject.activeInHierarchy){return;}
 
+		source.clip = attack;
+		source.Play();
+
+		sword.transform.localPosition = orientation;
 		//TODO: Set sword orientation
 		float angle = Vector3.Angle (Vector2.up, orientation);
 		sword.transform.eulerAngles = new Vector3 (0, 0, orientation.x > 0 ? -1 * angle : 1 * angle);
-
 		//Debug.Log (angle);
-
 		sword.SetActive (true);
 		Invoke ("EndMelee", meleeTime);
 	}
@@ -199,6 +204,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 
 		health -= damage;
+		source.clip = hurt;
+		source.Play();
 		if (health <= 0) {
 			Death ();
 		}
