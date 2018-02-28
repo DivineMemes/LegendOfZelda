@@ -22,8 +22,9 @@ GameObject:
   - component: {fileID: 212977040474148098}
   - component: {fileID: 61955742147346236}
   - component: {fileID: 114022327763577082}
+  - component: {fileID: 95900950099857042}
   m_Layer: 0
-  m_Name: zelda-sprites-objects_6
+  m_Name: small heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1814817271595776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5759803, y: 18.156494, z: 0}
+  m_LocalPosition: {x: 16.975824, y: 30.086384, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -67,6 +68,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4375, y: 0.5}
   m_EdgeRadius: 0
+--- !u!95 &95900950099857042
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1814817271595776}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fec4ced8a38655d4aaab3b5cd2f3f237, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114022327763577082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -109,8 +127,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1303583787
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 16600bd3d2652b44aaa37e748077d076, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

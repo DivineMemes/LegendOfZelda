@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 4591305085908058}
   - component: {fileID: 114601307054819624}
   - component: {fileID: 50794636079607576}
+  - component: {fileID: 82973087578653082}
   m_Layer: 31
   m_Name: Player
   m_TagString: Player
@@ -250,6 +251,86 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!82 &82973087578653082
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352567382920720}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95438699399751146
 Animator:
   serializedVersion: 3
@@ -279,8 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   c2D: {fileID: 58969740587865578}
-  health: 1.5
-  maxHealth: 3
+  source: {fileID: 82973087578653082}
   heartUI: {fileID: 0}
   rb2D: {fileID: 50794636079607576}
   canMove: 1
@@ -291,6 +371,8 @@ MonoBehaviour:
   meleeTime: 0.1
   swordAttack: 0
   shield: {fileID: 1935238738669314}
+  attack: {fileID: 8300000, guid: 98c8773443e223b4a87f6c4112a29c4b, type: 3}
+  hurt: {fileID: 8300000, guid: 774e01f867dd20740a0b39dae0d61a41, type: 3}
   boomarangPrefab: {fileID: 1679392438667040, guid: 05c789efb1416084784cd98c4c9f0905,
     type: 2}
   anim: {fileID: 95438699399751146}

@@ -1,15 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class PlayerController : MonoBehaviour, IDamageable {
 
 	[Header ("Components")]
 	public Collider2D c2D;
+	public AudioSource source;
 
 	[Header ("Health")]
 	//1 = one heart
-	public float health;
-	public float maxHealth;
+	private float _health;
+	public float health {
+		get { return _health; }
+		set {
+			_health = value;
+			if (_health > maxHealth) {
+				_health = maxHealth;
+			}
+			heartUI.UpdateHealth (health, maxHealth);
+		}
+	}
+
+	private float _maxHealth;
+	public float maxHealth {
+		get { return _maxHealth; }
+		set {
+			_maxHealth = value;
+			heartUI.UpdateHealth (health, maxHealth);
+		}
+	}
+
 	public UIHearts heartUI;
 
 	[Header ("Movement")]
@@ -25,6 +47,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public float meleeTime;
 	public float swordAttack;
 	public GameObject shield;
+	public AudioClip attack;
+	public AudioClip hurt;
 
 	[Header ("Boomarang")]
 	public GameObject boomarangPrefab;
@@ -48,6 +72,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Use this for initialization
 	void Start () {
+		maxHealth = 3;
 		health = maxHealth;
 		heartUI.UpdateHealth (health, maxHealth);
 		orientation = Vector2.zero;
@@ -70,7 +95,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 				boomarang.Throw (transform.position, orientation);
 			}
 		}
-		heartUI.UpdateHealth (health, maxHealth);
+		//heartUI.UpdateHealth (health, maxHealth);
 		//Shield ();
 
 	}
@@ -128,14 +153,16 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	void Melee () {
-		sword.transform.localPosition = orientation;
+		if(sword.gameObject.activeInHierarchy){return;}
 
+		source.clip = attack;
+		source.Play();
+
+		sword.transform.localPosition = orientation;
 		//TODO: Set sword orientation
 		float angle = Vector3.Angle (Vector2.up, orientation);
 		sword.transform.eulerAngles = new Vector3 (0, 0, orientation.x > 0 ? -1 * angle : 1 * angle);
-
 		//Debug.Log (angle);
-
 		sword.SetActive (true);
 		Invoke ("EndMelee", meleeTime);
 	}
@@ -177,12 +204,14 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 
 		health -= damage;
+		source.clip = hurt;
+		source.Play();
 		if (health <= 0) {
 			Death ();
 		}
 	}
 
 	void Death () {
-
+		SceneManager.LoadScene(0);
 	}
 }

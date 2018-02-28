@@ -20,8 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4614932146463956}
   - component: {fileID: 212723403586405376}
+  - component: {fileID: 95969379170179812}
   m_Layer: 0
-  m_Name: NES_zelda1_link_71
+  m_Name: fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,12 +35,29 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049554721151796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.958738, y: 28.881548, z: 0}
+  m_LocalPosition: {x: -28.65, y: 31.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95969379170179812
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1049554721151796}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33317ef29cb638d428dcaa01f95abac1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!212 &212723403586405376
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -71,8 +89,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1699255373
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300142, guid: 59b9b2a4451767d49baff88c9aaa970d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
