@@ -10,6 +10,10 @@ public class Door : MonoBehaviour {
 	public Sprite openDoor;
 	public Sprite closedDoor;
 
+	[Header("Audio")]
+	public AudioSource audioSource;
+	public AudioClip openSound;
+
 	[Header("Settings")]
 	public bool isLocked;
 	// Use this for initialization
@@ -37,6 +41,8 @@ public class Door : MonoBehaviour {
 					isLocked = false;
 					spriteRenderer.sprite = openDoor;
 					c2D.isTrigger = true;
+					audioSource.clip = openSound;
+					audioSource.Play();
 				}
 			}
 		}
