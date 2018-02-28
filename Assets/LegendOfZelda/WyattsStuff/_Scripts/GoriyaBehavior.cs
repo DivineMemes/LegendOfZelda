@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoriyaBehavior : MonoBehaviour, IDamageable
+public class GoriyaBehavior : MonoBehaviour
 {
     public float speed;
     public float radius;
