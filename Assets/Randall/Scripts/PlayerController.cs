@@ -50,11 +50,12 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public float meleeTime;
 	public float swordAttack;
 	public GameObject shield;
+	public bool canAttack;
 
 	[Header("Audio")]
 	public AudioClip attack;
 	public AudioClip hurt;
-	bool canAttack;
+	
 
 	[Header ("Boomarang")]
 	public GameObject boomarangPrefab;
@@ -65,6 +66,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public SpriteRenderer sprite;
 	public Material spriteFlash;
 	public float spriteFlashTime = 0.1f;
+	public GameObject deathPrefab;
 
 	public int keys {
 		get { return _keys; }
@@ -239,7 +241,12 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			source.clip = hurt;
 			source.Play ();
 			if (health <= 0) {
-				Death ();
+				Instantiate(deathPrefab,transform.position,Quaternion.identity);
+				Invoke("Death", 2f);
+				Destroy(c2D);
+				Destroy(anim);
+				Destroy(sprite);
+				canMove = false;
 			}
 		} else {
 			Debug.Log ("Not taking damage");

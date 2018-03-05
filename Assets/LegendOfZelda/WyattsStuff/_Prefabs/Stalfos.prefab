@@ -195,12 +195,11 @@ MonoBehaviour:
   isDead: 0
   spriteFlash: {fileID: 2100000, guid: 953bad1e9040d8d47811e86482c9a474, type: 2}
   flashTime: 0.1
-  soundPrefab: {fileID: 1051443625592160, guid: e10debdf0c047c24a9fc6586877dffff,
+  soundPrefab: {fileID: 1297576133585240, guid: dae9af93fc60ffd4f90fcc8a68e963c5,
     type: 2}
   deathSound: {fileID: 8300000, guid: 75e3259c02a42354088a3dd496309b92, type: 3}
   audioSource: {fileID: 82904386315742250}
   gotHitSound: {fileID: 8300000, guid: 774e01f867dd20740a0b39dae0d61a41, type: 3}
-  heartDropChance: 0.25
   heart: {fileID: 1814817271595776, guid: d48c141fe9da9a54eaf81ff118b00eac, type: 2}
 --- !u!114 &114651779886680820
 MonoBehaviour:
