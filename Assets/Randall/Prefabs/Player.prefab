@@ -361,6 +361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   c2D: {fileID: 58969740587865578}
   source: {fileID: 82973087578653082}
+  canTakeDamage: 1
   heartUI: {fileID: 0}
   rb2D: {fileID: 50794636079607576}
   canMove: 1
@@ -368,8 +369,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 1}
   sword: {fileID: 1317514854357356}
   swordSprite: {fileID: 212990375076522756}
-  meleeTime: 0.1
-  swordAttack: 0
+  meleeTime: 0.2
+  swordAttack: 1
   shield: {fileID: 1935238738669314}
   attack: {fileID: 8300000, guid: 98c8773443e223b4a87f6c4112a29c4b, type: 3}
   hurt: {fileID: 8300000, guid: 774e01f867dd20740a0b39dae0d61a41, type: 3}
@@ -377,6 +378,8 @@ MonoBehaviour:
     type: 2}
   anim: {fileID: 95438699399751146}
   sprite: {fileID: 212909283983901864}
+  spriteFlash: {fileID: 2100000, guid: 953bad1e9040d8d47811e86482c9a474, type: 2}
+  spriteFlashTime: 0.1
   uiKey: {fileID: 0}
 --- !u!114 &114606553921303116
 MonoBehaviour:

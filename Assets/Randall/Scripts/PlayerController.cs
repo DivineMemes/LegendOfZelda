@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	private Vector2 lastInput;
 
 	[Header ("Combat")]
+	bool canAttack;
 	public GameObject sword;
 	public SpriteRenderer swordSprite;
 	public float meleeTime;
@@ -55,9 +56,11 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public GameObject boomarangPrefab;
 	Boomarang boomarang;
 
-	[Header ("Animation")]
+	[Header ("Visual")]
 	public Animator anim;
 	public SpriteRenderer sprite;
+	public Material spriteFlash;
+	public float spriteFlashTime = 0.1f;
 
 	public int keys {
 		get { return _keys; }
@@ -67,16 +70,18 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 	}
 
-	[Header ("Inventory")]
 	private int _keys;
+	[Header ("Inventory")]
 	public UIKey uiKey;
 
 	// Use this for initialization
 	void Start () {
 		maxHealth = 3;
+		canAttack = true;
 		health = maxHealth;
 		heartUI.UpdateHealth (health, maxHealth);
 		orientation = Vector2.zero;
+		sprite.material = new Material (spriteFlash);
 
 		if (boomarang == null) {
 			boomarang = Instantiate (boomarangPrefab, transform.position, Quaternion.identity).GetComponent<Boomarang> ();
@@ -89,11 +94,15 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		Movement ();
 
 		if (Randall.PlayerInput.LeftClickDown ()) {
-			Melee ();
+			if (canAttack) {
+				Melee ();
+			}
 		}
 		if (Randall.PlayerInput.RightClickDown ()) {
-			if (!boomarang.gameObject.activeInHierarchy) {
-				boomarang.Throw (transform.position, orientation);
+			if (canAttack) {
+				if (!boomarang.gameObject.activeInHierarchy) {
+					boomarang.Throw (transform.position, orientation);
+				}
 			}
 		}
 		//heartUI.UpdateHealth (health, maxHealth);
@@ -159,6 +168,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		source.clip = attack;
 		source.Play ();
 
+		canAttack = false;
+		canMove = false;
 		sword.transform.localPosition = orientation;
 		//TODO: Set sword orientation
 		float angle = Vector3.Angle (Vector2.up, orientation);
@@ -169,6 +180,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	void EndMelee () {
+		canMove = true;
+		canAttack = true;
 		sword.SetActive (false);
 	}
 
@@ -199,26 +212,34 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public void Damage (float damage) {
 
 		if (canTakeDamage) {
+
 			if (heartUI != null) {
 				heartUI.UpdateHealth (health, maxHealth);
 			} else {
 				Debug.LogError ("WARNING - " + gameObject.name + " DOES NOT HAVE A HEARTUI COMPONENT REFRENCE");
 			}
-
+			sprite.material.SetFloat ("_FlashAmount", 1);
+			Invoke("ResetSprite", spriteFlashTime);
+			canMove = false;
 			health -= damage;
 			source.clip = hurt;
 			source.Play ();
 			if (health <= 0) {
 				Death ();
 			}
-		}
-		else
-		{
-			Debug.Log("Not taking damage");
+		} else {
+			Debug.Log ("Not taking damage");
 		}
 	}
 
+	void ResetSprite () {
+		canMove = true;
+		sprite.material.SetFloat ("_FlashAmount", 0);
+	}
+
 	void Death () {
+
+		//Add death animation and death sound before returnig to the main menu
 		SceneManager.LoadScene (0);
 	}
 }
