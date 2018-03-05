@@ -17,6 +17,9 @@ public class RoomTransition : MonoBehaviour {
 
 	Vector3 newPlayerPosition;
 
+	public AudioSource audioSource;
+	public AudioClip transitionSound;
+
 	private void Start () {
 		//Easy but not optimal, instead have a gameManager that has the refrences to the camer and player
 		mainCamera = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
@@ -26,6 +29,8 @@ public class RoomTransition : MonoBehaviour {
 	private void OnTriggerEnter2D (Collider2D other) {
 
 		if (other.tag == "Player") {
+			audioSource.clip = transitionSound;
+			audioSource.Play();
 			if (player.orientation.x != 0) {
 				newCameraPosition = mainCamera.transform.position + (Vector3) (player.orientation * moveX);
 				newPlayerPosition = player.transform.position + (Vector3) (player.orientation * playerMoveX);

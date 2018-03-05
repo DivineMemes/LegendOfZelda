@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 58693914099335396}
   - component: {fileID: 114415692103960546}
   - component: {fileID: 82234277527726396}
+  - component: {fileID: 95205287223697456}
   m_Layer: 0
   m_Name: Keese
   m_TagString: Keese
@@ -160,6 +161,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95205287223697456
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533062870347276}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e209d03887b7b414ca8c6cf56eb05623, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114415692103960546
 MonoBehaviour:
   m_ObjectHideFlags: 1
