@@ -4023,6 +4023,10 @@ Prefab:
       propertyPath: m_Name
       value: Keese (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1533062870347276, guid: 4f8566099cc9afb419a2e894ec3932e5, type: 2}
+      propertyPath: m_Layer
+      value: 28
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f8566099cc9afb419a2e894ec3932e5, type: 2}
   m_IsPrefabParent: 0
@@ -4068,6 +4072,10 @@ Prefab:
     - target: {fileID: 1752454226623640, guid: da337d6babce0e54b9753b03db0ab7f3, type: 2}
       propertyPath: m_Name
       value: Slime (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1752454226623640, guid: da337d6babce0e54b9753b03db0ab7f3, type: 2}
+      propertyPath: m_Layer
+      value: 28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da337d6babce0e54b9753b03db0ab7f3, type: 2}
@@ -4315,6 +4323,10 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 2064185340}
+    - target: {fileID: 1465589483585394, guid: 7aa6ca964dcd8144ca3663977baf6613, type: 2}
+      propertyPath: m_Layer
+      value: 28
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7aa6ca964dcd8144ca3663977baf6613, type: 2}
   m_IsPrefabParent: 0
@@ -6469,6 +6481,10 @@ Prefab:
     - target: {fileID: 4485433075889652, guid: 285b337c182ce8840bc5c6096b80b3dc, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162810686694714, guid: 285b337c182ce8840bc5c6096b80b3dc, type: 2}
+      propertyPath: m_Layer
+      value: 28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 285b337c182ce8840bc5c6096b80b3dc, type: 2}

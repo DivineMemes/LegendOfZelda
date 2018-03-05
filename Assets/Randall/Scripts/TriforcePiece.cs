@@ -13,6 +13,7 @@ public class TriforcePiece : MonoBehaviour {
 		{
 			player = other.transform.parent.GetComponent<PlayerController>();
 			player.canMove = false;
+			player.canAttack = false;
 			audioSource.clip = pickupSound;
 			audioSource.Play();
 			levelMusic.Stop();
