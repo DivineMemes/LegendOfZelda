@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour, IDamageable {
 
     [Header("Visual")]
     public Material spriteFlash;
-    public float flashTime = 0.1f;
+    public float flashTime = 0.25f;
     SpriteRenderer sprite;
 
     [Header("Audio")]
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour, IDamageable {
     public AudioClip gotHitSound;
 
     [Header("Items")]
-    public float heartDropChance = 0.25f;
+    float heartDropChance = 0.05f;
     public GameObject heart;
 
     private void Start() {
@@ -59,7 +59,7 @@ public class Enemy : MonoBehaviour, IDamageable {
 
     void Death () {
         isDead = true;
-        if (heartDropChance < Random.Range (0f, 1f)) {
+        if (heartDropChance > Random.Range (0f, 1f)) {
             Instantiate (heart, transform.position, Quaternion.identity);
         }
         Instantiate(soundPrefab,transform.position,Quaternion.identity)
