@@ -2646,6 +2646,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4239603724388482, guid: 16c744186a0e9ae4285ebbfd26f3a852,
     type: 2}
   m_PrefabInternal: {fileID: 216177071}
+--- !u!114 &234340286 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114415692103960546, guid: 4f8566099cc9afb419a2e894ec3932e5,
+    type: 2}
+  m_PrefabInternal: {fileID: 892428701}
+  m_Script: {fileID: 11500000, guid: 85b5647b4783bad46b2c4fd846b74bcd, type: 3}
 --- !u!1001 &265813110
 Prefab:
   m_ObjectHideFlags: 0
@@ -3035,6 +3041,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 0}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!4 &344471259
 Transform:
   m_ObjectHideFlags: 0
@@ -4822,6 +4829,10 @@ Prefab:
     - target: {fileID: 1694696968075554, guid: 5cfb872d5dbbed349aacf9ccf597158d, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662848111199576, guid: 5cfb872d5dbbed349aacf9ccf597158d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cfb872d5dbbed349aacf9ccf597158d, type: 2}
@@ -11208,6 +11219,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 213817810}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!4 &773605552
 Transform:
   m_ObjectHideFlags: 0
@@ -12364,6 +12376,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 1884432709}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!1001 &886203049
 Prefab:
   m_ObjectHideFlags: 0
@@ -14083,6 +14096,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 0}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!4 &1021005133
 Transform:
   m_ObjectHideFlags: 0
@@ -14313,6 +14327,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 0}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!4 &1075696763
 Transform:
   m_ObjectHideFlags: 0
@@ -18148,6 +18163,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 0}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!4 &1215339902
 Transform:
   m_ObjectHideFlags: 0
@@ -22056,6 +22072,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 0}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!4 &1486706144
 Transform:
   m_ObjectHideFlags: 0
@@ -22655,7 +22672,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4302168895240312, guid: 5cfb872d5dbbed349aacf9ccf597158d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 3.01
       objectReference: {fileID: 0}
     - target: {fileID: 4302168895240312, guid: 5cfb872d5dbbed349aacf9ccf597158d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -24970,6 +24987,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 2062040051}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!61 &1697846058
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25151,6 +25169,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 2056538804}
   itemplace: 0
+  enmey: {fileID: 234340286}
 --- !u!61 &1722667732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27065,6 +27084,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 0}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!4 &1905074856
 Transform:
   m_ObjectHideFlags: 0
@@ -28873,6 +28893,7 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 2087037387}
   itemplace: 0
+  enmey: {fileID: 0}
 --- !u!61 &2048570516
 BoxCollider2D:
   m_ObjectHideFlags: 0
