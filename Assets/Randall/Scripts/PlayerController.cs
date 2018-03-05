@@ -40,17 +40,21 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public bool canMove;
 	public float speed;
 	public Vector2 orientation;
-	private Vector2 lastInput;
+
+	bool isGoingVertical = true;
+	bool isGoingHorz = false;
 
 	[Header ("Combat")]
-	bool canAttack;
 	public GameObject sword;
 	public SpriteRenderer swordSprite;
 	public float meleeTime;
 	public float swordAttack;
 	public GameObject shield;
+
+	[Header("Audio")]
 	public AudioClip attack;
 	public AudioClip hurt;
+	bool canAttack;
 
 	[Header ("Boomarang")]
 	public GameObject boomarangPrefab;
@@ -119,8 +123,18 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	Vector2 DirectionalInput (Vector2 dir) {
-		bool isGoingUp = true;
-		if (isGoingUp) {
+
+		if (dir.x == 0 && dir.y != 0) {
+			isGoingVertical = true;
+			isGoingHorz = false;
+		}
+
+		if (dir.y == 0 && dir.x != 0) {
+			isGoingHorz = true;
+			isGoingVertical = false;
+		}
+
+		if (isGoingVertical) {
 			//Going up/down and then press left or right
 			if (dir.x != 0) {
 				dir.y = 0;
@@ -128,7 +142,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			if (dir.y != 0) {
 				dir.x = 0;
 			}
-		} else {
+		} else if (isGoingHorz) {
 			//Going left/right and then press right or left
 			if (dir.y != 0) {
 				dir.x = 0;
@@ -219,7 +233,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 				Debug.LogError ("WARNING - " + gameObject.name + " DOES NOT HAVE A HEARTUI COMPONENT REFRENCE");
 			}
 			sprite.material.SetFloat ("_FlashAmount", 1);
-			Invoke("ResetSprite", spriteFlashTime);
+			Invoke ("ResetSprite", spriteFlashTime);
 			canMove = false;
 			health -= damage;
 			source.clip = hurt;
