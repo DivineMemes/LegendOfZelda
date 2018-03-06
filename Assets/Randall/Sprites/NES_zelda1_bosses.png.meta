@@ -1,9 +1,67 @@
 fileFormatVersion: 2
 guid: 410b91d073b34344da7fbffd9362c50b
-timeCreated: 1519757552
+timeCreated: 1520355406
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: NES_zelda1_bosses_0
+    21300002: NES_zelda1_bosses_1
+    21300004: NES_zelda1_bosses_2
+    21300006: NES_zelda1_bosses_3
+    21300008: NES_zelda1_bosses_4
+    21300010: NES_zelda1_bosses_5
+    21300012: NES_zelda1_bosses_6
+    21300014: NES_zelda1_bosses_7
+    21300016: NES_zelda1_bosses_8
+    21300018: NES_zelda1_bosses_9
+    21300020: NES_zelda1_bosses_10
+    21300022: NES_zelda1_bosses_11
+    21300024: NES_zelda1_bosses_12
+    21300026: NES_zelda1_bosses_13
+    21300028: NES_zelda1_bosses_14
+    21300030: NES_zelda1_bosses_15
+    21300032: NES_zelda1_bosses_16
+    21300034: NES_zelda1_bosses_17
+    21300036: NES_zelda1_bosses_18
+    21300038: NES_zelda1_bosses_19
+    21300040: NES_zelda1_bosses_20
+    21300042: NES_zelda1_bosses_21
+    21300044: NES_zelda1_bosses_22
+    21300046: NES_zelda1_bosses_23
+    21300048: NES_zelda1_bosses_24
+    21300050: NES_zelda1_bosses_25
+    21300052: NES_zelda1_bosses_26
+    21300054: NES_zelda1_bosses_27
+    21300056: NES_zelda1_bosses_28
+    21300058: NES_zelda1_bosses_29
+    21300060: NES_zelda1_bosses_30
+    21300062: NES_zelda1_bosses_31
+    21300064: NES_zelda1_bosses_32
+    21300066: NES_zelda1_bosses_33
+    21300068: NES_zelda1_bosses_34
+    21300070: NES_zelda1_bosses_35
+    21300072: NES_zelda1_bosses_36
+    21300074: NES_zelda1_bosses_37
+    21300076: NES_zelda1_bosses_38
+    21300078: NES_zelda1_bosses_39
+    21300080: NES_zelda1_bosses_40
+    21300082: NES_zelda1_bosses_41
+    21300084: NES_zelda1_bosses_42
+    21300086: NES_zelda1_bosses_43
+    21300088: NES_zelda1_bosses_44
+    21300090: NES_zelda1_bosses_45
+    21300092: NES_zelda1_bosses_46
+    21300094: NES_zelda1_bosses_47
+    21300096: NES_zelda1_bosses_48
+    21300098: NES_zelda1_bosses_49
+    21300100: NES_zelda1_bosses_50
+    21300102: NES_zelda1_bosses_51
+    21300104: NES_zelda1_bosses_52
+    21300106: NES_zelda1_bosses_53
+    21300108: NES_zelda1_bosses_54
+    21300110: NES_zelda1_bosses_55
+    21300112: NES_zelda1_bosses_56
+    21300114: NES_zelda1_bosses_57
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -78,7 +136,819 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 301
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 301
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 301
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 283
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 283
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 283
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 283
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 283
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 283
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 233
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 235
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 193
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 193
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 193
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 193
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_21
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 193
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_23
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 159
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 159
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 159
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_26
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_27
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 141
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 141
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 141
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 123
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_33
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 123
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_34
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 123
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_35
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 123
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 105
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 105
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_39
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 105
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 87
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 87
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_42
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 87
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_43
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 87
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_45
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_47
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_48
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_49
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_52
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_53
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_54
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_55
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_bosses_57
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
