@@ -47,6 +47,7 @@ public class RoomTransition : MonoBehaviour {
 
 	IEnumerator CameraMove () {
 		player.canMove = false;
+		player.canAttack = false;
 		Debug.Log ("Transitioning");
 		while (!Randall.Utilities.CheckIfDoneMoving (mainCamera.transform.position, newCameraPosition, snapDistance)) {
 			mainCamera.transform.position += (newCameraPosition - mainCamera.transform.position).normalized * cameraMoveSpeed * Time.deltaTime;
@@ -71,5 +72,6 @@ public class RoomTransition : MonoBehaviour {
 		}
 
 		player.canMove = true;
+		player.canAttack = true;
 	}
 }

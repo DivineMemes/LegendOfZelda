@@ -380,6 +380,8 @@ MonoBehaviour:
   sprite: {fileID: 212909283983901864}
   spriteFlash: {fileID: 2100000, guid: 953bad1e9040d8d47811e86482c9a474, type: 2}
   spriteFlashTime: 0.1
+  deathPrefab: {fileID: 1297576133585240, guid: dae9af93fc60ffd4f90fcc8a68e963c5,
+    type: 2}
   uiKey: {fileID: 0}
 --- !u!114 &114606553921303116
 MonoBehaviour:
