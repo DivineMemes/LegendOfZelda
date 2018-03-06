@@ -57,9 +57,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public AudioClip hurt;
 	
 
-	[Header ("Boomarang")]
+	[Header ("Items")]
 	public GameObject boomarangPrefab;
 	Boomarang boomarang;
+	public GameObject bombPrefab;
 
 	[Header ("Visual")]
 	public Animator anim;

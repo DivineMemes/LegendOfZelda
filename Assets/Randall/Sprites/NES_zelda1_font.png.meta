@@ -1,9 +1,54 @@
 fileFormatVersion: 2
 guid: ff5d230e28b1fa945b9c1f7d25028767
-timeCreated: 1520288865
+timeCreated: 1520357465
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: NES_zelda1_font_0
+    21300002: NES_zelda1_font_1
+    21300004: NES_zelda1_font_2
+    21300006: NES_zelda1_font_3
+    21300008: NES_zelda1_font_4
+    21300010: NES_zelda1_font_5
+    21300012: NES_zelda1_font_6
+    21300014: NES_zelda1_font_7
+    21300016: NES_zelda1_font_8
+    21300018: NES_zelda1_font_9
+    21300020: NES_zelda1_font_10
+    21300022: NES_zelda1_font_11
+    21300024: NES_zelda1_font_12
+    21300026: NES_zelda1_font_13
+    21300028: NES_zelda1_font_14
+    21300030: NES_zelda1_font_15
+    21300032: NES_zelda1_font_16
+    21300034: NES_zelda1_font_17
+    21300036: NES_zelda1_font_18
+    21300038: NES_zelda1_font_19
+    21300040: NES_zelda1_font_20
+    21300042: NES_zelda1_font_21
+    21300044: NES_zelda1_font_22
+    21300046: NES_zelda1_font_23
+    21300048: NES_zelda1_font_24
+    21300050: NES_zelda1_font_25
+    21300052: NES_zelda1_font_26
+    21300054: NES_zelda1_font_27
+    21300056: NES_zelda1_font_28
+    21300058: NES_zelda1_font_29
+    21300060: NES_zelda1_font_30
+    21300062: NES_zelda1_font_31
+    21300064: NES_zelda1_font_32
+    21300066: NES_zelda1_font_33
+    21300068: NES_zelda1_font_34
+    21300070: NES_zelda1_font_35
+    21300072: NES_zelda1_font_36
+    21300074: NES_zelda1_font_37
+    21300076: NES_zelda1_font_38
+    21300078: NES_zelda1_font_39
+    21300080: NES_zelda1_font_40
+    21300082: NES_zelda1_font_41
+    21300084: NES_zelda1_font_42
+    21300086: NES_zelda1_font_43
+    21300088: NES_zelda1_font_44
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,13 +85,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -57,10 +102,20 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -68,7 +123,637 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES_zelda1_font_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 36.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 27.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_27
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 18.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_36
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_38
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_40
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_41
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9.8
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.8000002
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES_zelda1_font_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0.8000002
+        width: 9
+        height: 9.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
