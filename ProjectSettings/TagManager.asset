@@ -12,6 +12,8 @@ TagManager:
   - WallMaster
   - Walls
   - SpikeTrap
+  - Boss
+  - Bullet
   layers:
   - Default
   - TransparentFX
