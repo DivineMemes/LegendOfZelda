@@ -7,10 +7,13 @@ public class room_manager : MonoBehaviour {
     public bool atvet = false;
     public GameObject item;
     public bool itemplace = false;
+    public AudioClip sound;
+    public AudioSource source;
     // Use this for initialization
     void Start()
     {
-        if(item != null)
+        source.clip = sound;
+        if (item != null)
         {
             item.SetActive(false);
         }
@@ -43,7 +46,9 @@ public class room_manager : MonoBehaviour {
             {
                 item.SetActive(true);
                 itemplace = true;
+                source.Play();
             }
+           
         }
 	}
     void OnTriggerEnter2D(Collider2D hit)
