@@ -14,6 +14,7 @@ TagManager:
   - SpikeTrap
   - Boss
   - Bullet
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -43,8 +44,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Enemies
+  - Items
   - Flying
   - Player
   m_SortingLayers:

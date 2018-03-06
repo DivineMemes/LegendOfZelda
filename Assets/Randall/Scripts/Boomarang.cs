@@ -72,12 +72,13 @@ public class Boomarang : MonoBehaviour {
 		if (_isEnemy) {
 			if (other.tag != "Enemy" && other.name != "Sword") {
 				//Debug.Log ("Collided with " + other.name);
-				//isReturning = true;
+				isReturning = true;
 
 				if (other.tag == "Player") {
 					IDamageable damageable = other.transform.parent.GetComponent<IDamageable> ();
 					if (damageable != null) {
 						damageable.Damage (_damage);
+						isReturning = false;
 					}
 				}
 			}
