@@ -9,6 +9,7 @@ TagManager:
   - door
   - Stalfos
   - Boomerang
+  - Music
   layers:
   - Default
   - TransparentFX

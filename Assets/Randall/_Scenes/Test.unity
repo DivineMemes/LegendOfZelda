@@ -727,6 +727,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1988132425853800, guid: 6a2080dea0a09944883d92d8c52d0b42, type: 2}
+      propertyPath: m_TagString
+      value: Music
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a2080dea0a09944883d92d8c52d0b42, type: 2}
   m_IsPrefabParent: 0
@@ -911,7 +915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1002362845
 Transform:
   m_ObjectHideFlags: 0

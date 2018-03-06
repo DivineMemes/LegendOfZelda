@@ -12,6 +12,8 @@ public class UIInventory : MonoBehaviour {
 	public AudioClip alreadySelected;
 	int lastChanged = 0;
 
+	public GameObject deathScreen;
+
 	public void Replace (int iventorySlot) {
 		if (lastChanged == iventorySlot) {
 			audioSource.clip = alreadySelected;

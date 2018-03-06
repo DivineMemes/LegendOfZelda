@@ -87,6 +87,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	private int _keys;
+	bool isDead;
 
 	// Use this for initialization
 	void Start () {
@@ -106,6 +107,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Update is called once per frame
 	void Update () {
+		if(isDead)
+		{
+			return;
+		}
 		Movement ();
 		Inventory ();
 
@@ -303,6 +308,9 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			source.clip = hurt;
 			source.Play ();
 			if (health <= 0) {
+				GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>().Stop();
+				inventoryUI.deathScreen.SetActive(true);
+				isDead = true;
 				canMove = false;
 				shield.SetActive (false);
 				Instantiate (deathPrefab, transform.position, Quaternion.identity);
