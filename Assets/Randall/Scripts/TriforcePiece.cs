@@ -12,6 +12,8 @@ public class TriforcePiece : MonoBehaviour {
 		if(other.tag == "Player")
 		{
 			player = other.transform.parent.GetComponent<PlayerController>();
+			player.anim.SetBool("IsHolding", true);
+			player.anim.Play("Link_Hold");
 			player.canMove = false;
 			player.canAttack = false;
 			audioSource.clip = pickupSound;
