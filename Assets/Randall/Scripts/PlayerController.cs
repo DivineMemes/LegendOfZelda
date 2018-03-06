@@ -146,19 +146,32 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		if (canAttack) {
 			if (Input.GetKeyDown (KeyCode.Alpha1)) {
 				equippedItem = Items.Boomarang;
+				inventoryUI.Replace ((int) equippedItem);
 			}
 			if (Input.GetKeyDown (KeyCode.Alpha2)) {
 				equippedItem = Items.Bomb;
+				inventoryUI.Replace ((int) equippedItem);
 			}
 			if (Input.GetKeyDown (KeyCode.Alpha3)) {
 				equippedItem = Items.Shield;
+				inventoryUI.Replace ((int) equippedItem);
 			}
-			inventoryUI.Replace ((int) equippedItem);
+
 		}
 	}
 
 	void Movement () {
-		if (!canMove) { rb2D.velocity = Vector2.zero; anim.speed = 0; UpdateVisual (); return; }
+		if (!canMove) {
+			rb2D.velocity = Vector2.zero;
+			if (anim.GetBool ("IsHolding")) {
+				anim.speed = 1;
+			} else {
+				anim.speed = 0;
+			}
+
+			UpdateVisual ();
+			return;
+		}
 
 		//TODO: Constrict movement to 4 directions?
 		Vector2 input = DirectionalInput (Randall.PlayerInput.GetMovement ());

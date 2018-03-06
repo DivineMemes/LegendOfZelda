@@ -31,15 +31,15 @@ public class Bomb : MonoBehaviour {
 	}
 
 	IEnumerator Flash () {
-		Debug.Log("Starting to flash");
+		//Debug.Log("Starting to flash");
 		isFlashing = true;
 		while (isFlashing) {
-			Debug.Log("Flashing");
+			//Debug.Log("Flashing");
 			if (isFlash) {
 				sprite.material.SetFloat ("_FlashAmount", 0);
 				isFlash = false;
 			} else {
-				Debug.Log("Flash");
+				//Debug.Log("Flash");
 				sprite.material.SetFloat ("_FlashAmount", 1);
 				isFlash = true;
 			}
@@ -49,7 +49,7 @@ public class Bomb : MonoBehaviour {
 	}
 
 	public void Explode () {
-		Debug.Log("KABOOM");
+		//Debug.Log("KABOOM");
 		isFlashing = false;
 		sprite.material.SetFloat ("_FlashAmount", 0);
 		transform.localScale = new Vector2 (radiusOfEffect, radiusOfEffect);
