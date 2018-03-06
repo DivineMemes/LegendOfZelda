@@ -455,6 +455,11 @@ Prefab:
       propertyPath: m_Name
       value: level manger (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 114613120779719314, guid: c368b40ba58df9046bb04e06f532806c,
+        type: 2}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 565295344}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c368b40ba58df9046bb04e06f532806c, type: 2}
   m_IsPrefabParent: 0
@@ -3364,6 +3369,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c368b40ba58df9046bb04e06f532806c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &565295344 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1524651309136952, guid: 3f8697d5dc8d53d42a52d66051986728,
+    type: 2}
+  m_PrefabInternal: {fileID: 991351008}
 --- !u!1001 &590148907
 Prefab:
   m_ObjectHideFlags: 0
@@ -4721,6 +4731,11 @@ Prefab:
       propertyPath: m_Name
       value: level manger (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 114613120779719314, guid: c368b40ba58df9046bb04e06f532806c,
+        type: 2}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 1329327067}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c368b40ba58df9046bb04e06f532806c, type: 2}
   m_IsPrefabParent: 0
@@ -5815,6 +5830,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114885811418195296, guid: c6cd9c2795f660a4b98c434f7cbafc5d,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 283897518}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
   m_IsPrefabParent: 0
@@ -7017,6 +7037,11 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+--- !u!1 &1329327067 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1332557252933804, guid: b402a40a2e0028944a378d29e4c25781,
+    type: 2}
+  m_PrefabInternal: {fileID: 1028355201}
 --- !u!1001 &1362920122
 Prefab:
   m_ObjectHideFlags: 0
@@ -8867,6 +8892,11 @@ Prefab:
       propertyPath: m_Name
       value: WallMaster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114885811418195296, guid: c6cd9c2795f660a4b98c434f7cbafc5d,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 283897518}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
   m_IsPrefabParent: 0
