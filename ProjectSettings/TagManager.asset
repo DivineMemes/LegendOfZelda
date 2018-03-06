@@ -9,6 +9,11 @@ TagManager:
   - door
   - Stalfos
   - Boomerang
+  - WallMaster
+  - Walls
+  - SpikeTrap
+  - Boss
+  - Bullet
   - Music
   layers:
   - Default

@@ -6,6 +6,8 @@ public class SpikeTrap : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    public float Dammage;
+
     public float speed;
     public float returnDist;
 
@@ -27,66 +29,91 @@ public class SpikeTrap : MonoBehaviour
     void Update ()
     {
         PlayerPos = Player.transform.position;
-        ///(uncomment this for the spiketrap to constantly change its racast position)myPos = transform.position;
+        ///*(uncomment this for the spiketrap to constantly change its racast position)*/myPos = transform.position;
         if (AttackReady)
         {
             Rush();
         }
-        /*else if(ReturnToPoint)
+        else if(ReturnToPoint)
         {
             ReturnToOrigin();
-        }*/
+        }
 	}
     public void Rush()
     {
-        RaycastHit2D rchD = Physics2D.Raycast(myPos, Vector2.down,20);
-        //Debug.DrawLine(myPos, (Vector2.down * 20) + myPos, Color.blue);
-
-        RaycastHit2D rchU = Physics2D.Raycast(myPos, Vector2.up,20);
-        //Debug.DrawLine(myPos, (Vector2.up * 20) + myPos, Color.blue);
-
-        RaycastHit2D rchL = Physics2D.Raycast(myPos, Vector2.left,20);
-        //Debug.DrawLine(myPos, (Vector2.left * 20) + myPos, Color.blue);
-
-        RaycastHit2D rchR = Physics2D.Raycast(myPos, Vector2.right,20);
-        //Debug.DrawLine(myPos, (Vector2.right * 20) + myPos, Color.blue);
-
-        if (rchD.collider.tag == "Player" || rchU.collider.tag == "Player" || rchL.collider.tag == "Player" || rchR.collider.tag == "Player")
+        RaycastHit2D[] ArrayOfDirs = new RaycastHit2D[4];
+        Vector3 startDir = Vector3.up;
+        for (int i = 0; i < 4; i++)
         {
-            Debug.Log("works");
+            //ShootRaycast
+            ArrayOfDirs[i] = Physics2D.Raycast(myPos, startDir, 20);
 
-            Vector2 dir = PlayerPos - myPos;
-            //determines the direction in which the player approaches the enemy in
+            startDir = Quaternion.AngleAxis(90, Vector3.forward) * startDir;
+        }
+        for (int i = 0; i < 4; i++)
+        {
+            if (ArrayOfDirs[i].collider == null) continue;
 
-            Vector2 absDir = dir;
-            absDir.x = Mathf.Abs(dir.x);
-            absDir.y = Mathf.Abs(dir.y);
 
-            if (absDir.x > absDir.y)
-            //checks that the direction in the x axis is of a higher priority than the y axis
+            if (ArrayOfDirs[i].collider.tag == "Player")
             {
-                Vector2 throwDir = new Vector2(dir.x, 0);
-                rb.AddForce(throwDir * speed, ForceMode2D.Impulse);
-                //ReturnToPoint = true;
-                //AttackReady = false;
-            }
-            else
-            //x loses
-            {
-                Vector2 throwDir = new Vector2(0, dir.y);
-                rb.AddForce(throwDir * speed, ForceMode2D.Impulse);
-                //ReturnToPoint = true;
-                //AttackReady = false;
+                Vector2 dir = PlayerPos - myPos;
+                //determines the direction in which the player approaches the enemy in
+
+                Vector2 absDir = dir;
+                absDir.x = Mathf.Abs(dir.x);
+                absDir.y = Mathf.Abs(dir.y);
+
+                if (absDir.x > absDir.y)
+                //checks that the direction in the x axis is of a higher priority than the y axis
+                {
+                    Vector2 throwDir = new Vector2(dir.x, 0);
+                    rb.AddForce(throwDir * speed, ForceMode2D.Impulse);
+                    //ReturnToPoint = true;
+                    //AttackReady = false;
+                }
+                else
+                //x loses
+                {
+                    Vector2 throwDir = new Vector2(0, dir.y);
+                    rb.AddForce(throwDir * speed, ForceMode2D.Impulse);
+                    //ReturnToPoint = true;
+                    //AttackReady = false;
+                }
             }
         }
     }
+
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.tag == ("Player"))
+            {
+                IDamageable damage = other.collider.transform.parent
+                    .GetComponent<IDamageable>();
+                if (damage != null)
+                {
+                     damage.Damage(Dammage);
+                }
+            }
+        
+    if(other.collider.tag == "Player" || other.collider.tag == "Walls")
+        {
+            AttackReady = false;
+            ReturnToPoint = true;
+        }
+    }
+
     public void ReturnToOrigin()
     {
-        float dist = Vector2.Distance(myPos, OriginPoint);
+        float dist = Vector2.Distance(transform.position, OriginPoint);
         //gameObject.transform.position += dist;
+        Vector3 dir = OriginPoint - (Vector2)transform.position;
+        transform.position = Vector3.Lerp(transform.position, OriginPoint, Time.deltaTime);
         if (dist < returnDist)
         {
             AttackReady = true;
+            ReturnToPoint = false;
         }
     }
 }
