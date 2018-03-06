@@ -33,7 +33,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 	public bool canTakeDamage = true;
 
+	[Header ("UI")]
 	public UIHearts heartUI;
+	public UIInventory inventoryUI;
+	public UIKey uiKey;
 
 	[Header ("Movement")]
 	public Rigidbody2D rb2D;
@@ -52,15 +55,21 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public GameObject shield;
 	public bool canAttack;
 
-	[Header("Audio")]
+	[Header ("Audio")]
 	public AudioClip attack;
 	public AudioClip hurt;
-	
 
 	[Header ("Items")]
 	public GameObject boomarangPrefab;
 	Boomarang boomarang;
 	public GameObject bombPrefab;
+
+	public enum Items {
+		Boomarang,
+		Bomb,
+		Shield
+	}
+	Items equippedItem = Items.Bomb;
 
 	[Header ("Visual")]
 	public Animator anim;
@@ -78,8 +87,6 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	}
 
 	private int _keys;
-	[Header ("Inventory")]
-	public UIKey uiKey;
 
 	// Use this for initialization
 	void Start () {
@@ -94,27 +101,60 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			boomarang = Instantiate (boomarangPrefab, transform.position, Quaternion.identity).GetComponent<Boomarang> ();
 			boomarang.Setup (transform, 1, false);
 		}
+		inventoryUI.Replace ((int) equippedItem);
 	}
 
 	// Update is called once per frame
 	void Update () {
 		Movement ();
+		Inventory ();
 
+		if (equippedItem == Items.Shield) {
+			Shield ();
+		}
 		if (Randall.PlayerInput.LeftClickDown ()) {
 			if (canAttack) {
 				Melee ();
 			}
 		}
 		if (Randall.PlayerInput.RightClickDown ()) {
-			if (canAttack) {
-				if (!boomarang.gameObject.activeInHierarchy) {
-					boomarang.Throw (transform.position, orientation);
+			{
+				if (canAttack) {
+					switch (equippedItem) {
+						case Items.Bomb:
+							PlaceBomb ();
+							break;
+						case Items.Boomarang:
+							if (!boomarang.gameObject.activeInHierarchy) {
+								boomarang.Throw (transform.position, orientation);
+							}
+							break;
+						default:
+							break;
+					}
 				}
 			}
 		}
+
 		//heartUI.UpdateHealth (health, maxHealth);
 		//Shield ();
 
+	}
+
+	void Inventory () {
+
+		if (canAttack) {
+			if (Input.GetKeyDown (KeyCode.Alpha1)) {
+				equippedItem = Items.Boomarang;
+			}
+			if (Input.GetKeyDown (KeyCode.Alpha2)) {
+				equippedItem = Items.Bomb;
+			}
+			if (Input.GetKeyDown (KeyCode.Alpha3)) {
+				equippedItem = Items.Shield;
+			}
+			inventoryUI.Replace ((int) equippedItem);
+		}
 	}
 
 	void Movement () {
@@ -204,26 +244,34 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	//TODO: Fix this 
 	void Shield () {
-		throw new System.NotImplementedException ();
+		//throw new System.NotImplementedException ();
 		if (Randall.PlayerInput.RightClickDown ()) {
-			Debug.Log ("Shield up");
-			shield.transform.localPosition = orientation;
-			shield.transform.eulerAngles =
-				new Vector3 (0, 0, Vector2.Angle (orientation, transform.eulerAngles));
+			canAttack = false;
+			//Debug.Log ("Shield up");
+			shield.transform.localPosition = orientation / 2;
+			shield.transform.eulerAngles = new Vector3 (0, 0, Vector2.Angle (orientation, -transform.up));
 			shield.SetActive (true);
 		}
 
 		if (Randall.PlayerInput.RightClick ()) {
-			Debug.Log ("Shield hold");
-			shield.transform.localPosition = orientation;
-			shield.transform.eulerAngles =
-				new Vector3 (0, 0, Vector2.Angle (orientation, transform.up));
+			//Debug.Log ("Shield hold");
+			shield.transform.localPosition = orientation / 2;
+			if (orientation.x == 0) {
+				shield.transform.eulerAngles = new Vector3 (0, 0, Vector2.Angle (orientation, -transform.up));
+			} else {
+				shield.transform.eulerAngles = new Vector3 (0, 0, Vector2.Angle (orientation, orientation.x > 0 ? transform.right : -transform.right));
+			}
 		}
 
 		if (Randall.PlayerInput.RightClickUp ()) {
-			Debug.Log ("Shield down");
+			canAttack = true;
+			//Debug.Log ("Shield down");
 			shield.SetActive (false);
 		}
+	}
+
+	void PlaceBomb () {
+		Instantiate (bombPrefab, transform.position + (Vector3) orientation, Quaternion.identity).GetComponent<Bomb> ().Light ();
 	}
 
 	public void Damage (float damage) {
@@ -242,12 +290,13 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			source.clip = hurt;
 			source.Play ();
 			if (health <= 0) {
-				Instantiate(deathPrefab,transform.position,Quaternion.identity);
-				Invoke("Death", 2f);
-				Destroy(c2D);
-				Destroy(anim);
-				Destroy(sprite);
 				canMove = false;
+				shield.SetActive (false);
+				Instantiate (deathPrefab, transform.position, Quaternion.identity);
+				Invoke ("Death", 2f);
+				Destroy (c2D);
+				Destroy (anim);
+				Destroy (sprite);
 			}
 		} else {
 			Debug.Log ("Not taking damage");
