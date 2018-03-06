@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 58736716649341858}
   - component: {fileID: 50545864271213376}
   - component: {fileID: 114012825136679486}
-  - component: {fileID: 114138179506810994}
   m_Layer: 0
   m_Name: FireBall
   m_TagString: Bullet
@@ -90,23 +89,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5b79b50a987ae4c9aa6f585f1a0168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114138179506810994
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1817504242609768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85b5647b4783bad46b2c4fd846b74bcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 30
   Dammage: 0.5
-  audioSource: {fileID: 0}
-  gotHitSound: {fileID: 8300000, guid: 75e3259c02a42354088a3dd496309b92, type: 3}
-  heartDropChance: 0.25
-  heart: {fileID: 1814817271595776, guid: d48c141fe9da9a54eaf81ff118b00eac, type: 2}
+  kill: 2
 --- !u!212 &212196224630955492
 SpriteRenderer:
   m_ObjectHideFlags: 1

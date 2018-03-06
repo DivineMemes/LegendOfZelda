@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50126358245707738}
   - component: {fileID: 114644843248309412}
   - component: {fileID: 114815613369439012}
+  - component: {fileID: 82220951242384284}
   m_Layer: 0
   m_Name: Aquamentus
   m_TagString: Boss
@@ -89,6 +90,86 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 2}
   m_EdgeRadius: 0
+--- !u!82 &82220951242384284
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146595165160852}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114644843248309412
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -100,11 +181,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b5647b4783bad46b2c4fd846b74bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxHealth: 5
   Health: 5
   Dammage: 1
-  audioSource: {fileID: 0}
-  gotHitSound: {fileID: 8300000, guid: 75e3259c02a42354088a3dd496309b92, type: 3}
-  heartDropChance: 0.25
+  isDead: 0
+  spriteFlash: {fileID: 2100000, guid: 953bad1e9040d8d47811e86482c9a474, type: 2}
+  flashTime: 0.25
+  soundPrefab: {fileID: 1051443625592160, guid: e10debdf0c047c24a9fc6586877dffff,
+    type: 2}
+  deathSound: {fileID: 8300000, guid: 75e3259c02a42354088a3dd496309b92, type: 3}
+  audioSource: {fileID: 82220951242384284}
+  gotHitSound: {fileID: 8300000, guid: 774e01f867dd20740a0b39dae0d61a41, type: 3}
   heart: {fileID: 1814817271595776, guid: d48c141fe9da9a54eaf81ff118b00eac, type: 2}
 --- !u!114 &114815613369439012
 MonoBehaviour:

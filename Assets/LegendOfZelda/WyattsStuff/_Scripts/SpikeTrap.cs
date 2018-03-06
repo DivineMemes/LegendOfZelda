@@ -6,6 +6,8 @@ public class SpikeTrap : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    public float Dammage;
+
     public float speed;
     public float returnDist;
 
@@ -85,7 +87,17 @@ public class SpikeTrap : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.collider.tag == "Player" || other.collider.tag == "Walls")
+        if (other.collider.tag == ("Player"))
+            {
+                IDamageable damage = other.collider.transform.parent
+                    .GetComponent<IDamageable>();
+                if (damage != null)
+                {
+                     damage.Damage(Dammage);
+                }
+            }
+        
+    if(other.collider.tag == "Player" || other.collider.tag == "Walls")
         {
             AttackReady = false;
             ReturnToPoint = true;
