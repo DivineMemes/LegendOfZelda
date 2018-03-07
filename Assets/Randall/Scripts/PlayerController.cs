@@ -149,17 +149,27 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	void Inventory () {
 
 		if (canAttack) {
-			if (Input.GetKeyDown (KeyCode.Alpha1)) {
+			if (Input.GetKeyDown (KeyCode.A)) {
 				equippedItem = Items.Boomarang;
 				inventoryUI.Replace ((int) equippedItem);
 			}
-			if (Input.GetKeyDown (KeyCode.Alpha2)) {
+			if (Input.GetKeyDown (KeyCode.S)) {
 				equippedItem = Items.Bomb;
 				inventoryUI.Replace ((int) equippedItem);
 			}
-			if (Input.GetKeyDown (KeyCode.Alpha3)) {
+			if (Input.GetKeyDown (KeyCode.D)) {
 				equippedItem = Items.Shield;
 				inventoryUI.Replace ((int) equippedItem);
+			}
+			if (Input.GetKeyDown(KeyCode.C))
+			{
+				equippedItem++;
+				if((int)equippedItem > 2)
+				{
+					equippedItem = 0;
+				}
+				inventoryUI.Replace((int)equippedItem);
+				
 			}
 
 		}
