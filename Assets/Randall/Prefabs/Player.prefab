@@ -375,6 +375,7 @@ MonoBehaviour:
   swordAttack: 1
   shield: {fileID: 1935238738669314}
   canAttack: 0
+  canBlock: 0
   attack: {fileID: 8300000, guid: 98c8773443e223b4a87f6c4112a29c4b, type: 3}
   hurt: {fileID: 8300000, guid: 774e01f867dd20740a0b39dae0d61a41, type: 3}
   boomarangPrefab: {fileID: 1679392438667040, guid: 05c789efb1416084784cd98c4c9f0905,
