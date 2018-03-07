@@ -17,6 +17,9 @@ public class RoomTransition : MonoBehaviour {
 
 	Vector3 newPlayerPosition;
 
+	public AudioSource audioSource;
+	public AudioClip transitionSound;
+
 	private void Start () {
 		//Easy but not optimal, instead have a gameManager that has the refrences to the camer and player
 		mainCamera = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
@@ -26,6 +29,8 @@ public class RoomTransition : MonoBehaviour {
 	private void OnTriggerEnter2D (Collider2D other) {
 
 		if (other.tag == "Player") {
+			audioSource.clip = transitionSound;
+			audioSource.Play();
 			if (player.orientation.x != 0) {
 				newCameraPosition = mainCamera.transform.position + (Vector3) (player.orientation * moveX);
 				newPlayerPosition = player.transform.position + (Vector3) (player.orientation * playerMoveX);
@@ -42,6 +47,9 @@ public class RoomTransition : MonoBehaviour {
 
 	IEnumerator CameraMove () {
 		player.canMove = false;
+		player.canAttack = false;
+		player.canBlock = false;
+		player.canTakeDamage = false;
 		Debug.Log ("Transitioning");
 		while (!Randall.Utilities.CheckIfDoneMoving (mainCamera.transform.position, newCameraPosition, snapDistance)) {
 			mainCamera.transform.position += (newCameraPosition - mainCamera.transform.position).normalized * cameraMoveSpeed * Time.deltaTime;
@@ -66,5 +74,8 @@ public class RoomTransition : MonoBehaviour {
 		}
 
 		player.canMove = true;
+		player.canAttack = true;
+		player.canBlock = true;
+		player.canTakeDamage = true;
 	}
 }
