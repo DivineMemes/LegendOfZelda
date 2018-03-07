@@ -22,10 +22,11 @@ public class Enemy : MonoBehaviour, IDamageable {
     public AudioClip gotHitSound;
 
     [Header("Items")]
-    float heartDropChance = 0.05f;
+    float heartDropChance;
     public GameObject heart;
 
     private void Start() {
+        heartDropChance = 0.2f;
         sprite = GetComponent<SpriteRenderer>();
         sprite.material = new Material(spriteFlash);
     }
