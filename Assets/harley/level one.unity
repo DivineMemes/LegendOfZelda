@@ -2093,15 +2093,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.04
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.4700012
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.25651535
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2127,6 +2127,11 @@ Prefab:
       propertyPath: m_Name
       value: SpikeTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114985540279303122, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 283897518}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
   m_IsPrefabParent: 0
@@ -2516,15 +2521,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.0200005
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.4700012
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.25651535
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2550,6 +2555,11 @@ Prefab:
       propertyPath: m_Name
       value: SpikeTrap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114985540279303122, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 283897518}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
   m_IsPrefabParent: 0
@@ -5119,6 +5129,11 @@ Prefab:
       propertyPath: item
       value: 
       objectReference: {fileID: 1329327067}
+    - target: {fileID: 114613120779719314, guid: c368b40ba58df9046bb04e06f532806c,
+        type: 2}
+      propertyPath: atvet
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c368b40ba58df9046bb04e06f532806c, type: 2}
   m_IsPrefabParent: 0
@@ -6109,15 +6124,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.8903084
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.5003738
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.25651535
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6137,6 +6152,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114985540279303122, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 283897518}
+    - target: {fileID: 212306548827893542, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
+        type: 2}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212306548827893542, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
+        type: 2}
+      propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6850,26 +6880,36 @@ Prefab:
     - target: {fileID: 61436126710708966, guid: c368b40ba58df9046bb04e06f532806c,
         type: 2}
       propertyPath: m_Offset.x
-      value: -1.0031533
+      value: -1.0302315
       objectReference: {fileID: 0}
     - target: {fileID: 61436126710708966, guid: c368b40ba58df9046bb04e06f532806c,
         type: 2}
       propertyPath: m_Size.x
-      value: 10.925744
+      value: 11.52145
       objectReference: {fileID: 0}
     - target: {fileID: 61436126710708966, guid: c368b40ba58df9046bb04e06f532806c,
         type: 2}
       propertyPath: m_Offset.y
-      value: -0.44825554
+      value: 0.025596619
       objectReference: {fileID: 0}
     - target: {fileID: 61436126710708966, guid: c368b40ba58df9046bb04e06f532806c,
         type: 2}
       propertyPath: m_Size.y
-      value: 6.9033318
+      value: 8.5009
       objectReference: {fileID: 0}
     - target: {fileID: 1564471829389278, guid: c368b40ba58df9046bb04e06f532806c, type: 2}
       propertyPath: m_Name
       value: level manger (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114613120779719314, guid: c368b40ba58df9046bb04e06f532806c,
+        type: 2}
+      propertyPath: atvet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61436126710708966, guid: c368b40ba58df9046bb04e06f532806c,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c368b40ba58df9046bb04e06f532806c, type: 2}
@@ -8198,15 +8238,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.8500004
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.3300018
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.25651535
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4850360293423190, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -8232,6 +8272,11 @@ Prefab:
       propertyPath: m_Name
       value: SpikeTrap (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114985540279303122, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 283897518}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
   m_IsPrefabParent: 0
@@ -9113,6 +9158,11 @@ Prefab:
         type: 2}
       propertyPath: playerMoveY
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114518760505251772, guid: dad1342d9cc59a54fae88bab3a2b23ca,
+        type: 2}
+      propertyPath: isLocked
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dad1342d9cc59a54fae88bab3a2b23ca, type: 2}
