@@ -57,11 +57,20 @@ public class room_manager : MonoBehaviour {
         {
             for (int i = 0; i < enmeys.Count; i++)
             {
-                if (enmeys[i].GetComponent<Enemy>().isDead == false)
+                Enemy enemy = enmeys[i].GetComponent<Enemy>();
+                if(enemy != null)
                 {
-                    enmeys[i].SetActive(true);
-                    enmeys[i].GetComponent<Enemy>().Health = enmeys[i].GetComponent<Enemy>().MaxHealth;
+                    if (enemy.isDead == false)
+                    {
+                        enemy.gameObject.SetActive(true);
+                        enemy.GetComponent<Enemy>().Health = enmeys[i].GetComponent<Enemy>().MaxHealth;
+                    }
                 }
+                else
+                {
+                    enmeys[i].gameObject.SetActive(true);
+                }
+
                
             }
             atvet = true;
