@@ -109,6 +109,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Update is called once per frame
 	void Update () {
+		if(Input.GetKeyDown(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
 		if (isDead) {
 			return;
 		}
