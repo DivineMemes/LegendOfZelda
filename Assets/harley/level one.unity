@@ -6154,11 +6154,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114985540279303122, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
-        type: 2}
-      propertyPath: Player
-      value: 
-      objectReference: {fileID: 283897518}
     - target: {fileID: 212306548827893542, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
         type: 2}
       propertyPath: m_FlipY
@@ -6169,6 +6164,11 @@ Prefab:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114985540279303122, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 283897518}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b5e45c8d68f1cc49b88cec6092fd7c2, type: 2}
   m_IsPrefabParent: 0
@@ -6537,7 +6537,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4118651416061752, guid: 3f8697d5dc8d53d42a52d66051986728, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f8697d5dc8d53d42a52d66051986728, type: 2}
