@@ -13,6 +13,7 @@ public class UIInventory : MonoBehaviour {
 	int lastChanged = 0;
 
 	public GameObject deathScreen;
+	public GameObject winScreen;
 
 	public void Replace (int iventorySlot) {
 		if (lastChanged == iventorySlot) {
