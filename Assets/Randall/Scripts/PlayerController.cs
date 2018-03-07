@@ -109,6 +109,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Update is called once per frame
 	void Update () {
+		if(Input.GetKeyDown(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
 		if (isDead) {
 			return;
 		}
@@ -322,6 +326,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			}
 			sprite.material.SetFloat ("_FlashAmount", 1);
 			Invoke ("ResetSprite", spriteFlashTime);
+			canTakeDamage = false;
 			canMove = false;
 			health -= damage;
 			source.clip = hurt;
@@ -347,6 +352,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	void ResetSprite () {
 		canMove = true;
+		canTakeDamage = true;
 		sprite.material.SetFloat ("_FlashAmount", 0);
 	}
 

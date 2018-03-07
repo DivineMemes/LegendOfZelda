@@ -31,13 +31,13 @@ public class Boomarang : MonoBehaviour {
 			}
 		}
 
-		if (timer.IsGoingOff ()) {
-			//Debug.Log("Returning");
-			isReturning = true;
-			timer.Reset ();
-		} else {
-			timer.Update (Time.deltaTime);
-		}
+		// if (timer.IsGoingOff ()) {
+		// 	//Debug.Log("Returning");
+		// 	isReturning = true;
+		// 	timer.Reset ();
+		// } else {
+		// 	timer.Update (Time.deltaTime);
+		// }
 	}
 
 	//This has to be run
