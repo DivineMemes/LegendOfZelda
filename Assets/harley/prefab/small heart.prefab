@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61955742147346236}
   - component: {fileID: 114022327763577082}
   - component: {fileID: 95900950099857042}
-  m_Layer: 0
+  m_Layer: 29
   m_Name: small heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1814817271595776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.975824, y: 30.086384, z: 0}
+  m_LocalPosition: {x: 3.3159466, y: 1.4194523, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,6 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d59ccf440eb6c4f807d4eb199f66b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundPrefab: {fileID: 1051443625592160, guid: e10debdf0c047c24a9fc6586877dffff,
+    type: 2}
+  sound: {fileID: 8300000, guid: f1a31592d91f32e4ba2a13c5a0ff50a3, type: 3}
 --- !u!212 &212977040474148098
 SpriteRenderer:
   m_ObjectHideFlags: 1

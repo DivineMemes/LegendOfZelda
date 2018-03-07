@@ -10,8 +10,18 @@ public class TitleScreen : MonoBehaviour {
 	public float fadeTime;
 	public float alphaPerSecond;
 
+	private void Start() {
+		alphaPerSecond = -1 / fadeTime;
+		Cursor.visible = false;
+	}
+
 	void Update () {
-		if (Input.anyKeyDown) {
+
+		if(Input.GetKeyDown(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
+		else if (Input.anyKeyDown) {
 			SceneManager.LoadScene (1);
 		}
 
@@ -23,9 +33,4 @@ public class TitleScreen : MonoBehaviour {
 		}
 		textElement.color = c;
 	}
-
-	private void Start () {
-		alphaPerSecond = -1 / fadeTime;
-	}
-
 }

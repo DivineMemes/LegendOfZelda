@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 58034486922679012}
   - component: {fileID: 114080033296785656}
   - component: {fileID: 82904386315742250}
+  - component: {fileID: 95568473358860786}
   m_Layer: 0
   m_Name: Stalfos
   m_TagString: Stalfos
@@ -160,6 +161,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95568473358860786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162810686694714}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 115458cb97f5c1b46a197370157c1956, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114080033296785656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,11 +189,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b5647b4783bad46b2c4fd846b74bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxHealth: 2
   Health: 2
   Dammage: 1
+  isDead: 0
+  spriteFlash: {fileID: 2100000, guid: 953bad1e9040d8d47811e86482c9a474, type: 2}
+  flashTime: 0.1
+  soundPrefab: {fileID: 1297576133585240, guid: dae9af93fc60ffd4f90fcc8a68e963c5,
+    type: 2}
+  deathSound: {fileID: 8300000, guid: 75e3259c02a42354088a3dd496309b92, type: 3}
   audioSource: {fileID: 82904386315742250}
-  gotHitSound: {fileID: 8300000, guid: 75e3259c02a42354088a3dd496309b92, type: 3}
-  heartDropChance: 0.25
+  gotHitSound: {fileID: 8300000, guid: 774e01f867dd20740a0b39dae0d61a41, type: 3}
   heart: {fileID: 1814817271595776, guid: d48c141fe9da9a54eaf81ff118b00eac, type: 2}
 --- !u!114 &114651779886680820
 MonoBehaviour:
