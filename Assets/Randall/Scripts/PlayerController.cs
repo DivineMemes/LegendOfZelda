@@ -112,6 +112,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	void FirstInit () {
 		maxHealth = 3;
+		//GameManger.level = 2;
 	}
 
 	// Update is called once per frame
