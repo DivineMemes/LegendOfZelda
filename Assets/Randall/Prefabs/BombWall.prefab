@@ -162,7 +162,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 212953873903163388}
   c2D: {fileID: 61386188060339814}
   audioSource: {fileID: 82541526890654584}
-  sound: {fileID: 0}
+  sound: {fileID: 8300000, guid: b2d524bf5a2cafb4485c0900f5c66ffd, type: 3}
+  soundDelay: 0.5
 --- !u!212 &212953873903163388
 SpriteRenderer:
   m_ObjectHideFlags: 1
