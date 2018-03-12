@@ -18,6 +18,9 @@ public class Door : MonoBehaviour {
 	[Header ("Settings")]
 	public bool isLocked;
 	public bool isSealed;
+	bool isDone;
+
+	public Door sister;
 	// Use this for initialization
 	void Start () {
 		if (isSealed) {
@@ -42,17 +45,30 @@ public class Door : MonoBehaviour {
 		} else {
 			Open ();
 		}
-
 	}
 
 	void Open () {
 		c2D.isTrigger = true;
 		spriteRenderer.sprite = openDoor;
+		isLocked = false;
+		audioSource.clip = openSound;
+		audioSource.Play ();
+		if (sister != null) {
+			if (sister.isLocked) {
+				sister.Open ();
+			}
+		}
 	}
 
 	void Lock () {
 		c2D.isTrigger = false;
 		spriteRenderer.sprite = closedDoor;
+		isLocked = true;
+		if (sister != null) {
+			if (!sister.isLocked) {
+				sister.Lock ();
+			}
+		}
 	}
 
 	private void OnCollisionEnter2D (Collision2D other) {
@@ -63,11 +79,7 @@ public class Door : MonoBehaviour {
 				if (player != null) {
 					if (player.keys > 0) {
 						player.keys--;
-						isLocked = false;
-						spriteRenderer.sprite = openDoor;
-						c2D.isTrigger = true;
-						audioSource.clip = openSound;
-						audioSource.Play ();
+						Open ();
 					}
 				}
 			}
