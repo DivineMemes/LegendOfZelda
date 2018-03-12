@@ -312,7 +312,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 
 	void PlaceBomb () {
-		Instantiate (bombPrefab, transform.position + (Vector3) orientation, Quaternion.identity).GetComponent<Bomb> ().Light ();
+		Instantiate (bombPrefab, transform.position + (Vector3)(orientation * 0.25f), Quaternion.identity).GetComponent<Bomb> ().Light ();
 	}
 
 	public void Damage (float damage) {
@@ -359,6 +359,6 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	void Death () {
 
 		//Add death animation and death sound before returnig to the main menu
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (GameManger.level);
 	}
 }

@@ -38,6 +38,7 @@ public class TriforcePiece : MonoBehaviour {
 			yield return null;
 		}
 		player.canMove = true;
-		SceneManager.LoadScene(0);
+		GameManger.level++;
+		SceneManager.LoadScene(GameManger.level);
 	}
 }
