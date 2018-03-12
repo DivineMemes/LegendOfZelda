@@ -20,6 +20,8 @@ public class Bomb : MonoBehaviour, IBombable {
 	public Material spriteFlash;
 	public SpriteRenderer sprite;
 
+	public Rigidbody2D rb2D;
+
 	private void Awake () {
 		sprite.material = new Material (spriteFlash);
 		isExploding = false;
@@ -55,6 +57,7 @@ public class Bomb : MonoBehaviour, IBombable {
 	public void Explode () {
 		//Debug.Log("KABOOM");
 		if(isExploding){ return; }
+		rb2D.velocity = Vector2.zero;
 		isExploding = true;
 		isFlashing = false;
 		sprite.material.SetFloat ("_FlashAmount", 0);
