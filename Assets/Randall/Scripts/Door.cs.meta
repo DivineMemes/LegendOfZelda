@@ -1,11 +1,18 @@
 fileFormatVersion: 2
 guid: 84c4a594901270343a9f44b1bc1a9282
-timeCreated: 1519677075
+timeCreated: 1520870400
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - spriteRenderer: {instanceID: 0}
+  - c2D: {instanceID: 0}
+  - openDoor: {fileID: 21300556, guid: 74cb8fea0745ede409b99b6e453693c7, type: 3}
+  - closedDoor: {fileID: 21300558, guid: 74cb8fea0745ede409b99b6e453693c7, type: 3}
+  - sealedDoor: {fileID: 21300562, guid: 74cb8fea0745ede409b99b6e453693c7, type: 3}
+  - audioSource: {instanceID: 0}
+  - openSound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
