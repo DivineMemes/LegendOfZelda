@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	[Header ("Health")]
 	//1 = one heart
-	private float _health;
+	static private float _health;
 	public float health {
 		get { return _health; }
 		set {
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 	}
 
-	private float _maxHealth;
+	static private float _maxHealth;
 	public float maxHealth {
 		get { return _maxHealth; }
 		set {
@@ -92,10 +92,13 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Use this for initialization
 	void Start () {
-		maxHealth = 3;
+		if (maxHealth == 0) {
+			maxHealth = 3;
+		}
+		health = maxHealth;
+
 		canAttack = true;
 		canBlock = true;
-		health = maxHealth;
 		heartUI.UpdateHealth (health, maxHealth);
 		orientation = Vector2.zero;
 		sprite.material = new Material (spriteFlash);
@@ -109,9 +112,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Escape))
-		{
-			Application.Quit();
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			Application.Quit ();
 		}
 		if (isDead) {
 			return;
@@ -123,10 +125,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			if (equippedItem == Items.Shield) {
 				Shield ();
 			}
-		}
-		else if (shield.activeInHierarchy)
-		{
-			shield.SetActive(false);
+		} else if (shield.activeInHierarchy) {
+			shield.SetActive (false);
 			canAttack = true;
 		}
 
@@ -309,10 +309,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 	}
 
-
-
 	void PlaceBomb () {
-		Instantiate (bombPrefab, transform.position + (Vector3)(orientation * 0.25f), Quaternion.identity).GetComponent<Bomb> ().Light ();
+		Instantiate (bombPrefab, transform.position + (Vector3) (orientation * 0.25f), Quaternion.identity).GetComponent<Bomb> ().Light ();
 	}
 
 	public void Damage (float damage) {
