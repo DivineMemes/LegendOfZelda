@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		Bomb,
 		Shield
 	}
-	Items equippedItem = Items.Bomb;
+	static Items equippedItem = Items.Bomb;
 
 	[Header ("Visual")]
 	public Animator anim;
@@ -93,14 +93,14 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	// Use this for initialization
 	void Start () {
 		if (maxHealth == 0) {
-			maxHealth = 3;
+			FirstInit ();
 		}
 		health = maxHealth;
 
 		canAttack = true;
 		canBlock = true;
 		heartUI.UpdateHealth (health, maxHealth);
-		orientation = Vector2.zero;
+		orientation = new Vector2 (0, -1);
 		sprite.material = new Material (spriteFlash);
 
 		if (boomarang == null) {
@@ -108,6 +108,10 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			boomarang.Setup (transform, 1, false);
 		}
 		inventoryUI.Replace ((int) equippedItem);
+	}
+
+	void FirstInit () {
+		maxHealth = 3;
 	}
 
 	// Update is called once per frame
