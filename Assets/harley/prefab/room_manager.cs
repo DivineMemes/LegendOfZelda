@@ -8,11 +8,16 @@ public class room_manager : MonoBehaviour {
     public GameObject item;
     public bool itemplace = false;
     public AudioClip sound;
+    public AudioClip sound2;
     public AudioSource source;
+    public Door[] shutdoors;
     // Use this for initialization
     void Start()
     {
+        source = GetComponent<AudioSource>();
         source.clip = sound;
+       
+        
         if (item != null)
         {
             item.SetActive(false);
@@ -31,7 +36,7 @@ public class room_manager : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        if (atvet == true && item != null)
+        if (atvet == true)
         {
             int chack = 0;
             for(int i = 0; i< enmeys.Count; i++)
@@ -44,9 +49,22 @@ public class room_manager : MonoBehaviour {
             }
             if(chack == enmeys.Count && !itemplace)
             {
-                item.SetActive(true);
-                itemplace = true;
-                source.Play();
+                if (item != null)
+                {
+                    item.SetActive(true);
+                    itemplace = true;
+                    source.Play();
+                }
+
+                for (int j = 0; j < shutdoors.Length; j++)
+                {
+                    source.clip = sound2;
+                    source.Play();
+                    shutdoors[j].UnSeal();
+                    itemplace = true;
+
+                }
+               
             }
            
         }
@@ -64,15 +82,23 @@ public class room_manager : MonoBehaviour {
                     {
                         enemy.gameObject.SetActive(true);
                         enemy.GetComponent<Enemy>().Health = enmeys[i].GetComponent<Enemy>().MaxHealth;
+                        for (int j = 0; j < shutdoors.Length; j++)
+                        {
+
+                            shutdoors[j].Seal();
+                        }
+
                     }
+                    
                 }
                 else
                 {
                     enmeys[i].gameObject.SetActive(true);
                 }
-
+               
                
             }
+           
             atvet = true;
         }
     }
