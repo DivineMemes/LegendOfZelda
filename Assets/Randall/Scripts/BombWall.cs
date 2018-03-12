@@ -10,10 +10,17 @@ public class BombWall : MonoBehaviour, IBombable {
 	public AudioClip sound;
 	public float soundDelay;
 
+	public BombWall sister;
+
 	public void Bombed () {
 		spriteRenderer.sprite = null;
+		if (sister != null) {
+			if (sister.spriteRenderer.sprite != null) {
+				sister.Bombed ();
+			}
+		}
 		c2D.isTrigger = true;
-		Invoke("PlaySound", soundDelay);
+		Invoke ("PlaySound", soundDelay);
 	}
 
 	void PlaySound () {
