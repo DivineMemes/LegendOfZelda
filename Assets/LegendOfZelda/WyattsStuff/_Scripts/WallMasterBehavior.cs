@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WallMasterBehavior : MonoBehaviour
 {
-    Rigidbody2D rb;
+    //Rigidbody2D rb;
 
     public LayerMask mask;
 
@@ -15,7 +15,7 @@ public class WallMasterBehavior : MonoBehaviour
     bool BeActive;
     void Start ()
     {
-        rb = GetComponent<Rigidbody2D>();
+        //rb = GetComponent<Rigidbody2D>();
         Player = GameObject.FindGameObjectWithTag("Player");
         myPos = transform.position;
         BeActive = false;

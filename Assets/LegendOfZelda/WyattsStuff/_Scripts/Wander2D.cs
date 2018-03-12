@@ -43,8 +43,8 @@ public class Wander2D : MonoBehaviour
     void randomOffset()
     {
         offsetPosition = (Vector2)transform.position + Random.insideUnitCircle*radius;
-        
     }
+
     public void DoAction()
     {
         Vector3 targetOffset = offsetPosition - (Vector2)transform.position;
