@@ -162,5 +162,5 @@ MonoBehaviour:
   atvet: 0
   item: {fileID: 0}
   itemplace: 0
-  sound: {fileID: 0}
+  sound: {fileID: 8300000, guid: 978e4ed674d28ab489a750ba9d7cb0e7, type: 3}
   source: {fileID: 82081754606897564}

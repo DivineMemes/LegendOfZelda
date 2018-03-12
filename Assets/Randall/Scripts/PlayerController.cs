@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	public float swordAttack;
 	public GameObject shield;
 	public bool canAttack;
+	public bool canBlock;
 
 	[Header ("Audio")]
 	public AudioClip attack;
@@ -93,6 +94,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	void Start () {
 		maxHealth = 3;
 		canAttack = true;
+		canBlock = true;
 		health = maxHealth;
 		heartUI.UpdateHealth (health, maxHealth);
 		orientation = Vector2.zero;
@@ -107,16 +109,27 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Update is called once per frame
 	void Update () {
-		if(isDead)
+		if(Input.GetKeyDown(KeyCode.Escape))
 		{
+			Application.Quit();
+		}
+		if (isDead) {
 			return;
 		}
 		Movement ();
 		Inventory ();
 
-		if (equippedItem == Items.Shield) {
-			Shield ();
+		if (canBlock) {
+			if (equippedItem == Items.Shield) {
+				Shield ();
+			}
 		}
+		else if (shield.activeInHierarchy)
+		{
+			shield.SetActive(false);
+			canAttack = true;
+		}
+
 		if (Randall.PlayerInput.LeftClickDown ()) {
 			if (canAttack) {
 				Melee ();
@@ -149,17 +162,25 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	void Inventory () {
 
 		if (canAttack) {
-			if (Input.GetKeyDown (KeyCode.Alpha1)) {
+			if (Input.GetKeyDown (KeyCode.A)) {
 				equippedItem = Items.Boomarang;
 				inventoryUI.Replace ((int) equippedItem);
 			}
-			if (Input.GetKeyDown (KeyCode.Alpha2)) {
+			if (Input.GetKeyDown (KeyCode.S)) {
 				equippedItem = Items.Bomb;
 				inventoryUI.Replace ((int) equippedItem);
 			}
-			if (Input.GetKeyDown (KeyCode.Alpha3)) {
+			if (Input.GetKeyDown (KeyCode.D)) {
 				equippedItem = Items.Shield;
 				inventoryUI.Replace ((int) equippedItem);
+			}
+			if (Input.GetKeyDown (KeyCode.C)) {
+				equippedItem++;
+				if ((int) equippedItem > 2) {
+					equippedItem = 0;
+				}
+				inventoryUI.Replace ((int) equippedItem);
+
 			}
 
 		}
@@ -288,6 +309,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 	}
 
+
+
 	void PlaceBomb () {
 		Instantiate (bombPrefab, transform.position + (Vector3) orientation, Quaternion.identity).GetComponent<Bomb> ().Light ();
 	}
@@ -303,21 +326,24 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			}
 			sprite.material.SetFloat ("_FlashAmount", 1);
 			Invoke ("ResetSprite", spriteFlashTime);
+			canTakeDamage = false;
 			canMove = false;
 			health -= damage;
 			source.clip = hurt;
 			source.Play ();
 			if (health <= 0) {
-				GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>().Stop();
-				inventoryUI.deathScreen.SetActive(true);
+				GameObject.FindGameObjectWithTag ("Music").GetComponent<AudioSource> ().Stop ();
+				inventoryUI.deathScreen.SetActive (true);
 				isDead = true;
 				canMove = false;
+				canBlock = false;
+				canAttack = false;
 				shield.SetActive (false);
-				Instantiate (deathPrefab, transform.position, Quaternion.identity);
-				Invoke ("Death", 2f);
 				Destroy (c2D);
 				Destroy (anim);
 				Destroy (sprite);
+				Instantiate (deathPrefab, transform.position, Quaternion.identity);
+				Invoke ("Death", 2f);
 			}
 		} else {
 			Debug.Log ("Not taking damage");
@@ -326,6 +352,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	void ResetSprite () {
 		canMove = true;
+		canTakeDamage = true;
 		sprite.material.SetFloat ("_FlashAmount", 0);
 	}
 

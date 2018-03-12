@@ -16,6 +16,7 @@ public class TriforcePiece : MonoBehaviour {
 			player.anim.Play("Link_Hold");
 			player.canMove = false;
 			player.canAttack = false;
+			player.inventoryUI.winScreen.SetActive(true);
 			audioSource.clip = pickupSound;
 			audioSource.Play();
 			levelMusic.Stop();

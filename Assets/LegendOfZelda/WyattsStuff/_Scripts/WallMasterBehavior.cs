@@ -6,6 +6,8 @@ public class WallMasterBehavior : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    public LayerMask mask;
+
     public GameObject Player;
     public Vector2 PlayerPos;
     public Vector2 myPos;
@@ -40,7 +42,7 @@ public class WallMasterBehavior : MonoBehaviour
         for(int i = 0; i < 4; i++)
         {
             //ShootRaycast
-            ArrayOfDirs[i] = Physics2D.Raycast(myPos, startDir, 20);
+            ArrayOfDirs[i] = Physics2D.Raycast(myPos, startDir, 20, mask);
 
             startDir = Quaternion.AngleAxis(90, Vector3.forward) * startDir;
         }

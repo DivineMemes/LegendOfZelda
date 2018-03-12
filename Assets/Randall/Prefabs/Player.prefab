@@ -129,8 +129,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1317514854357356}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4591305085908058}
@@ -224,7 +224,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5, y: 0.75}
   m_EdgeRadius: 0
 --- !u!61 &61815082996671074
 BoxCollider2D:
@@ -260,7 +260,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 98c8773443e223b4a87f6c4112a29c4b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -374,7 +374,8 @@ MonoBehaviour:
   meleeTime: 0.2
   swordAttack: 1
   shield: {fileID: 1935238738669314}
-  canAttack: 0
+  canAttack: 1
+  canBlock: 1
   attack: {fileID: 8300000, guid: 98c8773443e223b4a87f6c4112a29c4b, type: 3}
   hurt: {fileID: 8300000, guid: 774e01f867dd20740a0b39dae0d61a41, type: 3}
   boomarangPrefab: {fileID: 1679392438667040, guid: 05c789efb1416084784cd98c4c9f0905,
