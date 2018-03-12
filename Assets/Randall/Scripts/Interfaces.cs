@@ -6,3 +6,8 @@ public interface IDamageable
 {
 	void Damage(float damage);
 }
+
+public interface IBombable
+{
+	void Bombed();
+}
