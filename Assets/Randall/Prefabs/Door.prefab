@@ -161,11 +161,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 212115271161675632}
   c2D: {fileID: 61050358356756830}
-  openDoor: {fileID: 21300348, guid: 0fa725019e257c8419a3879352857402, type: 3}
-  closedDoor: {fileID: 21300388, guid: 0fa725019e257c8419a3879352857402, type: 3}
+  openDoor: {fileID: 21300556, guid: 74cb8fea0745ede409b99b6e453693c7, type: 3}
+  closedDoor: {fileID: 21300558, guid: 74cb8fea0745ede409b99b6e453693c7, type: 3}
+  sealedDoor: {fileID: 21300562, guid: 74cb8fea0745ede409b99b6e453693c7, type: 3}
   audioSource: {fileID: 82381454538708518}
   openSound: {fileID: 8300000, guid: 315858541cda1b34c82dd7bc92342353, type: 3}
-  isLocked: 1
+  isLocked: 0
+  isSealed: 0
 --- !u!212 &212115271161675632
 SpriteRenderer:
   m_ObjectHideFlags: 1
