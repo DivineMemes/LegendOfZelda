@@ -22,6 +22,12 @@ public class Door : MonoBehaviour {
 
 	public Door sister;
 	// Use this for initialization
+	void Awake()
+	{
+		audioSource.volume = 0;
+		Invoke("ResetSound", 1.5f);
+	}
+
 	void Start () {
 		if (isSealed) {
 			Seal ();
@@ -30,6 +36,11 @@ public class Door : MonoBehaviour {
 		} else {
 			Open ();
 		}
+	}
+
+	void ResetSound()
+	{
+		audioSource.volume = 1;
 	}
 
 	public void Seal () {
