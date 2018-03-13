@@ -4,4 +4,5 @@ using UnityEngine;
 
 public class GameManger : MonoBehaviour {
 	static public float heartDropChance = 0.1f;
+	public static int level = 1;
 }

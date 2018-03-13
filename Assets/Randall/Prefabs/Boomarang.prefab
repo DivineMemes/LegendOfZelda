@@ -113,6 +113,13 @@ MonoBehaviour:
   returnTime: 2
   snappingDistance: 0.5
   isReturning: 0
+  radius: 0.25
+  grabbedItem: {fileID: 0}
+  pickupableObjects:
+  - Key
+  - small
+  - big
+  - Bomb
 --- !u!212 &212825005862516030
 SpriteRenderer:
   m_ObjectHideFlags: 1

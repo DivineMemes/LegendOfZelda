@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	[Header ("Health")]
 	//1 = one heart
-	private float _health;
+	static private float _health;
 	public float health {
 		get { return _health; }
 		set {
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 	}
 
-	private float _maxHealth;
+	static private float _maxHealth;
 	public float maxHealth {
 		get { return _maxHealth; }
 		set {
@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		Bomb,
 		Shield
 	}
-	Items equippedItem = Items.Bomb;
+	static Items equippedItem = Items.Bomb;
 
 	[Header ("Visual")]
 	public Animator anim;
@@ -92,12 +92,15 @@ public class PlayerController : MonoBehaviour, IDamageable {
 
 	// Use this for initialization
 	void Start () {
-		maxHealth = 3;
+		if (maxHealth == 0) {
+			FirstInit ();
+		}
+		health = maxHealth;
+
 		canAttack = true;
 		canBlock = true;
-		health = maxHealth;
 		heartUI.UpdateHealth (health, maxHealth);
-		orientation = Vector2.zero;
+		orientation = new Vector2 (0, -1);
 		sprite.material = new Material (spriteFlash);
 
 		if (boomarang == null) {
@@ -107,11 +110,15 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		inventoryUI.Replace ((int) equippedItem);
 	}
 
+	void FirstInit () {
+		maxHealth = 3;
+		//GameManger.level = 2;
+	}
+
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Escape))
-		{
-			Application.Quit();
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			Application.Quit ();
 		}
 		if (isDead) {
 			return;
@@ -123,10 +130,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 			if (equippedItem == Items.Shield) {
 				Shield ();
 			}
-		}
-		else if (shield.activeInHierarchy)
-		{
-			shield.SetActive(false);
+		} else if (shield.activeInHierarchy) {
+			shield.SetActive (false);
 			canAttack = true;
 		}
 
@@ -309,10 +314,8 @@ public class PlayerController : MonoBehaviour, IDamageable {
 		}
 	}
 
-
-
 	void PlaceBomb () {
-		Instantiate (bombPrefab, transform.position + (Vector3) orientation, Quaternion.identity).GetComponent<Bomb> ().Light ();
+		Instantiate (bombPrefab, transform.position + (Vector3) (orientation * 0.50f), Quaternion.identity).GetComponent<Bomb> ().Light ();
 	}
 
 	public void Damage (float damage) {
@@ -359,6 +362,6 @@ public class PlayerController : MonoBehaviour, IDamageable {
 	void Death () {
 
 		//Add death animation and death sound before returnig to the main menu
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (GameManger.level);
 	}
 }
