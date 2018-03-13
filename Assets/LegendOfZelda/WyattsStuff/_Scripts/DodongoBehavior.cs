@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class DodongoBehavior : MonoBehaviour
 {
-    //float radius;
-    Rigidbody2D rb;
+    public float radius;
     public float scriptTimer;
     public float timer;
     public float startScript;
@@ -15,6 +14,7 @@ public class DodongoBehavior : MonoBehaviour
     public bool AllowHitbox;
     public bool AllowWander;
     KeeseBehaviour wander;
+    Rigidbody2D rb;
 	
 	void Start ()
     {
@@ -28,13 +28,13 @@ public class DodongoBehavior : MonoBehaviour
     {
         if (AllowHitbox)
         {
-            Collider2D[] hitColliders = Physics2D.OverlapCircleAll((Vector2)gameObject.transform.position + new Vector2(1, 0), 1);
-
+            Collider2D[] hitColliders = Physics2D.OverlapCircleAll((Vector2)gameObject.transform.position + new Vector2(1, 0), radius);
+           
             foreach (var thing in hitColliders)
             {
-                if (thing.GetComponent<Collider2D>().name == "Bomb"/*"Sword"*/)
+                if (thing.GetComponent<Collider2D>().name == "Bomb(Clone)"/*"Sword"*/)
                 {
-                    Destroy(thing);
+                    Destroy(thing.gameObject);
                     BombsToEat -= 1;
                     AllowHitbox = false;
                     AllowWander = false;
