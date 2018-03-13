@@ -6,8 +6,8 @@ public class Wander2D : MonoBehaviour
 { 
     public float speed;
     public float radius;
-    public float jitter;
-    public float distance;
+    //public float jitter;
+    //public float distance;
     public float StartTime;
     public float time;
     public float EndTime;

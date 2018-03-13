@@ -6,8 +6,8 @@ public class KeeseBehaviour : MonoBehaviour
 {
     public float speed;
     public float radius;
-    public float jitter;
-    public float distance;
+    //public float jitter;
+    //public float distance;
 
     float StartTime = 0;
     public float time;
