@@ -113,7 +113,7 @@ MonoBehaviour:
   returnTime: 2
   snappingDistance: 0.5
   isReturning: 0
-  radius: 1.1
+  radius: 0.25
   grabbedItem: {fileID: 0}
   pickupableObjects:
   - Key

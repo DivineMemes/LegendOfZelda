@@ -99,4 +99,9 @@ public class Bomb : MonoBehaviour, IBombable {
 		Gizmos.color = Color.red;
 		Gizmos.DrawWireSphere (transform.position, radiusOfEffect);
 	}
+
+	private void OnCollisionEnter2D(Collision2D other) {
+		rb2D.isKinematic = true;
+		rb2D.velocity = Vector2.zero;
+	}
 }
