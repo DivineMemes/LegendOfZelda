@@ -23,6 +23,7 @@ public class GoriyaBehavior : MonoBehaviour
     public Rigidbody2D rb;
 
     Boomarang boomarang;
+    Animator animator;
 
     public void Damage(float damage)
     {
@@ -36,6 +37,8 @@ public class GoriyaBehavior : MonoBehaviour
             boomarang = Instantiate(Boomerang, new Vector2(transform.position.x, transform.position.y), Quaternion.identity).GetComponent<Boomarang>();
             boomarang.Setup(transform, 1, true);
         }
+        
+        animator = GetComponent<Animator>();
     }
     void FixedUpdate()
     {
@@ -119,6 +122,9 @@ public class GoriyaBehavior : MonoBehaviour
                     }
             }
         }
+
+        animator.SetFloat("Vertical", rb.velocity.y);
+        animator.SetFloat("Horizontal", rb.velocity.x);
     }
     
 
