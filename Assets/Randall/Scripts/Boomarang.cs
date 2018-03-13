@@ -18,6 +18,10 @@ public class Boomarang : MonoBehaviour {
 	private bool _isEnemy;
 	private float _damage;
 
+	public float radius;
+	public GameObject grabbedItem;
+	public string[] pickupableObjects;
+
 	private void Start () {
 		timer = new Randall.Timer ();
 	}
@@ -27,8 +31,15 @@ public class Boomarang : MonoBehaviour {
 		if (isReturning) {
 			FlyToPoint (_thrower.transform.position);
 			if (Randall.Utilities.CheckIfDoneMoving (transform.position, _thrower.transform.position, snappingDistance)) {
+				grabbedItem = null;
 				gameObject.SetActive (false);
 			}
+		}
+
+		if (grabbedItem == null && !_isEnemy) {
+			grabbedItem = Overlap ();
+		} else {
+			grabbedItem.transform.position = transform.position;
 		}
 
 		// if (timer.IsGoingOff ()) {
@@ -38,6 +49,21 @@ public class Boomarang : MonoBehaviour {
 		// } else {
 		// 	timer.Update (Time.deltaTime);
 		// }
+	}
+
+	GameObject Overlap () {
+		//Debug.Log("Checking overlap");
+		Collider2D[] hits = Physics2D.OverlapCircleAll (transform.position, radius);
+		foreach (Collider2D element in hits) {
+			foreach (string s in pickupableObjects) {
+				if (element.name.Split (' ') [0] == s) {
+					Debug.Log ("Grabbed " + element.name);
+					return element.gameObject;
+				}
+			}
+		}
+
+		return null;
 	}
 
 	//This has to be run
