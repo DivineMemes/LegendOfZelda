@@ -300,11 +300,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.4900017
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.6234322
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3890,11 +3890,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.1800003
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.4100037
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7447,11 +7447,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7534,7 +7534,7 @@ Camera:
   m_GameObject: {fileID: 1273618789}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -10110,7 +10110,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1713036474339770, guid: cf58b8300a27ffc408d8595dd922e5c8, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf58b8300a27ffc408d8595dd922e5c8, type: 2}
@@ -12347,11 +12347,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4300821946665476, guid: c6cd9c2795f660a4b98c434f7cbafc5d, type: 2}
       propertyPath: m_LocalPosition.z
