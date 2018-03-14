@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 74cb8fea0745ede409b99b6e453693c7
-timeCreated: 1520299228
+timeCreated: 1520870145
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -284,6 +284,8 @@ TextureImporter:
     21300554: ZRPGcastle_277
     21300556: ZRPGcastle_278
     21300558: ZRPGcastle_279
+    21300560: ZRPGcastle_280
+    21300562: ZRPGcastle_281
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -4270,6 +4272,34 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZRPGcastle_280
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ZRPGcastle_281
+      rect:
+        serializedVersion: 2
+        x: 160
         y: 352
         width: 32
         height: 32

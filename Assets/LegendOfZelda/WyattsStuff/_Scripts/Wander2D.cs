@@ -6,8 +6,8 @@ public class Wander2D : MonoBehaviour
 { 
     public float speed;
     public float radius;
-    public float jitter;
-    public float distance;
+    //public float jitter;
+    //public float distance;
     public float StartTime;
     public float time;
     public float EndTime;
@@ -43,8 +43,8 @@ public class Wander2D : MonoBehaviour
     void randomOffset()
     {
         offsetPosition = (Vector2)transform.position + Random.insideUnitCircle*radius;
-        
     }
+
     public void DoAction()
     {
         Vector3 targetOffset = offsetPosition - (Vector2)transform.position;
